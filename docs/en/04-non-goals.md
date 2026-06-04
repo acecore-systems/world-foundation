@@ -16,6 +16,11 @@ This document defines what World Foundation Design intentionally does not aim to
 - Use welfare or life access as a tool of obedience
 - Fix human worth through reputation scores
 - Use transparency as an excuse for surveillance
+- Create a private legal system that illegally replaces state law
+- Become a police replacement, security force, or vigilante structure
+- Become a world government or central federation authority
+- Give founders or early maintainers permanent authority
+- Use federation standards or shared protocols for lock-in
 
 ## Why Non-goals Matter
 

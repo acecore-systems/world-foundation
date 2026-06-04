@@ -147,3 +147,27 @@ Mitigations: external alternatives, exit procedures, staged adoption, no penalty
 Multi-affiliation may exist in language while dependence on one organization or protocol grows.
 
 Mitigations: open protocols, data portability, forkability, local autonomy.
+
+## Norms Becoming a Private Legal System
+
+Shared rules may be used as an illegal replacement for state law.
+
+Mitigations: respect state law, require expert review where needed, check Non-goals, and define boundaries with arbitration.
+
+## Public Safety Becoming Vigilantism
+
+Safety work may become private punishment, surveillance, exclusion, or armed organization.
+
+Mitigations: ban private punishment, define reporting paths, connect to public institutions where appropriate, audit safety actions.
+
+## Federation Becoming Central Rule
+
+Federation may become a central authority instead of an interoperability protocol.
+
+Mitigations: exit procedures, local autonomy, minimal shared protocols, Proposal requirements for federation standard changes.
+
+## Founder Authority Becoming Permanent
+
+Founders or early administrators may keep permanent authority or informal veto power.
+
+Mitigations: Founder Non-privilege Decision, conflict-of-interest disclosure, reviewability of founder statements, authority transfer procedures.

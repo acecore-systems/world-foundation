@@ -14,6 +14,8 @@ Initial work should keep the repository simple: Markdown, YAML, Issues, Pull Req
 - Non-goals and Threat Model exist.
 - Code of Conduct and Safety Policy exist.
 - Initial module READMEs exist.
+- Founder non-privilege is recorded as a Decision.
+- Research Index and Issue Drafts exist.
 
 ## Phase 1: Initial Organization
 
@@ -36,6 +38,8 @@ These experiments should remain small, voluntary, reversible, and reviewable.
 
 Reputation and Audit are also included as independent modules.
 
+Norms, Public Safety, and Federation are included as initial modules with explicit safety boundaries.
+
 ### Completion Criteria
 
 - Each module has clear scope and out-of-scope boundaries.
@@ -43,6 +47,9 @@ Reputation and Audit are also included as independent modules.
 - Audit separates public information from protected information.
 - Economy and Welfare experiments identify expert-review requirements.
 - Module responsibility creep is reviewed through the Threat Model.
+- Norms does not become an illegal replacement for state law.
+- Public Safety does not become police replacement or vigilante structure.
+- Federation does not become a central ruling organization.
 
 ## Phase 3: Federation
 

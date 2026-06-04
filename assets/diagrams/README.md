@@ -15,6 +15,7 @@ Gitでは空ディレクトリを管理できないため、このREADMEを初�
 - `06-multilingual-document-flow.md`: 日本語正本と翻訳の管理フロー
 - `07-life-access-model.md`: 生活アクセスの設計モデル
 - `08-non-coercive-adoption.md`: 非強制の普及モデル
+- `09-expanded-module-map.md`: Norms / Public Safety / Federationを含む拡張モジュール図
 
 ## 方針
 

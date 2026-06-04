@@ -14,12 +14,21 @@
 6. Arbitration: 紛争解決
 7. Infrastructure: 通信、計算、生活基盤
 8. Audit: 透明性、監査、ログ
+9. Norms: ルール、規約、権利、義務
+10. Public Safety: 暴力予防、通報、公共安全境界
+11. Federation: 組織間プロトコル、自治、相互運用性
 
-初期モジュールは、Identity、Reputation、Economy、Welfare、Governance、Arbitration、Infrastructure、Auditです。
+初期モジュールは、Identity、Reputation、Economy、Welfare、Governance、Arbitration、Infrastructure、Audit、Norms、Public Safety、Federationです。
 
 Reputationは信用、貢献、履歴を扱いますが、人間の価値を固定するためのものではありません。協力しやすくするための補助情報として扱い、階級化や全面的な排除につなげないようにします。
 
 Auditは透明性と腐敗耐性のための基盤ですが、監視社会を作るためのものではありません。公開情報と保護情報を分け、必要な範囲だけを検証可能にします。
+
+Normsは協力基盤内の共有ルールを扱いますが、国家法の違法な代替ではありません。
+
+Public Safetyは暴力予防や通報方針を扱いますが、警察代替、武装組織、自警団ではありません。
+
+Federationは複数組織の相互接続を扱いますが、単一世界政府や中央支配組織ではありません。
 
 ## 設計思想
 

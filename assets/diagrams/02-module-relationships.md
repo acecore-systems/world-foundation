@@ -14,6 +14,9 @@ flowchart LR
   Arbitration["Arbitration<br/>紛争解決・異議申し立て"]
   Infrastructure["Infrastructure<br/>通信・計算・データ"]
   Audit["Audit<br/>意思決定・会計・権限変更の検証"]
+  Norms["Norms<br/>ルール・権利・義務"]
+  PublicSafety["Public Safety<br/>暴力予防・通報境界"]
+  Federation["Federation<br/>組織間プロトコル"]
   Glossary["Glossary<br/>用語の一貫性"]
   Decisions["Decisions<br/>判断理由の記録"]
 
@@ -30,7 +33,15 @@ flowchart LR
   Welfare --> Arbitration
   Governance --> Decisions
   Governance --> Glossary
+  Governance --> Norms
   Arbitration --> Decisions
+  Arbitration --> Norms
+  Norms --> Federation
+  PublicSafety --> Arbitration
+  PublicSafety --> Norms
+  Federation -. "相互接続" .-> Identity
+  Federation -. "組織間連携" .-> Reputation
+  Federation -. "組織間検証" .-> Audit
   Audit -. "定義範囲の検証" .-> Governance
   Audit -. "定義範囲の検証" .-> Economy
   Audit -. "定義範囲の検証" .-> Arbitration
@@ -43,4 +54,5 @@ flowchart LR
   Glossary --> Reputation
   Glossary --> Economy
   Glossary --> Governance
+  Glossary --> Norms
 ```

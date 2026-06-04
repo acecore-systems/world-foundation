@@ -10,6 +10,8 @@
 - ProposalとDecisionの運用開始
 - Non-goals、Safety、Threat Modelの作成
 - 初期モジュールREADMEの作成
+- Founder Non-privilege Decisionの作成
+- Research IndexとIssue下書きの作成
 
 ### Phase 0 完了条件
 
@@ -19,6 +21,8 @@
 - Non-goalsとThreat Modelが存在する
 - Code of ConductとSafety方針が存在する
 - 初期モジュールREADMEが揃っている
+- Founder Non-privilegeがDecision化されている
+- Research IndexとIssue下書きが存在する
 
 ## Phase 1: 初期組織
 
@@ -45,6 +49,9 @@
 - Arbitration
 - Infrastructure
 - Audit
+- Norms
+- Public Safety
+- Federation
 
 各モジュールを小さく実験します。
 
@@ -55,6 +62,9 @@
 - Auditが監視化しない公開情報・保護情報の境界を持つ
 - EconomyとWelfareの実験が専門家レビュー要否を明示している
 - モジュール間の責任侵食がThreat Modelでレビューされている
+- Normsが国家法の違法な代替に見えない安全境界を持つ
+- Public Safetyが警察代替や自警団化に見えない安全境界を持つ
+- Federationが中央支配組織に見えない安全境界を持つ
 
 ## Phase 3: 組織連盟
 

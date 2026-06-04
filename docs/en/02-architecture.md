@@ -14,16 +14,25 @@ Its architecture separates social functions into modules and connects them throu
 - Arbitration
 - Infrastructure
 - Audit
+- Norms
+- Public Safety
+- Federation
 
 Each module should have a clear responsibility and should not accumulate excessive authority.
 
 This design begins with areas that can be built outside the state, such as cooperation, education, welfare, trust, and infrastructure.
 
-The initial modules are Identity, Reputation, Economy, Welfare, Governance, Arbitration, Infrastructure, and Audit.
+The initial modules are Identity, Reputation, Economy, Welfare, Governance, Arbitration, Infrastructure, Audit, Norms, Public Safety, and Federation.
 
 Reputation handles trust, contribution, and history, but it must not fix human worth or become a broad exclusion mechanism.
 
 Audit supports transparency and corruption resistance, but it must not become surveillance. Public information and protected information must be separated.
+
+Norms handles shared rules, but it is not an illegal replacement for state law.
+
+Public Safety handles violence prevention and reporting boundaries, but it is not a police replacement, armed group, or vigilante structure.
+
+Federation handles inter-organization interoperability, but it is not a world government or central ruling organization.
 
 ## Design Direction
 

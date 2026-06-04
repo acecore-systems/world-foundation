@@ -20,7 +20,7 @@ Rules, decisions, authority, accounting, and change history should be inspectabl
 
 ## Modularity
 
-Identity, reputation, economy, welfare, governance, arbitration, and infrastructure should be designed as separate modules.
+Identity, reputation, economy, welfare, governance, arbitration, infrastructure, audit, norms, public safety, and federation should be designed as separate modules.
 
 Modules should remain replaceable and reviewable. No single module should accumulate more authority than its purpose requires.
 
@@ -49,3 +49,9 @@ Transparency must be balanced with privacy and safety. Public accountability sho
 ## Gradual Transition
 
 This design should grow through small experiments, reviewable records, and gradual connection with existing institutions.
+
+## Freedom and Peace
+
+Peace should not be created by suppressing freedom.
+
+This design aims to reduce the rationality of violence and war through voluntary participation, multi-affiliation, transparency, reduced survival anxiety, and cooperative interdependence.

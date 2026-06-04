@@ -396,3 +396,59 @@
   description:
     ja: 変更が問題を起こした場合に、以前の状態や別の安全な状態へ戻す手続き。
     en: A process for returning to a previous or safer state when a change causes problems.
+
+- id: norms
+  ja: Norms
+  en: Norms
+  description:
+    ja: 協力基盤におけるルール、規約、権利、義務、例外、改定手続きを扱う設計層。国家法の違法な代替ではない。
+    en: A design layer for rules, terms, rights, duties, exceptions, and amendment procedures in cooperation infrastructure. It is not an illegal replacement for state law.
+
+- id: public_safety
+  ja: Public Safety
+  en: Public Safety
+  description:
+    ja: 暴力予防、通報、コミュニティ安全、国家警察・司法との接続方針を扱う設計層。警察代替や自警団化を目的にしない。
+    en: A design layer for violence prevention, reporting, community safety, and interfaces with state police and courts. It does not aim to replace police or create vigilante structures.
+
+- id: organization_federation_protocol
+  ja: 組織連盟プロトコル
+  en: Organization Federation Protocol
+  description:
+    ja: 複数の自律組織が自治、離脱可能性、フォーク可能性を保ちながら相互接続するための共通プロトコル。
+    en: A shared protocol that lets autonomous organizations interoperate while preserving autonomy, exit, and forkability.
+
+- id: founder_non_privilege
+  ja: 創設者非特権
+  en: Founder Non-privilege
+  description:
+    ja: 創設者や初期管理者が永久権限やレビュー不能な特権を持たないという原則。
+    en: The principle that founders and early administrators do not hold permanent authority or unreviewable privilege.
+
+- id: freedom_and_peace
+  ja: 自由と平和の両立
+  en: Freedom and Peace
+  description:
+    ja: 自由を抑え込むのではなく、自由参加、多重所属、透明性、生活不安の低減、相互依存によって暴力や戦争の合理性を下げる原則。
+    en: The principle of reducing the rationality of violence and war through voluntary participation, multi-affiliation, transparency, reduced survival anxiety, and interdependence rather than suppressing freedom.
+
+- id: life_access_sustainability
+  ja: 生活アクセスの持続可能性
+  en: Life Access Sustainability
+  description:
+    ja: 食、住、通信、教育、健康支援などの生活アクセスを、依存や服従を生まずに継続可能にする設計課題。
+    en: The design challenge of making access to food, housing, connectivity, education, and health support sustainable without creating dependency or obedience.
+
+- id: translation_status
+  ja: 翻訳ステータス
+  en: Translation Status
+  description:
+    ja: 日本語正本と英語版などの翻訳状態を、draft、translated、reviewed、canonical、outdatedなどで管理する仕組み。
+    en: A mechanism for tracking translation states such as draft, translated, reviewed, canonical, and outdated.
+
+- id: research_index
+  ja: Research Index
+  en: Research Index
+  description:
+    ja: 世界設計に関係する歴史、制度、OSS、経済、福祉、仲裁、インフラなどの調査テーマ索引。
+    en: An index of research topics related to world design, including history, institutions, OSS, economy, welfare, arbitration, and infrastructure.

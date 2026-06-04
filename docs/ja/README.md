@@ -12,6 +12,8 @@
 - `03-roadmap.md`: 段階的な移行計画
 - `04-non-goals.md`: この設計が目指さないもの
 - `05-threat-model.md`: 腐敗、支配、悪用、法務衝突、監視化などのリスク整理
+- `06-life-access-sustainability.md`: 生活アクセスと資源配分の持続可能性
+- `07-translation-status.md`: 日本語正本と翻訳ステータス管理
 
 ## 図表
 

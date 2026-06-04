@@ -44,9 +44,15 @@ World Foundation Designは、全ての人が好きなことに集中できる世
 - `assets/`: 図表や説明用素材
 - `meta/`: 初期生成プロンプトなど、設計本文ではない運用記録
 
-`docs/` にはVision、Principles、Architecture、Roadmap、Non-goals、Threat Modelを置きます。
+`docs/` にはVision、Principles、Architecture、Roadmap、Non-goals、Threat Model、Life Access Sustainability、Translation Statusを置きます。
 
-`modules/` にはIdentity、Reputation、Economy、Welfare、Governance、Arbitration、Infrastructure、Auditを置きます。
+`modules/` にはIdentity、Reputation、Economy、Welfare、Governance、Arbitration、Infrastructure、Audit、Norms、Public Safety、Federationを置きます。
+
+`research/` には調査メモとResearch Indexを置きます。
+
+`meta/issue-drafts/` には、GitHub Issueとして作成する前の下書きを置きます。
+
+`meta/handoffs/` には、次回作業へ渡す引継ぎ記録を置きます。
 
 ## 図表
 
