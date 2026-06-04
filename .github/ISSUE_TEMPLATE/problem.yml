@@ -1,0 +1,24 @@
+name: Problem
+description: 問題・矛盾・リスクを報告する
+title: "[Problem]: "
+labels: ["type:problem"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 問題
+      description: 何が問題なのかを書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: 影響
+      description: この問題が放置された場合の影響を書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: possible_solution
+    attributes:
+      label: 解決案
+      description: 解決案があれば書いてください。

@@ -1,0 +1,26 @@
+name: Translation
+description: 翻訳・用語・多言語対応に関するIssue
+title: "[Translation]: "
+labels: ["type:translation"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: 対象ファイル
+      description: 翻訳対象または修正対象のファイルパスを書いてください。
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: 言語
+      description: 対象言語を書いてください。例 ja, en
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 内容
+      description: 翻訳内容、表現の問題、用語の揺れなどを書いてください。
+    validations:
+      required: true

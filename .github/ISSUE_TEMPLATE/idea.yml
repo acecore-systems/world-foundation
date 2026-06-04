@@ -1,0 +1,24 @@
+name: Idea
+description: 新しいアイデアを提案する
+title: "[Idea]: "
+labels: ["type:idea"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 概要
+      description: アイデアの概要を書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: なぜ必要か
+      description: このアイデアが必要な理由を書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: related
+    attributes:
+      label: 関連する文書・モジュール
+      description: 関連するdocs、modules、glossaryがあれば書いてください。

@@ -1,0 +1,139 @@
+- id: acecore
+  ja: Acecore
+  en: Acecore
+  description:
+    ja: 全ての人が好きなことに集中できる世界を目指すための協力基盤構想。
+    en: A cooperation infrastructure concept for a world where everyone can focus on what they truly want to do.
+
+- id: life_os
+  ja: 生活OS
+  en: Life OS
+  description:
+    ja: 人間の生活基盤を抽象化し、統合するための協力基盤。
+    en: A cooperation infrastructure that abstracts and integrates the foundations of human life.
+
+- id: world_federation
+  ja: 世界連盟
+  en: World Federation
+  description:
+    ja: 単一支配組織ではなく、自律した組織同士が共通プロトコルで協力する連盟。
+    en: A federation where autonomous organizations cooperate through shared protocols, rather than a single ruling organization.
+
+- id: cooperation_infrastructure
+  ja: 協力基盤
+  en: Cooperation Infrastructure
+  description:
+    ja: 個人や組織が国境や所属の違いを超えて協力するための共通基盤。
+    en: A common foundation that enables individuals and organizations to cooperate across borders and affiliations.
+
+- id: multi_affiliation
+  ja: 多重所属
+  en: Multi-affiliation
+  description:
+    ja: 個人が複数の組織や共同体へ同時に所属できる状態。
+    en: A state where an individual can belong to multiple organizations or communities simultaneously.
+
+- id: right_to_exit
+  ja: 離脱権
+  en: Right to Exit
+  description:
+    ja: 個人や組織が不利益や強制を受けずに共同体から離脱できる権利。
+    en: The right of individuals or organizations to leave a community without coercion or unfair penalty.
+
+- id: forkability
+  ja: フォーク可能性
+  en: Forkability
+  description:
+    ja: 既存の仕組みが腐敗・停滞した場合に、別の実装や組織へ分岐できる性質。
+    en: The ability to branch into another implementation or organization when an existing system becomes corrupt or stagnant.
+
+- id: corruption_resistance
+  ja: 腐敗耐性
+  en: Corruption Resistance
+  description:
+    ja: 権力集中、不透明性、利益固定化などによる腐敗を防ぐための設計特性。
+    en: A design property that prevents corruption caused by concentration of power, opacity, or entrenched interests.
+
+- id: modularity
+  ja: モジュール性
+  en: Modularity
+  description:
+    ja: 機能や責任を分割し、独立して改善・交換できるようにする設計思想。
+    en: A design principle that separates functions and responsibilities so they can be independently improved or replaced.
+
+- id: single_responsibility
+  ja: 単一責任
+  en: Single Responsibility
+  description:
+    ja: 1つの組織、制度、モジュールが過剰な機能や権限を持たないようにする考え方。
+    en: The principle that one organization, institution, or module should not hold excessive functions or authority.
+
+- id: transparency
+  ja: 透明性
+  en: Transparency
+  description:
+    ja: ルール、意思決定、会計、権限、変更履歴が確認可能である状態。
+    en: A state where rules, decisions, accounting, authority, and change history are inspectable.
+
+- id: open_protocol
+  ja: オープンプロトコル
+  en: Open Protocol
+  description:
+    ja: 特定組織に閉じず、複数の組織が相互接続できる公開仕様。
+    en: A public specification that enables multiple organizations to interoperate without being locked into a single entity.
+
+- id: voluntary_participation
+  ja: 自由参加
+  en: Voluntary Participation
+  description:
+    ja: 個人や組織が強制されず、自らの意思で参加できること。
+    en: The ability of individuals or organizations to participate by choice, without coercion.
+
+- id: federation
+  ja: 連盟
+  en: Federation
+  description:
+    ja: 独立性を持つ複数の組織が、共通ルールやプロトコルによって協力する構造。
+    en: A structure where multiple autonomous organizations cooperate through shared rules or protocols.
+
+- id: identity
+  ja: アイデンティティ
+  en: Identity
+  description:
+    ja: 個人や組織が誰であるか、どのような所属や権限を持つかを表す仕組み。階層的な身分制度ではなく、本人性、所属、権限を扱うための基盤。
+    en: A mechanism representing who a person or organization is, including affiliations and permissions. It refers to personhood, affiliation, and authority, not a hierarchical status system.
+
+- id: reputation
+  ja: 信用
+  en: Reputation
+  description:
+    ja: 行動履歴、貢献、信頼性などに基づく社会的評価。
+    en: Social evaluation based on behavior history, contribution, and reliability.
+
+- id: welfare
+  ja: 福祉
+  en: Welfare
+  description:
+    ja: 人が生存不安から解放され、自由に活動するための生活支援。
+    en: Life support that frees people from survival anxiety and enables voluntary activity.
+
+- id: arbitration
+  ja: 仲裁
+  en: Arbitration
+  description:
+    ja: 紛争や対立を暴力ではなく、透明な手続きによって解決する仕組み。
+    en: A mechanism to resolve disputes through transparent procedures rather than violence.
+
+- id: governance
+  ja: ガバナンス
+  en: Governance
+  description:
+    ja: 組織や連盟がどのように意思決定し、権限を管理し、変更されるかの仕組み。
+    en: The mechanism by which an organization or federation makes decisions, manages authority, and evolves.
+
+- id: transition
+  ja: 移行
+  en: Transition
+  description:
+    ja: 現在の国家・企業・社会制度から、新しい協力基盤へ段階的に移っていく過程。
+    en: The gradual process of moving from current state, corporate, and social systems toward a new cooperation infrastructure.
