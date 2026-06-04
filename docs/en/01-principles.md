@@ -1,10 +1,10 @@
 # Principles
 
-Acecore is designed around the following principles.
+World Foundation Design is organized around the following principles.
 
 ## Voluntary Participation
 
-Participation must be voluntary. Coercion, forced membership, and blocked exit are incompatible with Acecore.
+Participation must be voluntary. Coercion, forced membership, and blocked exit are incompatible with this design.
 
 ## Right to Exit
 
@@ -22,9 +22,13 @@ Rules, decisions, authority, accounting, and change history should be inspectabl
 
 Identity, reputation, economy, welfare, governance, arbitration, and infrastructure should be designed as separate modules.
 
+Modules should remain replaceable and reviewable. No single module should accumulate more authority than its purpose requires.
+
 ## Corruption Resistance
 
 The design must avoid concentration of power, opacity, entrenched interests, inherited privilege, and exit barriers.
+
+Corruption resistance should be designed into procedures, records, review, appeals, and forkability rather than relying only on personal virtue.
 
 ## Multi-affiliation
 
@@ -32,8 +36,16 @@ Individuals should be able to belong to multiple communities and organizations.
 
 ## Non-hostility toward States
 
-Acecore does not seek direct conflict with states. It aims to reduce the necessity of state functions over time while respecting existing legal systems.
+This design does not seek direct conflict with states. It aims to reduce the necessity of state functions over time while respecting existing legal systems.
 
 ## Convenience over Coercion
 
-Acecore should spread because it is useful, transparent, and fair, not because people are forced to use it.
+Cooperation infrastructure should spread because it is useful, transparent, and fair, not because people are forced to use it.
+
+## Privacy with Transparency
+
+Transparency must be balanced with privacy and safety. Public accountability should not require unnecessary exposure of personal information.
+
+## Gradual Transition
+
+This design should grow through small experiments, reviewable records, and gradual connection with existing institutions.

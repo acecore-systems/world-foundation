@@ -2,11 +2,11 @@
 
 ## Purpose
 
-The Economy Module handles value exchange, internal points, access to life resources, and economic zones inside Acecore.
+The Economy Module handles value exchange, internal points, access to life resources, and economic zones inside the cooperation infrastructure.
 
 ## Problem
 
-Modern life is strongly dependent on state currencies. Acecore explores ways to reduce constant currency anxiety while respecting existing laws.
+Modern life is strongly dependent on state currencies. This design explores ways to reduce constant currency anxiety while respecting existing laws.
 
 ## Scope
 

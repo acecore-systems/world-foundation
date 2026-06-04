@@ -6,7 +6,7 @@ The Welfare Module handles life support that reduces survival anxiety and helps 
 
 ## Problem
 
-Many people accept unwanted work or environments simply to survive. Acecore explores shared life foundations that increase freedom rather than dependency.
+Many people accept unwanted work or environments simply to survive. This design explores shared life foundations that increase freedom rather than dependency.
 
 ## Scope
 

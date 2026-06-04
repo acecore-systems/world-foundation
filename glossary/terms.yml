@@ -1,9 +1,9 @@
-- id: acecore
-  ja: Acecore
-  en: Acecore
+- id: world_foundation_design
+  ja: World Foundation Design
+  en: World Foundation Design
   description:
-    ja: 全ての人が好きなことに集中できる世界を目指すための協力基盤構想。
-    en: A cooperation infrastructure concept for a world where everyone can focus on what they truly want to do.
+    ja: 全ての人が好きなことに集中できる世界を目指すための、レビュー可能でフォーク可能な社会設計リポジトリ。
+    en: A reviewable and forkable social-design repository for a world where everyone can focus on what they truly want to do.
 
 - id: life_os
   ja: 生活OS
@@ -137,3 +137,213 @@
   description:
     ja: 現在の国家・企業・社会制度から、新しい協力基盤へ段階的に移っていく過程。
     en: The gradual process of moving from current state, corporate, and social systems toward a new cooperation infrastructure.
+
+- id: audit
+  ja: 監査
+  en: Audit
+  description:
+    ja: ルール、会計、権限、判断、変更履歴が適切に記録され、後から検証できる状態を保つ仕組み。
+    en: A mechanism that keeps rules, accounting, authority, judgments, and change history recorded and verifiable.
+
+- id: accountability
+  ja: 説明責任
+  en: Accountability
+  description:
+    ja: 権限を持つ個人や組織が、判断の理由、影響、責任範囲を説明できること。
+    en: The ability of individuals or organizations with authority to explain the reasons, impacts, and scope of their decisions.
+
+- id: decision_log
+  ja: 意思決定ログ
+  en: Decision Log
+  description:
+    ja: 重要な判断について、何を決めたか、なぜ決めたか、どの代替案を検討したかを残す記録。
+    en: A record of important decisions, including what was decided, why it was decided, and which alternatives were considered.
+
+- id: proposal
+  ja: 提案
+  en: Proposal
+  description:
+    ja: 本体文書やモジュールを変更する前に、問題、変更案、利点、リスク、代替案を整理する文書。
+    en: A document that organizes the problem, proposed change, benefits, risks, and alternatives before changing core documents or modules.
+
+- id: module
+  ja: モジュール
+  en: Module
+  description:
+    ja: 協力基盤の機能や責任を分割し、独立して検討・改善できる単位。
+    en: A unit that separates cooperation-infrastructure functions or responsibilities so they can be discussed and improved independently.
+
+- id: protocol
+  ja: プロトコル
+  en: Protocol
+  description:
+    ja: 複数の個人、組織、モジュールが相互接続し、協力するための共通ルールや仕様。
+    en: Shared rules or specifications that allow individuals, organizations, and modules to interoperate and cooperate.
+
+- id: interoperability
+  ja: 相互運用性
+  en: Interoperability
+  description:
+    ja: 異なる組織、実装、地域、ツールが、共通仕様を通じて接続・協力できる性質。
+    en: The ability of different organizations, implementations, regions, or tools to connect and cooperate through shared specifications.
+
+- id: decentralization
+  ja: 分散性
+  en: Decentralization
+  description:
+    ja: 権限、情報、運用、インフラが単一の主体へ過度に集中しない設計特性。
+    en: A design property where authority, information, operations, and infrastructure do not become excessively concentrated in one actor.
+
+- id: subsidiarity
+  ja: 補完性
+  en: Subsidiarity
+  description:
+    ja: できるだけ小さく近い単位で解決し、必要な場合だけ上位や広域の協力へ接続する考え方。
+    en: The principle of solving issues at the smallest practical level and connecting to wider cooperation only when needed.
+
+- id: non_coercion
+  ja: 非強制
+  en: Non-coercion
+  description:
+    ja: 参加、継続、貢献、離脱が、脅しや不当な不利益によって左右されない状態。
+    en: A state where participation, continuation, contribution, and exit are not shaped by threats or unfair penalties.
+
+- id: gradual_transition
+  ja: 段階的移行
+  en: Gradual Transition
+  description:
+    ja: 既存制度との関係を急激に壊さず、小さな実験、検証、改善を重ねながら移行する方針。
+    en: An approach that transitions through small experiments, validation, and improvement without abruptly breaking relationships with existing systems.
+
+- id: state_dependency
+  ja: 国家依存
+  en: State Dependency
+  description:
+    ja: 生活、信用、教育、福祉、紛争解決などが国家機能へ強く依存している状態。
+    en: A state where life, trust, education, welfare, dispute resolution, and other functions strongly depend on state systems.
+
+- id: life_access
+  ja: 生活アクセス
+  en: Life Access
+  description:
+    ja: 食、住、通信、教育、健康支援など、生きるために必要な基盤へ利用可能な形で接続できること。
+    en: The ability to access foundations needed for life, such as food, housing, connectivity, education, and health support.
+
+- id: internal_points
+  ja: 内部ポイント
+  en: Internal Points
+  description:
+    ja: 協力基盤内の貢献、利用、配分、調整を表すための記録単位。法的な扱いは設計ごとに確認が必要。
+    en: A record unit for contribution, use, allocation, and coordination inside cooperation infrastructure. Its legal treatment must be reviewed for each design.
+
+- id: legal_tender
+  ja: 法定通貨
+  en: Legal Tender
+  description:
+    ja: 法制度によって支払い手段として位置づけられる通貨。内部ポイントや生活アクセスとは区別して扱う。
+    en: Currency recognized by a legal system as a means of payment. It is treated separately from internal points and life access.
+
+- id: mutual_aid
+  ja: 相互扶助
+  en: Mutual Aid
+  description:
+    ja: 個人や組織が一方的な支配関係ではなく、互いの困難や必要を支え合う協力形態。
+    en: A form of cooperation where individuals or organizations support each other's needs without creating a one-sided authority relationship.
+
+- id: commons
+  ja: コモンズ
+  en: Commons
+  description:
+    ja: 特定の個人や組織だけでなく、共同体が共有し、維持し、利用する資源や知識。
+    en: Resources or knowledge shared, maintained, and used by a community rather than owned exclusively by one person or organization.
+
+- id: public_goods
+  ja: 公共財
+  en: Public Goods
+  description:
+    ja: 多くの人が同時に利用でき、利用者を簡単に排除しにくい性質を持つ財やサービス。
+    en: Goods or services that many people can use at the same time and where excluding users is difficult.
+
+- id: governance_process
+  ja: ガバナンスプロセス
+  en: Governance Process
+  description:
+    ja: Issue、Proposal、Pull Request、Decisionなどを通じて変更を議論・採用・記録する手続き。
+    en: A process for discussing, adopting, and recording changes through Issues, Proposals, Pull Requests, and Decisions.
+
+- id: maintainer
+  ja: メンテナー
+  en: Maintainer
+  description:
+    ja: リポジトリや設計文書の品質、議論整理、レビュー、運用を支える責任を持つ参加者。
+    en: A participant responsible for supporting repository quality, discussion organization, reviews, and operations.
+
+- id: review
+  ja: レビュー
+  en: Review
+  description:
+    ja: 提案や変更が原則、用語、リスク、既存文書と整合しているかを確認する行為。
+    en: The act of checking whether a proposal or change aligns with principles, terminology, risks, and existing documents.
+
+- id: abuse_case
+  ja: 悪用ケース
+  en: Abuse Case
+  description:
+    ja: 仕組みが本来の目的と異なる形で悪用される可能性を、事前に検討するための想定例。
+    en: A scenario used to examine how a system could be misused in ways contrary to its intended purpose.
+
+- id: risk_assessment
+  ja: リスク評価
+  en: Risk Assessment
+  description:
+    ja: 設計変更や運用が生む危険、悪用可能性、権限集中、法務・倫理上の論点を整理すること。
+    en: The practice of organizing dangers, misuse possibilities, authority concentration, and legal or ethical issues created by a design or operation.
+
+- id: appeal
+  ja: 異議申し立て
+  en: Appeal
+  description:
+    ja: 判断や処分に対して、理由を示して再検討を求める手続き。
+    en: A procedure for requesting reconsideration of a judgment or action with stated reasons.
+
+- id: due_process
+  ja: 適正手続き
+  en: Due Process
+  description:
+    ja: 判断や処分が、事前に共有されたルール、説明、反論機会、記録に基づいて行われること。
+    en: The principle that judgments or actions follow shared rules, explanation, opportunity to respond, and records.
+
+- id: privacy
+  ja: プライバシー
+  en: Privacy
+  description:
+    ja: 個人や組織が、自分に関する情報の公開範囲、利用目的、保存期間を適切に制御できる状態。
+    en: A state where individuals or organizations can appropriately control the disclosure, purpose, and retention of information about them.
+
+- id: data_portability
+  ja: データポータビリティ
+  en: Data Portability
+  description:
+    ja: 個人や組織が、自分に関するデータを取り出し、別の実装や組織へ移せる性質。
+    en: The ability of individuals or organizations to export their data and move it to another implementation or organization.
+
+- id: minimum_viable_institution
+  ja: 最小実行可能制度
+  en: Minimum Viable Institution
+  description:
+    ja: 大きな制度を一度に作らず、検証可能な最小単位から始める制度設計の考え方。
+    en: An institution design approach that starts from the smallest testable unit rather than building a large system at once.
+
+- id: local_autonomy
+  ja: 地域自律性
+  en: Local Autonomy
+  description:
+    ja: 地域や小さな共同体が、共通プロトコルと両立しながら自分たちの事情に合う運営を行える性質。
+    en: The ability of regions or small communities to operate according to local needs while remaining compatible with shared protocols.
+
+- id: shared_rules
+  ja: 共通ルール
+  en: Shared Rules
+  description:
+    ja: 複数の個人や組織が協力するために共有し、変更手続きを明確にしたルール。
+    en: Rules shared by multiple individuals or organizations for cooperation, with clear change procedures.

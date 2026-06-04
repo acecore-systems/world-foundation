@@ -2,11 +2,11 @@
 
 ## Purpose
 
-The Infrastructure Module handles communication, compute resources, data, and life infrastructure that support Acecore's cooperation foundation.
+The Infrastructure Module handles communication, compute resources, data, and life infrastructure that support the cooperation foundation.
 
 ## Problem
 
-Communication, cloud services, AI, housing, and energy are often dependent on specific companies or states. Acecore needs distributed and interoperable infrastructure.
+Communication, cloud services, AI, housing, and energy are often dependent on specific companies or states. This design needs distributed and interoperable infrastructure.
 
 ## Scope
 

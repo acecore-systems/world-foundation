@@ -1,6 +1,6 @@
 # Proposals
 
-This directory contains design proposals for Acecore.
+This directory contains design proposals for World Foundation Design.
 
 Proposals are used before changing core documents or modules.
 

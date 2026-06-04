@@ -2,11 +2,11 @@
 
 ## Purpose
 
-The Governance Module handles decision-making, authority management, roles, and change processes for Acecore and federated organizations.
+The Governance Module handles decision-making, authority management, roles, and change processes for cooperation infrastructure and federated organizations.
 
 ## Problem
 
-Organizations tend to accumulate power, opacity, corruption, and empty rituals as they grow. Acecore needs transparent, exit-compatible, and forkable governance.
+Organizations tend to accumulate power, opacity, corruption, and empty rituals as they grow. This design needs transparent, exit-compatible, and forkable governance.
 
 ## Scope
 

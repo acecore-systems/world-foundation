@@ -6,7 +6,7 @@ The Arbitration Module handles dispute resolution through transparent procedures
 
 ## Problem
 
-Conflicts between states, organizations, or participants often depend on coercive force. Acecore explores lower-cost, recorded, reviewable dispute procedures.
+Conflicts between states, organizations, or participants often depend on coercive force. This design explores lower-cost, recorded, reviewable dispute procedures.
 
 ## Scope
 
