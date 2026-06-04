@@ -33,6 +33,8 @@ World Foundation Designは、全ての人が好きなことに集中できる世
 
 ## ディレクトリ
 
+- `CODE_OF_CONDUCT.md`: 参加者の行動規範
+- `SAFETY.md`: 誤用・悪用を避けるための安全方針
 - `docs/`: 基本設計文書
 - `modules/`: 機能ごとの設計メモ
 - `glossary/`: 用語集
@@ -40,6 +42,11 @@ World Foundation Designは、全ての人が好きなことに集中できる世
 - `decisions/`: 重要な意思決定の記録
 - `research/`: 関連する調査資料
 - `assets/`: 図表や説明用素材
+- `meta/`: 初期生成プロンプトなど、設計本文ではない運用記録
+
+`docs/` にはVision、Principles、Architecture、Roadmap、Non-goals、Threat Modelを置きます。
+
+`modules/` にはIdentity、Reputation、Economy、Welfare、Governance、Arbitration、Infrastructure、Auditを置きます。
 
 ## 図表
 

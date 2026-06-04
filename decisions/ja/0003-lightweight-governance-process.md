@@ -1,0 +1,35 @@
+# Decision: 初期は軽量ガバナンスで運用する
+
+## Status
+
+Accepted
+
+## Context
+
+初期段階で過剰な制度化を行うと、設計速度が落ち、参加しづらくなる。一方で、重要判断の理由は残す必要がある。
+
+特に、Non-goals、Safety、Threat Model、Glossary、Architecture、Module責任範囲に関わる変更は、後から理由を追える必要がある。
+
+## Decision
+
+初期はIssue、Proposal、Pull Request、Decisionを使った軽量運用にする。
+
+小さな文章修正は直接Pull Requestでよい。重要な設計変更、安全境界、Threat Model、Module責任範囲に影響する変更はProposalを推奨する。
+
+## Rationale
+
+小さく始め、重要判断だけを記録し、必要に応じて制度を追加するため。
+
+制度を先に複雑にするより、実際のIssueとPull Requestを通じて必要な手続きを見極める。
+
+## Consequences
+
+詳細な投票制度、委員会制度、メンテナー制度は後で検討する。初期は管理者の透明性とDecision Logを重視する。
+
+重要変更が増えた場合、より厳密なレビュー権限、任期、投票、異議申し立て手続きをProposal化する。
+
+## Alternatives Considered
+
+- 最初から完全なRFC制度を作る
+- 最初から投票制度を作る
+- 管理者の判断だけで進める

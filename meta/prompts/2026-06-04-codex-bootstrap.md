@@ -1,3 +1,11 @@
+# Codex Bootstrap Prompt
+
+この文書は、world-foundationリポジトリの初期土台を生成するために使ったCodex向け指示書です。
+
+これは設計本文ではなく、初期生成過程の記録として保存します。
+
+---
+
 # Acecore World Design - Codex一括実装指示書
 
 このファイルだけをCodexに渡してください。  

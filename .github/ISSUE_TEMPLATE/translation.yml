@@ -24,3 +24,27 @@ body:
       description: 翻訳内容、表現の問題、用語の揺れなどを書いてください。
     validations:
       required: true
+  - type: textarea
+    id: glossary
+    attributes:
+      label: 用語集への影響
+      description: glossary/terms.ymlの追加・変更が必要か書いてください。
+  - type: dropdown
+    id: status
+    attributes:
+      label: 翻訳ステータス
+      options:
+        - draft
+        - needs review
+        - reviewed
+        - blocked
+  - type: textarea
+    id: semantic_diff
+    attributes:
+      label: 原文と翻訳の意味の差分
+      description: 原文から意味が変わっている可能性を書いてください。
+  - type: textarea
+    id: review_reason
+    attributes:
+      label: レビューが必要な理由
+      description: 用語、思想、安全性、法務、文化差など、レビューが必要な理由を書いてください。

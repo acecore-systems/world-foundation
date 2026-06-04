@@ -18,10 +18,60 @@ body:
     validations:
       required: true
   - type: textarea
+    id: principles
+    attributes:
+      label: 関連する原則
+      description: この提案が関係する設計原則を書いてください。
+  - type: textarea
+    id: non_goals
+    attributes:
+      label: Non-goalsチェック
+      description: docs/ja/04-non-goals.mdに反しないか確認してください。
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety上の懸念
+      description: SAFETY.mdとの関係や懸念を書いてください。
+  - type: textarea
     id: risks
     attributes:
       label: リスク
       description: この提案のリスクや悪用可能性を書いてください。
+  - type: textarea
+    id: corruption
+    attributes:
+      label: 腐敗リスク
+      description: 権限集中、不透明性、利益相反、形骸化の懸念を書いてください。
+  - type: textarea
+    id: exit
+    attributes:
+      label: 離脱可能性への影響
+      description: 参加者や組織が離脱しにくくならないか確認してください。
+  - type: textarea
+    id: forkability
+    attributes:
+      label: フォーク可能性への影響
+      description: フォークや代替実装の余地に与える影響を書いてください。
+  - type: textarea
+    id: legal
+    attributes:
+      label: 法務・税務・労務・金融規制上の懸念
+      description: 専門家レビューが必要な可能性を書いてください。
+  - type: textarea
+    id: privacy
+    attributes:
+      label: プライバシーへの影響
+      description: 収集、公開、保存、削除、匿名化が必要な情報を書いてください。
+  - type: textarea
+    id: rollback
+    attributes:
+      label: ロールバック方法
+      description: 問題が起きた場合の戻し方を書いてください。
+  - type: textarea
+    id: translation
+    attributes:
+      label: 翻訳への影響
+      description: 英語版やGlossaryへの影響を書いてください。
   - type: textarea
     id: alternatives
     attributes:

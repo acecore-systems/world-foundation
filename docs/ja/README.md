@@ -10,6 +10,8 @@
 - `01-principles.md`: 設計原則
 - `02-architecture.md`: 全体アーキテクチャ
 - `03-roadmap.md`: 段階的な移行計画
+- `04-non-goals.md`: この設計が目指さないもの
+- `05-threat-model.md`: 腐敗、支配、悪用、法務衝突、監視化などのリスク整理
 
 ## 図表
 

@@ -17,8 +17,42 @@ body:
       description: この問題が放置された場合の影響を書いてください。
     validations:
       required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: 深刻度
+      options:
+        - low
+        - medium
+        - high
+        - critical
+  - type: textarea
+    id: principles
+    attributes:
+      label: 関連する原則
+      description: 自由参加、離脱可能性、透明性、フォーク可能性など。
+  - type: textarea
+    id: modules
+    attributes:
+      label: 影響を受けるモジュール
+      description: 影響を受けるdocs、modules、glossaryを書いてください。
+  - type: textarea
+    id: unattended_risk
+    attributes:
+      label: 放置した場合のリスク
+      description: 腐敗、支配、違法回避、監視化、離脱不能性などの観点で書いてください。
   - type: textarea
     id: possible_solution
     attributes:
       label: 解決案
       description: 解決案があれば書いてください。
+  - type: textarea
+    id: desired_direction
+    attributes:
+      label: 望ましい解決方向
+      description: どのような方向で解決すべきかを書いてください。
+  - type: textarea
+    id: safety_links
+    attributes:
+      label: 関連するNon-goalsまたはThreat Model
+      description: docs/ja/04-non-goals.md または docs/ja/05-threat-model.md との関係を書いてください。

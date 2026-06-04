@@ -7,16 +7,24 @@ flowchart TD
   Idea["Idea Issue<br/>新しいアイデア"]
   Problem["Problem Issue<br/>問題・矛盾・リスク"]
   Translation["Translation Issue<br/>翻訳・用語"]
+  NonGoals["Non-goals Check<br/>目指さないものの確認"]
+  Safety["Safety Check<br/>悪用・法務・監視化の確認"]
+  Threat["Threat Model Check<br/>腐敗・支配・離脱不能性の確認"]
   Proposal["Proposal<br/>変更案・リスク・代替案"]
   PullRequest["Pull Request<br/>具体的な変更"]
   Review["Review<br/>原則・用語・悪用ケース確認"]
   Decision["Decision<br/>重要判断の記録"]
   Docs["docs / modules / glossary"]
   Reopen["再検討 / 異議申し立て"]
+  Rollback["Rollback<br/>問題発生時の戻し方"]
 
   Idea --> Proposal
   Problem --> Proposal
   Translation --> PullRequest
+  Proposal --> NonGoals
+  NonGoals --> Safety
+  Safety --> Threat
+  Threat --> PullRequest
   Proposal --> PullRequest
   PullRequest --> Review
   Review --> Docs
@@ -24,4 +32,6 @@ flowchart TD
   Decision --> Docs
   Review --> Reopen
   Reopen --> Proposal
+  Reopen --> Rollback
+  Rollback --> Review
 ```

@@ -19,11 +19,19 @@ Each module should have a clear responsibility and should not accumulate excessi
 
 This design begins with areas that can be built outside the state, such as cooperation, education, welfare, trust, and infrastructure.
 
-The initial repository only creates module directories for Identity, Economy, Welfare, Governance, Arbitration, and Infrastructure. Reputation and Audit are important design layers, but they can remain inside related modules until the need for independent modules becomes clear.
+The initial modules are Identity, Reputation, Economy, Welfare, Governance, Arbitration, Infrastructure, and Audit.
+
+Reputation handles trust, contribution, and history, but it must not fix human worth or become a broad exclusion mechanism.
+
+Audit supports transparency and corruption resistance, but it must not become surveillance. Public information and protected information must be separated.
 
 ## Design Direction
 
 This design separates functions into modules and connects them through open protocols. This keeps the system easier to improve, replace, audit, and fork.
+
+Relationships between modules are references, cooperation, and verification, not domination. Modules should interoperate without taking over each other's responsibilities.
+
+For example, Reputation must not unilaterally control access to Economy or Welfare. Audit must not become a universal right to monitor everything.
 
 ## Relationship with State Functions
 

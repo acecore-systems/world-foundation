@@ -2,7 +2,7 @@
 
 ## Summary
 
-World Foundation Designの初期運営では、Issue、Pull Request、Proposal、Decisionを使った軽量なガバナンスプロセスを採用する。
+World Foundation Designの初期運営では、Issue、Proposal、Pull Request、Review、Merge、Decision、必要に応じたReviewまたはRollbackを使った軽量なガバナンスプロセスを採用する。
 
 初期段階では参加者数が少ないため、過剰な投票制度や複雑な承認フローは導入しない。ただし、重要な判断理由は記録し、後から検証・改善・フォークできる状態を保つ。
 
@@ -28,6 +28,22 @@ World Foundation Designの初期運営では、Issue、Pull Request、Proposal�
 
 初期ガバナンスプロセスとして、次の運用を採用する。
 
+```txt
+Issue
+↓
+必要ならProposal
+↓
+Pull Request
+↓
+Review
+↓
+Merge
+↓
+重要判断はDecisionへ記録
+↓
+必要なら後日ReviewまたはRollback
+```
+
 ## 変更の種類
 
 ### 1. 軽微な変更
@@ -47,6 +63,9 @@ docs、modules、glossary、researchの内容を変更する場合は、Pull Req
 - Architecture
 - モジュール責任範囲
 - Glossaryの重要用語
+- Non-goals
+- Safety
+- Threat Model
 - Governance Process
 - EconomyやWelfareの運用原則
 - 離脱可能性、フォーク可能性、透明性に影響する変更
@@ -74,7 +93,12 @@ Pull Requestでは、次の観点を確認する。
 - 自由参加、離脱可能性、透明性に反していないか
 - 用語集と矛盾していないか
 - 悪用ケースや腐敗リスクを検討したか
+- 支配、強制、違法回避、カルト化、監視強化、離脱不能性につながっていないか
+- Non-goals、Safety、Threat Modelへの影響を確認したか
+- 重大なリスクがある場合、Threat Modelを更新したか
+- 後から問題が出た場合のRollback Planを確認したか
 - 日本語正本と英語版の関係を壊していないか
+- 翻訳に影響する場合、Translation Issueを作る必要があるか
 - 重要な判断がDecisionとして残されるべきか
 
 ## 初期メンテナーの役割

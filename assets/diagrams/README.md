@@ -14,6 +14,7 @@ Gitでは空ディレクトリを管理できないため、このREADMEを初�
 - `05-risk-and-safety-loops.md`: 腐敗耐性と安全装置
 - `06-multilingual-document-flow.md`: 日本語正本と翻訳の管理フロー
 - `07-life-access-model.md`: 生活アクセスの設計モデル
+- `08-non-coercive-adoption.md`: 非強制の普及モデル
 
 ## 方針
 

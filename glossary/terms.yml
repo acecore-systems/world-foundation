@@ -107,8 +107,8 @@
   ja: 信用
   en: Reputation
   description:
-    ja: 行動履歴、貢献、信頼性などに基づく社会的評価。
-    en: Social evaluation based on behavior history, contribution, and reliability.
+    ja: 行動履歴、貢献、信頼性などに基づく協力のための補助情報。人間の価値を固定するものではない。
+    en: Supporting information for cooperation based on behavior history, contribution, and reliability. It is not a fixed measure of human worth.
 
 - id: welfare
   ja: 福祉
@@ -142,8 +142,8 @@
   ja: 監査
   en: Audit
   description:
-    ja: ルール、会計、権限、判断、変更履歴が適切に記録され、後から検証できる状態を保つ仕組み。
-    en: A mechanism that keeps rules, accounting, authority, judgments, and change history recorded and verifiable.
+    ja: ルール、会計、権限、判断、変更履歴が適切に記録され、定義された範囲で後から検証できる状態を保つ仕組み。監視社会を作るためのものではない。
+    en: A mechanism that keeps rules, accounting, authority, judgments, and change history recorded and verifiable within defined scopes. It is not a tool for surveillance.
 
 - id: accountability
   ja: 説明責任
@@ -303,8 +303,8 @@
   ja: 異議申し立て
   en: Appeal
   description:
-    ja: 判断や処分に対して、理由を示して再検討を求める手続き。
-    en: A procedure for requesting reconsideration of a judgment or action with stated reasons.
+    ja: 判断、評価、処分、運用に対して、参加者が理由を示して再検討を求める手続き。
+    en: A process through which participants can request reconsideration of decisions, evaluations, sanctions, or operations with stated reasons.
 
 - id: due_process
   ja: 適正手続き
@@ -347,3 +347,52 @@
   description:
     ja: 複数の個人や組織が協力するために共有し、変更手続きを明確にしたルール。
     en: Rules shared by multiple individuals or organizations for cooperation, with clear change procedures.
+
+- id: non_goals
+  ja: Non-goals
+  en: Non-goals
+  description:
+    ja: この設計が意図的に目指さないことを明文化した安全境界。
+    en: Explicit safety boundaries describing what this design intentionally does not aim to do.
+
+- id: threat_model
+  ja: 脅威モデル
+  en: Threat Model
+  description:
+    ja: 設計が悪用、腐敗、支配、衝突、形骸化へ向かうリスクを整理し、緩和策を検討する文書。
+    en: A document that identifies risks of abuse, corruption, domination, conflict, or stagnation and considers mitigations.
+
+- id: safety_policy
+  ja: 安全方針
+  en: Safety Policy
+  description:
+    ja: この設計が暴力、違法回避、支配、監視、カルト化へ誤用されないための方針。
+    en: A policy to prevent this design from being misused for violence, legal evasion, domination, surveillance, or cult-like structures.
+
+- id: code_of_conduct
+  ja: 行動規範
+  en: Code of Conduct
+  description:
+    ja: 参加者が安全に議論し、批判し、改善するための基本的な振る舞いのルール。
+    en: Basic behavioral rules that allow participants to discuss, criticize, and improve the design safely.
+
+- id: power_concentration
+  ja: 権力集中
+  en: Power Concentration
+  description:
+    ja: 意思決定、情報、資金、権限、インフラが少数の主体へ過度に集まる状態。
+    en: A state where decisions, information, funds, authority, or infrastructure become excessively concentrated among a few actors.
+
+- id: surveillance
+  ja: 監視
+  en: Surveillance
+  description:
+    ja: 安全や透明性を理由に、参加者の生活、通信、思想、行動が過度に観察・記録される状態。
+    en: Excessive observation or recording of participants' life, communications, beliefs, or behavior in the name of safety or transparency.
+
+- id: rollback
+  ja: ロールバック
+  en: Rollback
+  description:
+    ja: 変更が問題を起こした場合に、以前の状態や別の安全な状態へ戻す手続き。
+    en: A process for returning to a previous or safer state when a change causes problems.

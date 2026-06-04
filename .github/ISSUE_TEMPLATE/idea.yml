@@ -18,6 +18,31 @@ body:
     validations:
       required: true
   - type: textarea
+    id: principles
+    attributes:
+      label: 関連する原則
+      description: 自由参加、離脱可能性、透明性、フォーク可能性など、関係する原則を書いてください。
+  - type: textarea
+    id: risks
+    attributes:
+      label: 想定されるリスク
+      description: このアイデアによって生じる可能性のあるリスクを書いてください。
+  - type: textarea
+    id: abuse
+    attributes:
+      label: 悪用された場合の懸念
+      description: 悪用された場合に起き得る問題を書いてください。
+  - type: textarea
+    id: non_goals
+    attributes:
+      label: Non-goalsとの関係
+      description: docs/ja/04-non-goals.mdに反しないか確認してください。
+  - type: textarea
+    id: modules
+    attributes:
+      label: 影響を受けるモジュール
+      description: Identity、Reputation、Economy、Welfare、Governance、Arbitration、Infrastructure、Auditなど。
+  - type: textarea
     id: related
     attributes:
       label: 関連する文書・モジュール

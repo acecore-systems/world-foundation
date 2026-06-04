@@ -10,6 +10,8 @@ The Japanese documents in `docs/ja/` are the initial source of truth. English do
 - `01-principles.md`: Design principles
 - `02-architecture.md`: Architecture
 - `03-roadmap.md`: Roadmap
+- `04-non-goals.md`: What this design does not aim to do
+- `05-threat-model.md`: Risks such as corruption, domination, misuse, legal conflict, and surveillance
 
 ## Diagrams
 
