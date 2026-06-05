@@ -44,6 +44,8 @@ flowchart TB
   監査 --> 仲裁
   監査 --> 評判
 
+  click People "../../docs/ja/00-vision.md" "ビジョン"
+  click Interface "../../docs/ja/01-principles.md" "参加・離脱・多重所属"
   click アイデンティティ "../../modules/ja/identity/README.md" "アイデンティティ"
   click 評判 "../../modules/ja/reputation/README.md" "評判"
   click 経済 "../../modules/ja/economy/README.md" "経済"

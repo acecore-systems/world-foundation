@@ -16,7 +16,7 @@ World Foundation Designは、理想的な世界を設計対象として扱うリ
 
 ## 議論の扱い
 
-問題提起や批判は歓迎します。ただし、人格攻撃や煽動ではなく、Issue、提案、Pull Requestとして扱ってください。
+問題提起や批判は歓迎します。ただし、人格攻撃や煽動ではなく、[Issue](https://github.com/acecore-systems/world-foundation/issues)、[提案](proposals/ja/README.md)、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls) として扱ってください。
 
 強い懸念がある場合は、次の観点を明確にしてください。
 
@@ -24,7 +24,7 @@ World Foundation Designは、理想的な世界を設計対象として扱うリ
 - どの文書、モジュール、用語に関係するか
 - 放置した場合のリスク
 - 望ましい修正方向
-- 対象外、安全方針、脅威モデルとの関係
+- [対象外](docs/ja/04-non-goals.md)、[安全方針](SAFETY.md)、[脅威モデル](docs/ja/05-threat-model.md) との関係
 
 ## 禁止される行為
 
@@ -40,9 +40,9 @@ World Foundation Designは、理想的な世界を設計対象として扱うリ
 
 管理者は支配者ではありません。
 
-管理者は、議論の安全性、透明性、品質を保つ責任を持ちます。必要に応じて、Issueの整理、注意喚起、投稿の制限、悪質な行為への対応を行います。
+管理者は、議論の安全性、透明性、品質を保つ責任を持ちます。必要に応じて、[Issue](https://github.com/acecore-systems/world-foundation/issues) の整理、注意喚起、投稿の制限、悪質な行為への対応を行います。
 
-管理者の判断もレビュー可能であるべきです。重要な対応や方針変更は、必要に応じて意思決定へ記録します。
+管理者の判断もレビュー可能であるべきです。重要な対応や方針変更は、必要に応じて [意思決定](decisions/ja/README.md) へ記録します。
 
 ## 違反時の初期対応
 
@@ -50,7 +50,7 @@ World Foundation Designは、理想的な世界を設計対象として扱うリ
 
 1. 問題箇所の確認
 2. 必要に応じた注意または修正依頼
-3. 継続する場合のIssue、コメント、Pull Requestへの制限
+3. 継続する場合の [Issue](https://github.com/acecore-systems/world-foundation/issues)、コメント、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls) への制限
 4. 悪質な場合の参加制限
 5. 重要な運用判断の意思決定記録
 

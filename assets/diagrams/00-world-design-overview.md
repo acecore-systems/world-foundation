@@ -28,5 +28,7 @@ flowchart TB
   click アーキテクチャ "../../docs/ja/02-architecture.md" "アーキテクチャ"
   click モジュール "../../modules/ja/README.md" "モジュール"
   click ガバナンス "../../modules/ja/governance/README.md" "ガバナンス"
+  click Experiments "../../docs/ja/03-roadmap.md" "小さな実験"
   click Records "../../proposals/ja/README.md" "提案 / 意思決定 / 用語集"
+  click Feedback "../../assets/diagrams/05-risk-and-safety-loops.md" "レビューと改善"
 ```

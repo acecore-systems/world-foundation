@@ -32,7 +32,7 @@ Governance connects to all modules because it defines how rules change. It shoul
 
 ## Initial Notes
 
-Early governance should use Issues, Pull Requests, Proposals, and Decisions as a lightweight process.
+Early governance should use [Issues](https://github.com/acecore-systems/world-foundation/issues), [Pull Requests](https://github.com/acecore-systems/world-foundation/pulls), [Proposals](../../../proposals/en/README.md), and [Decisions](../../../decisions/en/README.md) as a lightweight process.
 
 ## Open Questions
 

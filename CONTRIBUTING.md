@@ -6,10 +6,10 @@ World Foundation Designへの貢献を歓迎します。
 
 ## 貢献方法
 
-1. Issueを作成する
+1. [Issue](https://github.com/acecore-systems/world-foundation/issues) を作成する
 2. 議論する
-3. 必要に応じて `proposals/` に提案を書く
-4. Pull Requestを作成する
+3. 必要に応じて [proposals/](proposals/ja/README.md) に提案を書く
+4. [Pull Request](https://github.com/acecore-systems/world-foundation/pulls) を作成する
 5. レビュー後にマージする
 
 ## 言語
@@ -24,11 +24,11 @@ World Foundation Designへの貢献を歓迎します。
 - 透明性を重視する
 - 離脱可能性とフォーク可能性を尊重する
 - 用語の一貫性を保つ
-- 重要な設計判断は `decisions/` に記録する
+- 重要な設計判断は [decisions/](decisions/ja/README.md) に記録する
 - 悪用可能性、腐敗リスク、権限集中リスクを検討する
 
 ## Pull Requestの考え方
 
-小さくレビューしやすい変更を推奨します。思想、原則、アーキテクチャに関わる大きな変更は、先にIssueや提案で背景を共有してください。
+小さくレビューしやすい変更を推奨します。思想、原則、アーキテクチャに関わる大きな変更は、先に [Issue](https://github.com/acecore-systems/world-foundation/issues) や [提案](proposals/ja/README.md) で背景を共有してください。
 
 文章の改善であっても、特定の名称や組織が支配主体のように見える表現、強制参加を前提にする表現、国家や社会との過度な敵対表現は避けてください。

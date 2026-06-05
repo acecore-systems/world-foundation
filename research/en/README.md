@@ -35,6 +35,17 @@ flowchart TB
   Economy --> Docs
   Governance --> Docs
   Safety --> Docs
+
+  click Research "index.md" "Research index"
+  click History "index.md" "Historical and institutional change"
+  click War "index.md" "War and international relations"
+  click OSS "index.md" "OSS and standards"
+  click Coop "index.md" "Cooperatives and mutual aid"
+  click Identity "../../modules/en/identity/README.md" "Identity / Reputation"
+  click Economy "../../modules/en/economy/README.md" "Economy / Welfare"
+  click Governance "../../modules/en/governance/README.md" "Governance / Arbitration / Norms"
+  click Safety "../../docs/en/05-threat-model.md" "Infrastructure / Audit / Safety"
+  click Docs "../../docs/en/README.md" "design feedback"
 ```
 
 ## Index

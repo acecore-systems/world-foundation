@@ -40,4 +40,4 @@
 
 ## Open Questions
 
-## Related Issues
+## Related [Issues](https://github.com/acecore-systems/world-foundation/issues)

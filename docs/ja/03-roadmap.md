@@ -10,8 +10,8 @@
 - 提案と意思決定の運用開始
 - 対象外、安全方針、脅威モデルの作成
 - 初期モジュールREADMEの作成
-- Founder Non-privilege 意思決定の作成
-- 調査索引とIssue下書きの作成
+- [Founder Non-privilege 意思決定](../../decisions/ja/0004-founder-non-privilege-and-exit-policy.md) の作成
+- [調査索引](../../research/ja/index.md) と [Issue下書き](../../meta/issue-drafts/README.md) の作成
 
 ### Phase 0 完了条件
 
@@ -21,8 +21,8 @@
 - 対象外と脅威モデルが存在する
 - 行動規範と安全方針が存在する
 - 初期モジュールREADMEが揃っている
-- Founder Non-privilegeが意思決定化されている
-- 調査索引とIssue下書きが存在する
+- [Founder Non-privilege](../../decisions/ja/0004-founder-non-privilege-and-exit-policy.md) が意思決定化されている
+- [調査索引](../../research/ja/index.md) と [Issue下書き](../../meta/issue-drafts/README.md) が存在する
 
 ## フェーズ 1: 初期組織
 

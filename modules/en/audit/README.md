@@ -48,7 +48,7 @@ At the same time, recording everything can become surveillance and expose partic
 
 Audit should mean making necessary scopes verifiable, not granting a universal right to observe everything.
 
-Early work should focus on Decision Logs, Pull Request history, financial transparency, authority changes, and conflict-of-interest records.
+Early work should focus on Decision Logs, [Pull Request](https://github.com/acecore-systems/world-foundation/pulls) history, financial transparency, authority changes, and conflict-of-interest records.
 
 ## Open Questions
 

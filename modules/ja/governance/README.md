@@ -38,7 +38,7 @@
 
 ## 初期設計メモ
 
-初期段階では、Issue、Pull Request、提案、意思決定を使って、軽量な意思決定プロセスを運用します。
+初期段階では、[Issue](https://github.com/acecore-systems/world-foundation/issues)、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls)、[提案](../../../proposals/ja/README.md)、[意思決定](../../../decisions/ja/README.md) を使って、軽量な意思決定プロセスを運用します。
 
 貢献者が少ない間は速度を優先しつつ、重要な判断理由は必ず残す方針にします。
 
@@ -112,13 +112,13 @@
 
 初期段階では、次の流れを基本とします。
 
-1. 小さな修正はPull Requestで提案する
-2. 重要な変更はIssueで背景を共有する
-3. 設計判断が必要な場合は提案を書く
+1. 小さな修正は [Pull Request](https://github.com/acecore-systems/world-foundation/pulls) で提案する
+2. 重要な変更は [Issue](https://github.com/acecore-systems/world-foundation/issues) で背景を共有する
+3. 設計判断が必要な場合は [提案](../../../proposals/ja/README.md) を書く
 4. 採用・却下・保留の理由をレビューで残す
-5. 重要な判断は意思決定として記録する
-6. 運用上の問題はProblem Issueとして扱う
-7. 翻訳や用語の揺れは翻訳 Issueとして扱う
+5. 重要な判断は [意思決定](../../../decisions/ja/README.md) として記録する
+6. 運用上の問題は [Problem Issue](https://github.com/acecore-systems/world-foundation/issues) として扱う
+7. 翻訳や用語の揺れは [翻訳 Issue](https://github.com/acecore-systems/world-foundation/issues) として扱う
 
 ## 未解決の問い
 

@@ -1,8 +1,8 @@
 # Issue Drafts
 
-このディレクトリには、GitHub Issueとして作成する前の下書きを置きます。
+このディレクトリには、[GitHub Issue](https://github.com/acecore-systems/world-foundation/issues) として作成する前の下書きを置きます。
 
-Issue下書きは正式な設計決定ではありません。実際に採用する場合は、Issue、Proposal、Pull Request、Decisionの流れで扱います。
+Issue下書きは正式な設計決定ではありません。実際に採用する場合は、[Issue](https://github.com/acecore-systems/world-foundation/issues)、[Proposal](../../proposals/ja/README.md)、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls)、[Decision](../../decisions/ja/README.md) の流れで扱います。
 
 ## 位置づけ
 
@@ -21,4 +21,11 @@ flowchart LR
   PullRequest --> Docs
   Proposal --> Decision
   Decision --> Docs
+
+  click Draft "README.md" "Issue下書き"
+  click Issue "https://github.com/acecore-systems/world-foundation/issues" "GitHub Issues"
+  click Proposal "../../proposals/ja/README.md" "Proposal"
+  click PullRequest "https://github.com/acecore-systems/world-foundation/pulls" "Pull Request"
+  click Decision "../../decisions/ja/README.md" "Decision"
+  click Docs "../../docs/ja/README.md" "docs / modules"
 ```

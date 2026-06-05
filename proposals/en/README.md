@@ -21,6 +21,13 @@ flowchart LR
   PullRequest --> Docs
   Review --> Decision
   Decision --> Docs
+
+  click Issue "https://github.com/acecore-systems/world-foundation/issues" "GitHub Issues"
+  click Proposal "README.md" "Proposals"
+  click Review "../../docs/en/01-principles.md" "Review"
+  click PullRequest "https://github.com/acecore-systems/world-foundation/pulls" "GitHub Pull Requests"
+  click Docs "../../docs/en/README.md" "docs / modules"
+  click Decision "../../decisions/en/README.md" "Decisions"
 ```
 
 ## Scope

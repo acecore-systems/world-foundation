@@ -37,6 +37,7 @@ flowchart TB
   基盤 --> 連合
   基盤 --> 監査
 
+  click Foundation "../../docs/ja/00-vision.md" "協力基盤"
   click アイデンティティ "identity/README.md" "アイデンティティ"
   click 評判 "reputation/README.md" "評判"
   click 経済 "economy/README.md" "経済"

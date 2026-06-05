@@ -16,7 +16,7 @@ World Foundation Designは、特定の創設者、管理者、組織名、ブラ
 
 創設者は永久権限を持たない。
 
-創設者、初期管理者、初期メンテナーの発言や判断も、Issue、提案、Pull Request、意思決定によるレビュー対象とする。
+創設者、初期管理者、初期メンテナーの発言や判断も、[Issue](https://github.com/acecore-systems/world-foundation/issues)、[提案](../../proposals/ja/README.md)、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls)、[意思決定](README.md) によるレビュー対象とする。
 
 創設者を神格化しない。創設者名、初期コードネーム、初期組織を、世界設計そのものの中心に置かない。
 
@@ -54,7 +54,7 @@ World Foundation Designは、特定の創設者、管理者、組織名、ブラ
 
 ## 関連文書
 
-- `docs/ja/04-non-goals.md`
-- `docs/ja/05-threat-model.md`
-- `GOVERNANCE.md`
-- `CODE_OF_CONDUCT.md`
+- [docs/ja/04-non-goals.md](../../docs/ja/04-non-goals.md)
+- [docs/ja/05-threat-model.md](../../docs/ja/05-threat-model.md)
+- [GOVERNANCE.md](../../GOVERNANCE.md)
+- [CODE_OF_CONDUCT.md](../../CODE_OF_CONDUCT.md)

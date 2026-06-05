@@ -2,7 +2,7 @@
 
 このディレクトリには、次の作業者や次回Codexへ渡すための引継ぎ記録を置きます。
 
-引継ぎ書は設計本文ではありません。設計に反映する場合は、Issue、Proposal、Pull Request、Decisionの流れで扱います。
+引継ぎ書は設計本文ではありません。設計に反映する場合は、[Issue](https://github.com/acecore-systems/world-foundation/issues)、[Proposal](../../proposals/ja/README.md)、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls)、[Decision](../../decisions/ja/README.md) の流れで扱います。
 
 ## 位置づけ
 
@@ -20,4 +20,11 @@ flowchart LR
   Issue --> Proposal
   Proposal --> PullRequest
   Proposal --> Decision
+
+  click Work "../../README.md" "作業中の文脈"
+  click Handoff "README.md" "Handoff"
+  click Issue "https://github.com/acecore-systems/world-foundation/issues" "Issue"
+  click Proposal "../../proposals/ja/README.md" "Proposal"
+  click PullRequest "https://github.com/acecore-systems/world-foundation/pulls" "Pull Request"
+  click Decision "../../decisions/ja/README.md" "Decision"
 ```

@@ -4,7 +4,7 @@
 
 Prepare the repository, glossary, principles, and proposal process.
 
-Initial work should keep the repository simple: Markdown, YAML, Issues, Pull Requests, Proposals, and Decisions.
+Initial work should keep the repository simple: Markdown, YAML, [Issues](https://github.com/acecore-systems/world-foundation/issues), [Pull Requests](https://github.com/acecore-systems/world-foundation/pulls), [Proposals](../../proposals/en/README.md), and [Decisions](../../decisions/en/README.md).
 
 ### Completion Criteria
 
@@ -15,7 +15,7 @@ Initial work should keep the repository simple: Markdown, YAML, Issues, Pull Req
 - Code of Conduct and Safety Policy exist.
 - Initial module READMEs exist.
 - Founder non-privilege is recorded as a Decision.
-- Research Index and Issue Drafts exist.
+- [Research Index](../../research/en/index.md) and [Issue Drafts](../../meta/issue-drafts/README.md) exist.
 
 ## Phase 1: Initial Organization
 

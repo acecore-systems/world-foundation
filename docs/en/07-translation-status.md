@@ -22,7 +22,7 @@ Translation drift can weaken safety boundaries in Non-goals, Safety, Threat Mode
 - English documents are translated and updated by priority.
 - Non-goals, Safety, Threat Model, Code of Conduct, and important Decisions should receive early English review.
 - Terms should follow `glossary/terms.yml`.
-- Translation drift should be handled through Translation Issues.
+- Translation drift should be handled through [Translation Issues](https://github.com/acecore-systems/world-foundation/issues).
 - Safety boundaries should not be finalized through machine translation alone.
 
 ## Open Questions

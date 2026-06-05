@@ -26,8 +26,13 @@ flowchart LR
   Improvement --> Transparent
   Improvement --> Fair
 
+  click Useful "../../docs/ja/01-principles.md" "強制ではなく利便性"
+  click Transparent "../../modules/ja/audit/README.md" "透明性"
+  click Fair "../../modules/ja/governance/README.md" "公平性"
   click Voluntary "../../docs/ja/01-principles.md" "設計原則"
+  click Trust "../../modules/ja/reputation/README.md" "信頼"
   click Exit "../../docs/ja/01-principles.md" "離脱可能性"
   click Adoption "../../docs/ja/03-roadmap.md" "ロードマップ"
   click Feedback "../../docs/ja/05-threat-model.md" "脅威モデル"
+  click Improvement "../../proposals/ja/README.md" "改善提案"
 ```

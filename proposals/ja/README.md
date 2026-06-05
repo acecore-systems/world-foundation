@@ -21,6 +21,13 @@ flowchart LR
   PullRequest --> Docs
   Review --> 意思決定
   意思決定 --> Docs
+
+  click Issue "https://github.com/acecore-systems/world-foundation/issues" "GitHub Issues"
+  click 提案 "README.md" "提案"
+  click Review "../../docs/ja/01-principles.md" "レビュー観点"
+  click PullRequest "https://github.com/acecore-systems/world-foundation/pulls" "GitHub Pull Requests"
+  click Docs "../../docs/ja/README.md" "docs / modules"
+  click 意思決定 "../../decisions/ja/README.md" "意思決定"
 ```
 
 ## 扱う内容

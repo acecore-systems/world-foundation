@@ -94,7 +94,7 @@
 - 小さな生活支援や相互扶助の実験が記録される
 - ガバナンス上の権限と責任が明確になる
 - 英語を含む多言語参加の入口が整う
-- 批判やリスク指摘がIssueとして扱える
+- 批判やリスク指摘が [Issue](https://github.com/acecore-systems/world-foundation/issues) として扱える
 
 ## 最終的な方向性
 

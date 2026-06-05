@@ -35,6 +35,16 @@ flowchart TB
   Layers --> ロードマップ
   ロードマップ --> Adoption
   翻訳 --> ガバナンス
+
+  click Overview "00-world-design-overview.md" "全体像"
+  click Layers "01-cooperation-foundation-layers.md" "層構造"
+  click モジュール "02-module-relationships.md" "モジュール関係"
+  click ガバナンス "03-governance-process.md" "運用フロー"
+  click ロードマップ "04-transition-roadmap.md" "移行ロードマップ"
+  click 安全方針 "05-risk-and-safety-loops.md" "安全装置"
+  click 翻訳 "06-multilingual-document-flow.md" "翻訳フロー"
+  click LifeAccess "07-life-access-model.md" "生活アクセス"
+  click Adoption "08-non-coercive-adoption.md" "非強制の普及"
 ```
 
 ## 図表一覧
@@ -71,7 +81,7 @@ Mermaidは、GitHub上で表示でき、差分レビューしやすい初期形�
 
 リンクは、独立したリンク一覧として積み上げるのではなく、できる限り説明文、表、Mermaidの `click`、SVGノードの中へ埋め込みます。
 
-図と本文のどちらから読んでも同じ設計判断へ戻れるようにしますが、リンク集は索引ページや表が必要な場合だけにします。
+図と本文のどちらから読んでも同じ設計判断へ戻れるようにします。Mermaidを使う場合も、単なる挿絵にせず、ノードを対応する本文、図表、[Issue](https://github.com/acecore-systems/world-foundation/issues)、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls) へ接続します。リンク集は索引ページや表が必要な場合だけにします。
 
 ## 方針
 

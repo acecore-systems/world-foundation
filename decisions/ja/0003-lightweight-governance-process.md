@@ -12,15 +12,15 @@ Accepted
 
 ## 決定
 
-初期はIssue、提案、Pull Request、意思決定を使った軽量運用にする。
+初期は [Issue](https://github.com/acecore-systems/world-foundation/issues)、[提案](../../proposals/ja/README.md)、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls)、[意思決定](README.md) を使った軽量運用にする。
 
-小さな文章修正は直接Pull Requestでよい。重要な設計変更、安全境界、脅威モデル、モジュール責任範囲に影響する変更は提案を推奨する。
+小さな文章修正は直接 [Pull Request](https://github.com/acecore-systems/world-foundation/pulls) でよい。重要な設計変更、安全境界、脅威モデル、モジュール責任範囲に影響する変更は [提案](../../proposals/ja/README.md) を推奨する。
 
 ## 理由
 
 小さく始め、重要判断だけを記録し、必要に応じて制度を追加するため。
 
-制度を先に複雑にするより、実際のIssueとPull Requestを通じて必要な手続きを見極める。
+制度を先に複雑にするより、実際の [Issue](https://github.com/acecore-systems/world-foundation/issues) と [Pull Request](https://github.com/acecore-systems/world-foundation/pulls) を通じて必要な手続きを見極める。
 
 ## 影響
 

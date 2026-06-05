@@ -2,7 +2,7 @@
 
 World Foundation Designは、全ての人が好きなことに集中できる世界を目指すための、オープンな社会設計リポジトリです。
 
-このリポジトリでは、理想的な世界の思想、原則、アーキテクチャ、モジュール、提案、意思決定、調査資料を管理します。社会制度や協力基盤を、ソフトウェア設計と同じようにIssue、Pull Request、提案、意思決定、用語集、Moduleへ分解し、複数人でレビューできる形にします。
+このリポジトリでは、理想的な世界の思想、原則、アーキテクチャ、モジュール、提案、意思決定、調査資料を管理します。社会制度や協力基盤を、ソフトウェア設計と同じように [Issue](https://github.com/acecore-systems/world-foundation/issues)、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls)、[提案](proposals/ja/README.md)、[意思決定](decisions/ja/README.md)、[用語集](glossary/README.md)、[Module](modules/ja/README.md) へ分解し、複数人でレビューできる形にします。
 
 この設計は、特定の組織名やブランドを広めるためのものではありません。目的は、個人や組織が自由に参加し、協力し、離脱し、必要であればフォークできる協力基盤を設計することです。
 
@@ -32,6 +32,16 @@ flowchart TB
   ロードマップ --> 調査
   調査 -. "前提を検証" .-> 設計原則
   安全方針 -. "逸脱を防ぐ" .-> Operation
+
+  click Index "docs/ja/README.md" "基本設計"
+  click Goal "docs/ja/00-vision.md" "ビジョン"
+  click 設計原則 "docs/ja/01-principles.md" "設計原則"
+  click アーキテクチャ "docs/ja/02-architecture.md" "アーキテクチャ"
+  click モジュール "modules/ja/README.md" "モジュール"
+  click Operation "proposals/ja/README.md" "提案と運用"
+  click 安全方針 "docs/ja/05-threat-model.md" "脅威モデル"
+  click ロードマップ "docs/ja/03-roadmap.md" "ロードマップ"
+  click 調査 "research/ja/index.md" "調査索引"
 ```
 
 基本設計は [docs/ja/README.md](docs/ja/README.md) にまとめています。図表は [assets/diagrams/](assets/diagrams/) にあります。Mermaidが読みにくい場合は、[ビジュアルリンクマップ](assets/diagrams/visual-link-map.svg) から主要文書へ直接移動できます。
@@ -46,7 +56,7 @@ flowchart TB
 
 - 日本語ファーストで議論速度を保つ
 - 英語対応を最初から想定する
-- IssueとPull Requestによる設計レビューを行う
+- [Issue](https://github.com/acecore-systems/world-foundation/issues) と [Pull Request](https://github.com/acecore-systems/world-foundation/pulls) による設計レビューを行う
 - 用語集によって思想と表現の一貫性を保つ
 - モジュールごとに責任を分離する
 - 透明性、離脱可能性、フォーク可能性、腐敗耐性を重視する
@@ -56,10 +66,10 @@ flowchart TB
 
 問題提起、アイデア、提案、翻訳、調査、文章改善はすべて歓迎します。
 
-1. Issueで問題やアイデアを共有する
-2. 必要に応じて `proposals/` に提案を書く
-3. Pull Requestで変更をレビューする
-4. 重要な判断は `decisions/` に記録する
+1. [Issue](https://github.com/acecore-systems/world-foundation/issues) で問題やアイデアを共有する
+2. 必要に応じて [proposals/](proposals/ja/README.md) に提案を書く
+3. [Pull Request](https://github.com/acecore-systems/world-foundation/pulls) で変更をレビューする
+4. 重要な判断は [decisions/](decisions/ja/README.md) に記録する
 
 ## 公開サイト
 
@@ -69,16 +79,16 @@ Deploy Hook URLはCloudflare Pages側で作成し、このリポジトリのGitH
 
 ## ディレクトリ
 
-- `CODE_OF_CONDUCT.md`: 参加者の行動規範
-- `SAFETY.md`: 誤用・悪用を避けるための安全方針
-- `docs/`: 基本設計文書
-- `modules/`: 機能ごとの設計メモ
-- `glossary/`: 用語集
-- `proposals/`: 設計変更や新しい仕組みの提案
-- `decisions/`: 重要な意思決定の記録
-- `research/`: 関連する調査資料
-- `assets/`: 図表や説明用素材
-- `meta/`: 初期生成プロンプトなど、設計本文ではない運用記録
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md): 参加者の行動規範
+- [SAFETY.md](SAFETY.md): 誤用・悪用を避けるための安全方針
+- [docs/](docs/ja/README.md): 基本設計文書
+- [modules/](modules/ja/README.md): 機能ごとの設計メモ
+- [glossary/](glossary/README.md): 用語集
+- [proposals/](proposals/ja/README.md): 設計変更や新しい仕組みの提案
+- [decisions/](decisions/ja/README.md): 重要な意思決定の記録
+- [research/](research/ja/README.md): 関連する調査資料
+- [assets/](assets/diagrams/README.md): 図表や説明用素材
+- [meta/issue-drafts/](meta/issue-drafts/README.md) / [meta/handoffs/](meta/handoffs/README.md): 初期生成プロンプトなど、設計本文ではない運用記録
 
 `docs/` にはビジョン、設計原則、アーキテクチャ、ロードマップ、対象外、脅威モデル、生活アクセスの持続可能性、翻訳ステータスを置きます。
 
@@ -86,7 +96,7 @@ Deploy Hook URLはCloudflare Pages側で作成し、このリポジトリのGitH
 
 `research/` には調査メモと調査索引を置きます。
 
-`meta/issue-drafts/` には、GitHub Issueとして作成する前の下書きを置きます。
+`meta/issue-drafts/` には、[GitHub Issue](https://github.com/acecore-systems/world-foundation/issues) として作成する前の下書きを置きます。
 
 `meta/handoffs/` には、次回作業へ渡す引継ぎ記録を置きます。
 

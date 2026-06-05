@@ -38,6 +38,7 @@ flowchart TB
   調査 -. "前提を検証" .-> 設計原則
   安全方針 -. "逸脱を防ぐ" .-> Operation
 
+  click Index "README.md" "設計文書"
   click ビジョン "00-vision.md" "ビジョン"
   click 設計原則 "01-principles.md" "設計原則"
   click アーキテクチャ "02-architecture.md" "アーキテクチャ"

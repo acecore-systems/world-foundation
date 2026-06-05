@@ -22,18 +22,25 @@ flowchart LR
   Review --> Terms
   Review --> 意思決定
   意思決定 --> Terms
+
+  click JA "../docs/ja/README.md" "日本語文書"
+  click Terms "terms.yml" "共通用語"
+  click EN "../docs/en/README.md" "英語文書"
+  click Docs "../docs/ja/README.md" "docs / modules / proposals / decisions"
+  click Review "../docs/ja/07-translation-status.md" "レビュー"
+  click 意思決定 "../decisions/ja/README.md" "意思決定"
 ```
 
 ## 方針
 
 - `terms.yml` に全言語の用語をまとめる
-- 用語の追加・変更はPull Requestでレビューする
+- 用語の追加・変更は [Pull Request](https://github.com/acecore-systems/world-foundation/pulls) でレビューする
 - 支配、強制、過度な対立、一元的な統制主体のように見える表現を避ける
 - 重要な用語変更は必要に応じて `decisions/` に記録する
 - 用語追加時は重複IDを作らない
 - 重要用語には `description` を必ず付ける
 - 用語変更が思想や安全境界に影響する場合は意思決定へ記録する
-- 翻訳が不確かな場合は翻訳 Issueを作る
+- 翻訳が不確かな場合は [翻訳 Issue](https://github.com/acecore-systems/world-foundation/issues) を作る
 
 ## 用語形式
 

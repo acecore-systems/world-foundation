@@ -28,4 +28,4 @@ Proposed / Accepted / Rejected / Superseded
 
 ## Alternatives Considered
 
-## Related Proposals or Issues
+## Related [Proposals](../proposals/ja/README.md) or [Issues](https://github.com/acecore-systems/world-foundation/issues)

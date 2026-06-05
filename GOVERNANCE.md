@@ -14,9 +14,9 @@
 
 ## 意思決定
 
-通常の変更はPull Requestで行います。
+通常の変更は [Pull Request](https://github.com/acecore-systems/world-foundation/pulls) で行います。
 
-思想、原則、アーキテクチャ、モジュール責任、用語定義に関わる重要な変更は、提案を作成し、レビュー後に意思決定として記録します。
+思想、原則、アーキテクチャ、モジュール責任、用語定義に関わる重要な変更は、[提案](proposals/ja/README.md) を作成し、レビュー後に [意思決定](decisions/ja/README.md) として記録します。
 
 ## 管理者の役割
 
@@ -28,8 +28,8 @@
 
 この世界設計は完成物ではなく、継続的に改善されるものです。
 
-腐敗、停滞、権限集中、透明性の不足が見つかった場合は、Issue、提案、Pull Requestを通じて修正します。必要であれば、フォーク可能性を保つことも重要な安全装置として扱います。
+腐敗、停滞、権限集中、透明性の不足が見つかった場合は、[Issue](https://github.com/acecore-systems/world-foundation/issues)、[提案](proposals/ja/README.md)、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls) を通じて修正します。必要であれば、[フォーク可能性](docs/ja/01-principles.md) を保つことも重要な安全装置として扱います。
 
 ## 将来の方針
 
-貢献者が増えた場合、メンテナー制度、レビュー権限、投票制度、意思決定 Processを段階的に整備します。
+貢献者が増えた場合、[ガバナンスモジュール](modules/ja/governance/README.md) に接続しながら、メンテナー制度、レビュー権限、投票制度、意思決定 Processを段階的に整備します。

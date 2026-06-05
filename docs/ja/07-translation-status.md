@@ -22,7 +22,7 @@ World Foundation Designは日本語ファーストで始めますが、将来的
 - 英語版は重要文書から順に翻訳・更新する
 - 対象外、安全方針、脅威モデル、行動規範、重要意思決定は優先的に英語レビューする
 - 用語は `glossary/terms.yml` を参照する
-- 翻訳差分や意味のずれは翻訳 Issueで扱う
+- 翻訳差分や意味のずれは [翻訳 Issue](https://github.com/acecore-systems/world-foundation/issues) で扱う
 - 自動翻訳だけで安全境界を確定しない
 
 ## 初期ステータス表

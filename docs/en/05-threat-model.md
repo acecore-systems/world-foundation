@@ -24,7 +24,7 @@ Mitigations: explicit authority, decision logs, conflict-of-interest disclosure,
 
 ## Maintainer Corruption
 
-Maintainers may use review, merge, issue management, or moderation powers arbitrarily.
+Maintainers may use review, merge, [issue management](https://github.com/acecore-systems/world-foundation/issues), or moderation powers arbitrarily.
 
 Mitigations: recorded decisions, appeals, multiple reviewers, reviewable maintainer rules.
 
@@ -104,13 +104,13 @@ Mitigations: data portability, backups, decentralization, log boundaries, altern
 
 Translations may change voluntary and non-coercive ideas into controlling or hostile language.
 
-Mitigations: single Glossary, Translation Issues, status tracking, review of important Decisions.
+Mitigations: single Glossary, [Translation Issues](https://github.com/acecore-systems/world-foundation/issues), status tracking, review of important Decisions.
 
 ## Unnecessary Hostility Toward States or Society
 
 Language may become provocative rather than focused on gradual dependency reduction.
 
-Mitigations: Safety, Non-goals, PR checks, legal connection principles, wording review.
+Mitigations: Safety, Non-goals, [PR checks](https://github.com/acecore-systems/world-foundation/pulls), legal connection principles, wording review.
 
 ## External Capture
 
@@ -122,7 +122,7 @@ Mitigations: conflict-of-interest disclosure, role separation, Decision Logs, ma
 
 Personal attacks, spam, provocation, or unstructured abstraction can make review impossible.
 
-Mitigations: Code of Conduct, issue templates, topic decomposition, recorded moderation.
+Mitigations: Code of Conduct, [issue templates](https://github.com/acecore-systems/world-foundation/tree/main/.github/ISSUE_TEMPLATE), topic decomposition, recorded moderation.
 
 ## Mission Drift
 

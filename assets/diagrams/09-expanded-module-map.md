@@ -39,6 +39,7 @@ flowchart TB
   基盤 --> 監査
   基盤 --> 連合
 
+  click People "../../docs/ja/00-vision.md" "個人 / 組織 / 地域"
   click 連合 "../../modules/ja/federation/README.md" "連合"
   click アイデンティティ "../../modules/ja/identity/README.md" "アイデンティティ"
   click 評判 "../../modules/ja/reputation/README.md" "評判"

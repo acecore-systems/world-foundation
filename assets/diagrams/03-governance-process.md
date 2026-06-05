@@ -1,6 +1,6 @@
 # ガバナンスプロセス
 
-この図は、Issueから [提案](../../proposals/ja/README.md)、Pull Request、[意思決定](../../decisions/ja/README.md) までの初期運用フローです。変更前に [対象外](../../docs/ja/04-non-goals.md)、[安全方針](../../SAFETY.md)、[脅威モデル](../../docs/ja/05-threat-model.md) を通す流れを含めます。
+この図は、[Issue](https://github.com/acecore-systems/world-foundation/issues) から [提案](../../proposals/ja/README.md)、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls)、[意思決定](../../decisions/ja/README.md) までの初期運用フローです。変更前に [対象外](../../docs/ja/04-non-goals.md)、[安全方針](../../SAFETY.md)、[脅威モデル](../../docs/ja/05-threat-model.md) を通す流れを含めます。
 
 ```mermaid
 flowchart TD
@@ -35,10 +35,17 @@ flowchart TD
   Reopen --> Rollback
   Rollback --> Review
 
+  click Idea "https://github.com/acecore-systems/world-foundation/issues" "Idea Issue"
+  click Problem "https://github.com/acecore-systems/world-foundation/issues" "Problem Issue"
+  click 翻訳 "https://github.com/acecore-systems/world-foundation/issues" "翻訳 Issue"
   click NonGoals "../../docs/ja/04-non-goals.md" "対象外"
   click 安全方針 "../../SAFETY.md" "安全方針"
   click Threat "../../docs/ja/05-threat-model.md" "脅威モデル"
   click 提案 "../../proposals/ja/README.md" "提案"
+  click PullRequest "https://github.com/acecore-systems/world-foundation/pulls" "Pull Request"
+  click Review "../../docs/ja/01-principles.md" "レビュー観点"
   click 意思決定 "../../decisions/ja/README.md" "意思決定"
   click Docs "../../docs/ja/README.md" "docs / modules / glossary"
+  click Reopen "https://github.com/acecore-systems/world-foundation/issues" "再検討 / 異議申し立て"
+  click Rollback "../../assets/diagrams/05-risk-and-safety-loops.md" "Rollback"
 ```

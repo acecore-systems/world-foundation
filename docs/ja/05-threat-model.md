@@ -65,7 +65,7 @@
 
 ### 内容
 
-管理者がレビュー、マージ、Issue整理、参加制限を恣意的に使う。
+管理者がレビュー、マージ、[Issue](https://github.com/acecore-systems/world-foundation/issues) 整理、参加制限を恣意的に使う。
 
 ### 発生しやすい条件
 
@@ -77,7 +77,7 @@
 
 ### 緩和策
 
-管理者判断の記録、Issueでの異議申し立て、複数レビュアー、任期・停止・移譲ルールの提案化。
+管理者判断の記録、[Issue](https://github.com/acecore-systems/world-foundation/issues) での異議申し立て、複数レビュアー、任期・停止・移譲ルールの提案化。
 
 ## 創設者の神格化
 
@@ -113,7 +113,7 @@
 
 ### 緩和策
 
-対象外、行動規範、外部批判のIssue化、離脱可能性、生活支援と思想の分離。
+対象外、行動規範、外部批判の [Issue](https://github.com/acecore-systems/world-foundation/issues) 化、離脱可能性、生活支援と思想の分離。
 
 ## 透明性の低下
 
@@ -311,7 +311,7 @@
 
 ### 緩和策
 
-単一用語集、翻訳 Issue、翻訳ステータス、重要意思決定の翻訳レビュー。
+単一用語集、[翻訳 Issue](https://github.com/acecore-systems/world-foundation/issues)、翻訳ステータス、重要意思決定の翻訳レビュー。
 
 ## 国家や社会との不要な敵対
 
@@ -329,7 +329,7 @@
 
 ### 緩和策
 
-安全方針、対象外、PRチェック、法制度との接続方針、表現レビュー。
+安全方針、対象外、[PRチェック](https://github.com/acecore-systems/world-foundation/pulls)、法制度との接続方針、表現レビュー。
 
 ## 外部からの乗っ取り
 
@@ -357,7 +357,7 @@
 
 ### 発生しやすい条件
 
-行動規範がない、Issue整理がない、論点が分解されない。
+行動規範がない、[Issue](https://github.com/acecore-systems/world-foundation/issues) 整理がない、論点が分解されない。
 
 ### 影響
 
@@ -365,7 +365,7 @@
 
 ### 緩和策
 
-行動規範、Issueテンプレート、論点分解、管理者対応の記録。
+行動規範、[Issueテンプレート](https://github.com/acecore-systems/world-foundation/tree/main/.github/ISSUE_TEMPLATE)、論点分解、管理者対応の記録。
 
 ## 目的の形骸化
 

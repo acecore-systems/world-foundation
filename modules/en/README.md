@@ -36,6 +36,19 @@ flowchart TB
   Federation --> Audit
   Infrastructure --> Federation
   Infrastructure --> Audit
+
+  click Foundation "../../docs/en/00-vision.md" "Cooperation infrastructure"
+  click Identity "identity/README.md" "Identity"
+  click Reputation "reputation/README.md" "Reputation"
+  click Economy "economy/README.md" "Economy"
+  click Welfare "welfare/README.md" "Welfare"
+  click Governance "governance/README.md" "Governance"
+  click Arbitration "arbitration/README.md" "Arbitration"
+  click Infrastructure "infrastructure/README.md" "Infrastructure"
+  click Audit "audit/README.md" "Audit"
+  click Norms "norms/README.md" "Norms"
+  click PublicSafety "public-safety/README.md" "Public Safety"
+  click Federation "federation/README.md" "Federation"
 ```
 
 ## Module List

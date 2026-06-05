@@ -35,6 +35,18 @@ flowchart TB
   Translation --> Operation
   Research -. "checks assumptions" .-> Principles
   Safety -. "prevents drift" .-> Operation
+
+  click Index "README.md" "Design documents"
+  click Vision "00-vision.md" "Vision"
+  click Principles "01-principles.md" "Principles"
+  click Architecture "02-architecture.md" "Architecture"
+  click Modules "../../modules/en/README.md" "Modules"
+  click Safety "05-threat-model.md" "Threat model"
+  click Operation "../../proposals/en/README.md" "Operation"
+  click Roadmap "03-roadmap.md" "Roadmap"
+  click LifeAccess "06-life-access-sustainability.md" "Life access"
+  click Translation "07-translation-status.md" "Translation"
+  click Research "../../research/en/index.md" "Research"
 ```
 
 ## Detail Paths

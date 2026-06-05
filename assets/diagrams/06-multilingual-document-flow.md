@@ -27,5 +27,6 @@ flowchart TD
   click 提案 "../../proposals/ja/README.md" "提案"
   click 意思決定 "../../decisions/ja/README.md" "意思決定"
   click EN "../../docs/en/README.md" "英語文書"
+  click 翻訳Issue "https://github.com/acecore-systems/world-foundation/issues" "翻訳 Issue"
   click Review "../../docs/ja/07-translation-status.md" "翻訳ステータス"
 ```

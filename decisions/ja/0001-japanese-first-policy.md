@@ -12,7 +12,7 @@ Accepted
 
 ## 決定
 
-初期正本は日本語とする。英語版は重要文書から順に翻訳・更新する。Issueや提案は日本語で作成してよい。
+初期正本は日本語とする。英語版は重要文書から順に翻訳・更新する。[Issue](https://github.com/acecore-systems/world-foundation/issues) や [提案](../../proposals/ja/README.md) は日本語で作成してよい。
 
 `Acecore` は初期コードネームとして扱い、リポジトリの中心主語は特定名称ではなく「理想的な世界の設計」そのものに置く。
 
@@ -24,7 +24,7 @@ Accepted
 
 ## 影響
 
-英語版は一時的に要約や遅延翻訳になる可能性がある。翻訳差分は翻訳 Issueで扱う。
+英語版は一時的に要約や遅延翻訳になる可能性がある。翻訳差分は [翻訳 Issue](https://github.com/acecore-systems/world-foundation/issues) で扱う。
 
 重要な意思決定、対象外、安全方針、脅威モデルは、国際参加に影響するため優先的に英語化する。
 

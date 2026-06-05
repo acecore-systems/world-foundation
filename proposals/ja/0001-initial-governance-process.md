@@ -2,7 +2,7 @@
 
 ## 概要
 
-World Foundation Designの初期運営では、Issue、提案、Pull Request、Review、Merge、意思決定、必要に応じたReviewまたはRollbackを使った軽量なガバナンスプロセスを採用する。
+World Foundation Designの初期運営では、[Issue](https://github.com/acecore-systems/world-foundation/issues)、[提案](README.md)、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls)、Review、Merge、[意思決定](../../decisions/ja/README.md)、必要に応じたReviewまたはRollbackを使った軽量なガバナンスプロセスを採用する。
 
 初期段階では参加者数が少ないため、過剰な投票制度や複雑な承認フローは導入しない。ただし、重要な判断理由は記録し、後から検証・改善・フォークできる状態を保つ。
 
@@ -28,31 +28,42 @@ World Foundation Designの初期運営では、Issue、提案、Pull Request、R
 
 初期ガバナンスプロセスとして、次の運用を採用する。
 
-```txt
-Issue
-↓
-必要なら提案
-↓
-Pull Request
-↓
-Review
-↓
-Merge
-↓
-重要判断は意思決定へ記録
-↓
-必要なら後日ReviewまたはRollback
+```mermaid
+flowchart TB
+  Issue["Issue"]
+  Proposal["必要なら提案"]
+  PullRequest["Pull Request"]
+  Review["Review"]
+  Merge["Merge"]
+  Decision["重要判断は意思決定へ記録"]
+  Revisit["必要なら後日ReviewまたはRollback"]
+
+  Issue --> Proposal
+  Proposal --> PullRequest
+  PullRequest --> Review
+  Review --> Merge
+  Merge --> Decision
+  Decision --> Revisit
+  Revisit -. "再検討" .-> Issue
+
+  click Issue "https://github.com/acecore-systems/world-foundation/issues" "GitHub Issues"
+  click Proposal "README.md" "提案"
+  click PullRequest "https://github.com/acecore-systems/world-foundation/pulls" "GitHub Pull Requests"
+  click Review "../../assets/diagrams/03-governance-process.md" "ガバナンスプロセス"
+  click Merge "https://github.com/acecore-systems/world-foundation/pulls" "Merge"
+  click Decision "../../decisions/ja/README.md" "意思決定"
+  click Revisit "../../assets/diagrams/05-risk-and-safety-loops.md" "安全性のループ"
 ```
 
 ## 変更の種類
 
 ### 1. 軽微な変更
 
-誤字修正、リンク修正、表現の明確化、構造を変えない補足などは、Pull Requestで直接提案できる。
+誤字修正、リンク修正、表現の明確化、構造を変えない補足などは、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls) で直接提案できる。
 
 ### 2. 通常の設計変更
 
-docs、modules、glossary、researchの内容を変更する場合は、Pull Requestで提案し、レビューで理由と影響を確認する。
+[docs](../../docs/ja/README.md)、[modules](../../modules/ja/README.md)、[glossary](../../glossary/README.md)、[research](../../research/ja/README.md) の内容を変更する場合は、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls) で提案し、レビューで理由と影響を確認する。
 
 ### 3. 重要な設計変更
 
@@ -83,11 +94,11 @@ docs、modules、glossary、researchの内容を変更する場合は、Pull Req
 - 提案: 設計変更の提案
 - 翻訳: 翻訳、用語、多言語対応
 
-Issueは必ずしも完成された提案である必要はない。違和感、懸念、未整理の問いも歓迎する。
+[Issue](https://github.com/acecore-systems/world-foundation/issues) は必ずしも完成された提案である必要はない。違和感、懸念、未整理の問いも歓迎する。
 
 ## Pull Requestの使い方
 
-Pull Requestでは、次の観点を確認する。
+[Pull Request](https://github.com/acecore-systems/world-foundation/pulls) では、次の観点を確認する。
 
 - 特定名称や組織を一元的な統制主体のように見せていないか
 - 自由参加、離脱可能性、透明性に反していないか
@@ -98,7 +109,7 @@ Pull Requestでは、次の観点を確認する。
 - 重大なリスクがある場合、脅威モデルを更新したか
 - 後から問題が出た場合のRollback Planを確認したか
 - 日本語正本と英語版の関係を壊していないか
-- 翻訳に影響する場合、翻訳 Issueを作る必要があるか
+- 翻訳に影響する場合、[翻訳 Issue](https://github.com/acecore-systems/world-foundation/issues) を作る必要があるか
 - 重要な判断が意思決定として残されるべきか
 
 ## 初期メンテナーの役割
@@ -107,7 +118,7 @@ Pull Requestでは、次の観点を確認する。
 
 主な役割は次の通り。
 
-- IssueとPull Requestの整理
+- [Issue](https://github.com/acecore-systems/world-foundation/issues) と [Pull Request](https://github.com/acecore-systems/world-foundation/pulls) の整理
 - 明らかな荒らしやスパムへの対応
 - 用語の一貫性確認
 - 重要な判断の意思決定化の促進
@@ -116,13 +127,13 @@ Pull Requestでは、次の観点を確認する。
 
 ## 影響する文書・モジュール
 
-- `GOVERNANCE.md`
-- `CONTRIBUTING.md`
-- `.github/ISSUE_TEMPLATE/`
-- `.github/PULL_REQUEST_TEMPLATE.md`
-- `proposals/`
-- `decisions/`
-- `modules/ja/governance/README.md`
+- [GOVERNANCE.md](../../GOVERNANCE.md)
+- [CONTRIBUTING.md](../../CONTRIBUTING.md)
+- [.github/ISSUE_TEMPLATE/](https://github.com/acecore-systems/world-foundation/tree/main/.github/ISSUE_TEMPLATE)
+- [.github/PULL_REQUEST_TEMPLATE.md](https://github.com/acecore-systems/world-foundation/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
+- [proposals/](README.md)
+- [decisions/](../../decisions/ja/README.md)
+- [modules/ja/governance/README.md](../../modules/ja/governance/README.md)
 
 ## 利点
 
@@ -171,4 +182,4 @@ Pull Requestでは、次の観点を確認する。
 
 ## 関連Issue
 
-- #5
+- [#5](https://github.com/acecore-systems/world-foundation/issues/5)

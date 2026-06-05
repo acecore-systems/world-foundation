@@ -28,8 +28,12 @@ flowchart TB
   Review --> 経済
   Review --> Commons
 
+  click Needs "../../docs/ja/06-life-access-sustainability.md" "生活上の必要"
   click 福祉 "../../modules/ja/welfare/README.md" "福祉"
   click 経済 "../../modules/ja/economy/README.md" "経済"
+  click Commons "../../docs/ja/06-life-access-sustainability.md" "共有資源"
+  click Providers "../../modules/ja/README.md" "提供者"
   click Access "../../docs/ja/06-life-access-sustainability.md" "生活アクセスの持続可能性"
   click Safeguards "../../docs/ja/05-threat-model.md" "脅威モデル"
+  click Review "../../assets/diagrams/05-risk-and-safety-loops.md" "レビューと改善"
 ```

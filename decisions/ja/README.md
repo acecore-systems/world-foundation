@@ -17,6 +17,11 @@ flowchart LR
   意思決定 --> Docs
   意思決定 --> Future
   Future --> Context
+
+  click Context "../../proposals/ja/README.md" "Issue / 提案 / Review"
+  click 意思決定 "README.md" "意思決定"
+  click Docs "../../docs/ja/README.md" "docs / modules"
+  click Future "https://github.com/acecore-systems/world-foundation/issues" "再検討・更新・撤回"
 ```
 
 ## 書くべきもの
