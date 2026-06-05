@@ -1,31 +1,31 @@
-# Multilingual Document Flow
+# 多言語ドキュメント運用
 
-この図は、[docs/ja](../../docs/ja/README.md) を初期正本とし、[glossary/terms.yml](../../glossary/terms.yml) を通して [docs/en](../../docs/en/README.md) へ反映する流れです。翻訳状態の管理は [Translation Status](../../docs/ja/07-translation-status.md) に置きます。
+この図は、[docs/ja](../../docs/ja/README.md) を初期正本とし、[glossary/terms.yml](../../glossary/terms.yml) を通して [docs/en](../../docs/en/README.md) へ反映する流れです。翻訳状態の管理は [翻訳ステータス](../../docs/ja/07-translation-status.md) に置きます。
 
 ```mermaid
 flowchart TD
   JA["docs/ja<br/>初期正本"]
-  Glossary["glossary/terms.yml<br/>日英共通用語"]
-  Proposal["Proposal<br/>必要に応じて日本語から開始"]
-  Decision["Decision<br/>重要判断を記録"]
+  用語集["glossary/terms.yml<br/>日英共通用語"]
+  提案["提案<br/>必要に応じて日本語から開始"]
+  意思決定["意思決定<br/>重要判断を記録"]
   EN["docs/en<br/>英語版"]
-  TranslationIssue["Translation Issue<br/>翻訳・用語の揺れ"]
+  翻訳Issue["翻訳 Issue<br/>翻訳・用語の揺れ"]
   Review["翻訳レビュー"]
 
-  JA --> Glossary
-  JA --> Proposal
-  Proposal --> Decision
-  Decision --> EN
-  Glossary --> EN
-  EN --> TranslationIssue
-  TranslationIssue --> Review
+  JA --> 用語集
+  JA --> 提案
+  提案 --> 意思決定
+  意思決定 --> EN
+  用語集 --> EN
+  EN --> 翻訳Issue
+  翻訳Issue --> Review
   Review --> EN
-  Review --> Glossary
+  Review --> 用語集
 
-  click JA "../../docs/ja/README.md" "Japanese docs"
-  click Glossary "../../glossary/README.md" "Glossary"
-  click Proposal "../../proposals/ja/README.md" "Proposals"
-  click Decision "../../decisions/ja/README.md" "Decisions"
-  click EN "../../docs/en/README.md" "English docs"
-  click Review "../../docs/ja/07-translation-status.md" "Translation Status"
+  click JA "../../docs/ja/README.md" "日本語文書"
+  click 用語集 "../../glossary/README.md" "用語集"
+  click 提案 "../../proposals/ja/README.md" "提案"
+  click 意思決定 "../../decisions/ja/README.md" "意思決定"
+  click EN "../../docs/en/README.md" "英語文書"
+  click Review "../../docs/ja/07-translation-status.md" "翻訳ステータス"
 ```

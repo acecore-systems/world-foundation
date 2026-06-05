@@ -1,58 +1,58 @@
-# Cooperation Foundation Layers
+# 協力基盤の階層
 
-この図は、[Architecture](../../docs/ja/02-architecture.md) で説明する協力基盤を層として分けるための初期モデルです。各層の詳細は [modules/ja](../../modules/ja/README.md) に置き、責任侵食のリスクは [Threat Model](../../docs/ja/05-threat-model.md) で扱います。
+この図は、[アーキテクチャ](../../docs/ja/02-architecture.md) で説明する協力基盤を層として分けるための初期モデルです。各層の詳細は [modules/ja](../../modules/ja/README.md) に置き、責任侵食のリスクは [脅威モデル](../../docs/ja/05-threat-model.md) で扱います。
 
 ```mermaid
 flowchart TB
   People["個人 / 組織 / 地域"]
   Interface["参加・離脱・多重所属"]
-  Identity["Identity<br/>本人性・所属・権限"]
-  Reputation["Reputation<br/>信用・貢献・履歴"]
-  Economy["Economy<br/>価値交換・生活アクセス"]
-  Welfare["Welfare<br/>生存不安を減らす支援"]
-  Governance["Governance<br/>意思決定・権限管理"]
-  Arbitration["Arbitration<br/>紛争解決・異議申し立て"]
-  Infrastructure["Infrastructure<br/>通信・計算・生活基盤"]
-  Audit["Audit<br/>監査・ログ・透明性"]
-  Norms["Norms<br/>ルール・権利・義務"]
-  PublicSafety["Public Safety<br/>暴力予防・通報"]
-  Federation["Federation<br/>組織間プロトコル"]
+  アイデンティティ["アイデンティティ<br/>本人性・所属・権限"]
+  評判["評判<br/>信用・貢献・履歴"]
+  経済["経済<br/>価値交換・生活アクセス"]
+  福祉["福祉<br/>生存不安を減らす支援"]
+  ガバナンス["ガバナンス<br/>意思決定・権限管理"]
+  仲裁["仲裁<br/>紛争解決・異議申し立て"]
+  基盤["基盤<br/>通信・計算・生活基盤"]
+  監査["監査<br/>監査・ログ・透明性"]
+  規範["規範<br/>ルール・権利・義務"]
+  PublicSafety["公共安全<br/>暴力予防・通報"]
+  連合["連合<br/>組織間プロトコル"]
 
   People --> Interface
-  Interface --> Identity
-  Identity --> Reputation
-  Reputation --> Economy
-  Economy --> Welfare
-  Governance --> Identity
-  Governance --> Economy
-  Governance --> Welfare
-  Norms --> Governance
-  Norms --> Arbitration
-  Arbitration --> Governance
-  Arbitration --> Economy
-  PublicSafety --> Arbitration
-  PublicSafety --> Norms
-  Federation --> Identity
-  Federation --> Reputation
-  Federation --> Audit
-  Infrastructure --> Identity
-  Infrastructure --> Governance
-  Infrastructure --> Economy
-  Infrastructure --> Federation
-  Audit --> Governance
-  Audit --> Economy
-  Audit --> Arbitration
-  Audit --> Reputation
+  Interface --> アイデンティティ
+  アイデンティティ --> 評判
+  評判 --> 経済
+  経済 --> 福祉
+  ガバナンス --> アイデンティティ
+  ガバナンス --> 経済
+  ガバナンス --> 福祉
+  規範 --> ガバナンス
+  規範 --> 仲裁
+  仲裁 --> ガバナンス
+  仲裁 --> 経済
+  PublicSafety --> 仲裁
+  PublicSafety --> 規範
+  連合 --> アイデンティティ
+  連合 --> 評判
+  連合 --> 監査
+  基盤 --> アイデンティティ
+  基盤 --> ガバナンス
+  基盤 --> 経済
+  基盤 --> 連合
+  監査 --> ガバナンス
+  監査 --> 経済
+  監査 --> 仲裁
+  監査 --> 評判
 
-  click Identity "../../modules/ja/identity/README.md" "Identity"
-  click Reputation "../../modules/ja/reputation/README.md" "Reputation"
-  click Economy "../../modules/ja/economy/README.md" "Economy"
-  click Welfare "../../modules/ja/welfare/README.md" "Welfare"
-  click Governance "../../modules/ja/governance/README.md" "Governance"
-  click Arbitration "../../modules/ja/arbitration/README.md" "Arbitration"
-  click Infrastructure "../../modules/ja/infrastructure/README.md" "Infrastructure"
-  click Audit "../../modules/ja/audit/README.md" "Audit"
-  click Norms "../../modules/ja/norms/README.md" "Norms"
-  click PublicSafety "../../modules/ja/public-safety/README.md" "Public Safety"
-  click Federation "../../modules/ja/federation/README.md" "Federation"
+  click アイデンティティ "../../modules/ja/identity/README.md" "アイデンティティ"
+  click 評判 "../../modules/ja/reputation/README.md" "評判"
+  click 経済 "../../modules/ja/economy/README.md" "経済"
+  click 福祉 "../../modules/ja/welfare/README.md" "福祉"
+  click ガバナンス "../../modules/ja/governance/README.md" "ガバナンス"
+  click 仲裁 "../../modules/ja/arbitration/README.md" "仲裁"
+  click 基盤 "../../modules/ja/infrastructure/README.md" "基盤"
+  click 監査 "../../modules/ja/audit/README.md" "監査"
+  click 規範 "../../modules/ja/norms/README.md" "規範"
+  click PublicSafety "../../modules/ja/public-safety/README.md" "公共安全"
+  click 連合 "../../modules/ja/federation/README.md" "連合"
 ```

@@ -1,6 +1,6 @@
-# Non-coercive Adoption
+# 非強制的な導入
 
-この図は、[Principles](../../docs/ja/01-principles.md) の「強制ではなく利便性」を、[Roadmap](../../docs/ja/03-roadmap.md) 上の普及モデルとして表したものです。便利さが実質的強制へ変わるリスクは [Threat Model](../../docs/ja/05-threat-model.md) で確認します。
+この図は、[設計原則](../../docs/ja/01-principles.md) の「強制ではなく利便性」を、[ロードマップ](../../docs/ja/03-roadmap.md) 上の普及モデルとして表したものです。便利さが実質的強制へ変わるリスクは [脅威モデル](../../docs/ja/05-threat-model.md) で確認します。
 
 ```mermaid
 flowchart LR
@@ -26,8 +26,8 @@ flowchart LR
   Improvement --> Transparent
   Improvement --> Fair
 
-  click Voluntary "../../docs/ja/01-principles.md" "Principles"
-  click Exit "../../docs/ja/01-principles.md" "Exit capability"
-  click Adoption "../../docs/ja/03-roadmap.md" "Roadmap"
-  click Feedback "../../docs/ja/05-threat-model.md" "Threat Model"
+  click Voluntary "../../docs/ja/01-principles.md" "設計原則"
+  click Exit "../../docs/ja/01-principles.md" "離脱可能性"
+  click Adoption "../../docs/ja/03-roadmap.md" "ロードマップ"
+  click Feedback "../../docs/ja/05-threat-model.md" "脅威モデル"
 ```

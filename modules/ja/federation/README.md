@@ -1,8 +1,8 @@
-# Federation Module
+# 連合モジュール
 
 ## 目的
 
-Federation Moduleは、複数の自律組織が共通プロトコルで協力するための連盟設計を扱います。[Architecture](../../../docs/ja/02-architecture.md) と [Roadmap](../../../docs/ja/03-roadmap.md) では、単一支配ではなく相互接続のための層として扱います。
+連合モジュールは、複数の自律組織が共通プロトコルで協力するための連盟設計を扱います。[アーキテクチャ](../../../docs/ja/02-architecture.md) と [ロードマップ](../../../docs/ja/03-roadmap.md) では、単一支配ではなく相互接続のための層として扱います。
 
 連盟は中央政府や単一支配組織ではありません。各組織の自治、離脱可能性、フォーク可能性、多重所属を保ちながら相互接続するための仕組みです。
 
@@ -22,10 +22,10 @@ Federation Moduleは、複数の自律組織が共通プロトコルで協力す
 - 組織ごとの自治
 - 共通プロトコル準拠
 - フォーク時の互換性
-- Reputationの組織間共有方針
-- Auditの組織間検証方針
-- Arbitrationの組織間接続
-- Federationからの離脱
+- 評判の組織間共有方針
+- 監査の組織間検証方針
+- 仲裁の組織間接続
+- 連合からの離脱
 - 連盟標準と地域差の両立
 
 ## 責任範囲外
@@ -40,12 +40,12 @@ Federation Moduleは、複数の自律組織が共通プロトコルで協力す
 
 ## 他モジュールとの関係
 
-- [Identity](../identity/README.md): 組織ID、所属、権限を扱う
-- [Reputation](../reputation/README.md): 組織間の信用を扱う
-- [Audit](../audit/README.md): 組織間検証と透明性を扱う
-- [Arbitration](../arbitration/README.md): 組織間紛争を扱う
-- [Norms](../norms/README.md): 連盟参加ルールと共通規約を扱う
-- [Infrastructure](../infrastructure/README.md): 相互接続とデータポータビリティを支える
+- [アイデンティティ](../identity/README.md): 組織ID、所属、権限を扱う
+- [評判](../reputation/README.md): 組織間の信用を扱う
+- [監査](../audit/README.md): 組織間検証と透明性を扱う
+- [仲裁](../arbitration/README.md): 組織間紛争を扱う
+- [規範](../norms/README.md): 連盟参加ルールと共通規約を扱う
+- [基盤](../infrastructure/README.md): 相互接続とデータポータビリティを支える
 
 ## 初期設計メモ
 
@@ -56,7 +56,7 @@ Federation Moduleは、複数の自律組織が共通プロトコルで協力す
 ## 未解決の問い
 
 - 連盟参加条件をどこまで共通化するか
-- 組織間Reputationをどう共有するか
+- 組織間評判をどう共有するか
 - 連盟から離脱した組織のデータや信用をどう扱うか
 - 連盟標準の変更手続きをどう設計するか
 - 連盟の乗っ取りをどう防ぐか

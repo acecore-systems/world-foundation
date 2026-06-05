@@ -1,6 +1,6 @@
-# Non-goals
+# 対象外
 
-この文書は、World Foundation Designが何を目指さないかを明確にするための文書です。具体的な悪用・腐敗リスクは [Threat Model](05-threat-model.md)、基本的な安全方針は [SAFETY.md](../../SAFETY.md) に分けます。
+この文書は、World Foundation Designが何を目指さないかを明確にするための文書です。具体的な悪用・腐敗リスクは [脅威モデル](05-threat-model.md)、基本的な安全方針は [SAFETY.md](../../SAFETY.md) に分けます。
 
 ## 目指さないもの
 
@@ -26,7 +26,7 @@
 - 創設者や初期管理者に永久権限を与えること
 - 連盟標準や共通プロトコルで組織を囲い込むこと
 
-## なぜNon-goalsが必要か
+## なぜ対象外が必要か
 
 World Foundation Designは扱う範囲が広いため、誤解される危険があります。
 
@@ -36,6 +36,6 @@ World Foundation Designは扱う範囲が広いため、誤解される危険が
 
 ## 変更手続き
 
-Non-goalsの変更は軽く扱わないでください。
+対象外の変更は軽く扱わないでください。
 
-Non-goalsを削除・弱体化する変更は、必ず [Proposal](../../proposals/ja/README.md) を作成し、[Decision](../../decisions/ja/README.md) へ理由を記録してください。安全装置の流れは [05-risk-and-safety-loops.md](../../assets/diagrams/05-risk-and-safety-loops.md) にあります。
+対象外を削除・弱体化する変更は、必ず [提案](../../proposals/ja/README.md) を作成し、[意思決定](../../decisions/ja/README.md) へ理由を記録してください。安全装置の流れは [05-risk-and-safety-loops.md](../../assets/diagrams/05-risk-and-safety-loops.md) にあります。

@@ -1,4 +1,4 @@
-# Vision
+# ビジョン
 
 この設計が目指すのは、全ての人が好きなことに集中できる世界です。
 
@@ -8,11 +8,11 @@
 
 ## この文書の位置づけ
 
-この文書は、理想的な世界の方向性を共有するためのVisionです。
+この文書は、理想的な世界の方向性を共有するためのビジョンです。
 
-具体的な制度、運用、権限、技術実装は、この文書だけでは決めません。詳細は [01-principles.md](01-principles.md)、[02-architecture.md](02-architecture.md)、[modules/ja](../../modules/ja/README.md)、[proposals/ja](../../proposals/ja/README.md)、[decisions/ja](../../decisions/ja/README.md) で分けて検討します。全体の接続は [00-world-design-overview.md](../../assets/diagrams/00-world-design-overview.md) と [Visual Link Map](../../assets/diagrams/visual-link-map.svg) からも確認できます。
+具体的な制度、運用、権限、技術実装は、この文書だけでは決めません。詳細は [01-principles.md](01-principles.md)、[02-architecture.md](02-architecture.md)、[modules/ja](../../modules/ja/README.md)、[proposals/ja](../../proposals/ja/README.md)、[decisions/ja](../../decisions/ja/README.md) で分けて検討します。全体の接続は [00-world-design-overview.md](../../assets/diagrams/00-world-design-overview.md) と [ビジュアルリンクマップ](../../assets/diagrams/visual-link-map.svg) からも確認できます。
 
-Visionは方向を示すものですが、参加者を一つの思想へ閉じ込めるものではありません。複数の考え方、地域、組織、実装が共通プロトコルで協力できる状態を重視します。
+ビジョンは方向を示すものですが、参加者を一つの思想へ閉じ込めるものではありません。複数の考え方、地域、組織、実装が共通プロトコルで協力できる状態を重視します。
 
 ここでいう「理想的な世界」は、誰かが完成形を一方的に決める世界ではありません。人類がレビューし、修正し、分岐し、よりよい形へ近づけ続けられる世界です。
 
@@ -90,7 +90,7 @@ Visionは方向を示すものですが、参加者を一つの思想へ閉じ�
 初期段階では、次のような変化を進捗として扱います。
 
 - 用語が整理され、議論のすれ違いが減る
-- ProposalとDecisionによって判断理由が残る
+- 提案と意思決定によって判断理由が残る
 - 小さな生活支援や相互扶助の実験が記録される
 - ガバナンス上の権限と責任が明確になる
 - 英語を含む多言語参加の入口が整う

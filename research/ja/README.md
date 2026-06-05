@@ -1,40 +1,40 @@
-# Research
+# 調査
 
 このディレクトリには、理想的な世界の設計に関係する調査資料を置きます。
 
-調査資料は、思想を補強するためだけでなく、設計上のリスク、失敗例、既存制度との関係を検討するために使います。調査結果は [Roadmap](../../docs/ja/03-roadmap.md)、[Threat Model](../../docs/ja/05-threat-model.md)、各 [modules](../../modules/ja/README.md) へ戻し、設計変更が必要な場合は [Proposal](../../proposals/ja/README.md) として扱います。
+調査資料は、思想を補強するためだけでなく、設計上のリスク、失敗例、既存制度との関係を検討するために使います。調査結果は [ロードマップ](../../docs/ja/03-roadmap.md)、[脅威モデル](../../docs/ja/05-threat-model.md)、各 [モジュール](../../modules/ja/README.md) へ戻し、設計変更が必要な場合は [提案](../../proposals/ja/README.md) として扱います。
 
 ## 調査領域
 
 ```mermaid
 flowchart TB
-  Research["Research"]
+  調査["調査"]
   History["歴史・制度変化"]
   War["戦争・国際関係"]
   OSS["OSS・標準化"]
   Coop["協同組合・相互扶助"]
-  Identity["Identity / Reputation"]
-  Economy["Economy / Welfare"]
-  Governance["Governance / Arbitration / Norms"]
-  Safety["Infrastructure / Audit / Safety"]
+  アイデンティティ["アイデンティティ / 評判"]
+  経済["経済 / 福祉"]
+  ガバナンス["ガバナンス / 仲裁 / 規範"]
+  安全方針["基盤 / 監査 / 安全方針"]
   Docs["docs / modules<br/>設計への反映"]
 
-  Research --> History
-  Research --> War
-  Research --> OSS
-  Research --> Coop
-  Research --> Identity
-  Research --> Economy
-  Research --> Governance
-  Research --> Safety
+  調査 --> History
+  調査 --> War
+  調査 --> OSS
+  調査 --> Coop
+  調査 --> アイデンティティ
+  調査 --> 経済
+  調査 --> ガバナンス
+  調査 --> 安全方針
   History --> Docs
   War --> Docs
   OSS --> Docs
   Coop --> Docs
-  Identity --> Docs
-  Economy --> Docs
-  Governance --> Docs
-  Safety --> Docs
+  アイデンティティ --> Docs
+  経済 --> Docs
+  ガバナンス --> Docs
+  安全方針 --> Docs
 ```
 
 ## 対象例

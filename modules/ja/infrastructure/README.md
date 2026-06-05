@@ -1,8 +1,8 @@
-# Infrastructure Module
+# 基盤モジュール
 
 ## 目的
 
-Infrastructure Moduleは、協力基盤を支える通信、計算資源、データ、生活インフラを扱います。[Architecture](../../../docs/ja/02-architecture.md) 上では、各モジュールを支える実行基盤であり、[Federation](../federation/README.md) と [Audit](../audit/README.md) に強く接続します。
+基盤モジュールは、協力基盤を支える通信、計算資源、データ、生活インフラを扱います。[アーキテクチャ](../../../docs/ja/02-architecture.md) 上では、各モジュールを支える実行基盤であり、[連合](../federation/README.md) と [監査](../audit/README.md) に強く接続します。
 
 目的は単一の巨大インフラを作ることではなく、複数の組織や地域が相互接続できる基盤を設計することです。
 
@@ -32,9 +32,9 @@ Infrastructure Moduleは、協力基盤を支える通信、計算資源、デ�
 
 ## 他モジュールとの関係
 
-Infrastructureは、すべての [modules](../README.md) の実行基盤になります。
+基盤は、すべての [モジュール](../README.md) の実行基盤になります。
 
-[Identity](../identity/README.md) の認証、[Economy](../economy/README.md) の記録、[Welfare](../welfare/README.md) の生活アクセス、[Governance](../governance/README.md) の議論と投票、[Arbitration](../arbitration/README.md) の証拠保全を支えます。ただし、インフラ提供者が他モジュールの意思決定を支配しないように分離します。
+[アイデンティティ](../identity/README.md) の認証、[経済](../economy/README.md) の記録、[福祉](../welfare/README.md) の生活アクセス、[ガバナンス](../governance/README.md) の議論と投票、[仲裁](../arbitration/README.md) の証拠保全を支えます。ただし、インフラ提供者が他モジュールの意思決定を支配しないように分離します。
 
 ## 初期設計メモ
 

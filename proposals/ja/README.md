@@ -1,26 +1,26 @@
-# Proposals
+# 提案
 
 このディレクトリには、World Foundation Designの設計変更や新しい仕組みに関する提案を置きます。
 
-提案は、いきなり本体文書を変更するのではなく、まずProposalとして議論するために使います。重要な提案では [Non-goals](../../docs/ja/04-non-goals.md)、[Threat Model](../../docs/ja/05-threat-model.md)、[Governance Process](../../assets/diagrams/03-governance-process.md) を確認し、採用された判断は [decisions/ja](../../decisions/ja/README.md) に残します。
+提案は、いきなり本体文書を変更するのではなく、まず提案として議論するために使います。重要な提案では [対象外](../../docs/ja/04-non-goals.md)、[脅威モデル](../../docs/ja/05-threat-model.md)、[ガバナンスプロセス](../../assets/diagrams/03-governance-process.md) を確認し、採用された判断は [decisions/ja](../../decisions/ja/README.md) に残します。
 
 ## 位置づけ
 
 ```mermaid
 flowchart LR
   Issue["Issue<br/>問題・アイデア・翻訳"]
-  Proposal["Proposal<br/>変更案・影響・リスク"]
+  提案["提案<br/>変更案・影響・リスク"]
   Review["Review<br/>原則・安全境界・用語"]
   PullRequest["Pull Request<br/>具体的な変更"]
   Docs["docs / modules<br/>反映先"]
-  Decision["decisions<br/>重要判断の記録"]
+  意思決定["decisions<br/>重要判断の記録"]
 
-  Issue --> Proposal
-  Proposal --> Review
+  Issue --> 提案
+  提案 --> Review
   Review --> PullRequest
   PullRequest --> Docs
-  Review --> Decision
-  Decision --> Docs
+  Review --> 意思決定
+  意思決定 --> Docs
 ```
 
 ## 扱う内容

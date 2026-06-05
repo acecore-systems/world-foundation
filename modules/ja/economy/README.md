@@ -1,8 +1,8 @@
-# Economy Module
+# 経済モジュール
 
 ## 目的
 
-Economy Moduleは、協力基盤における価値交換、ポイント、生活アクセス、経済圏を扱います。生活アクセス全体の論点は [Life Access Sustainability](../../../docs/ja/06-life-access-sustainability.md) と [Life Access Model](../../../assets/diagrams/07-life-access-model.md) に分けます。
+経済モジュールは、協力基盤における価値交換、ポイント、生活アクセス、経済圏を扱います。生活アクセス全体の論点は [生活アクセスの持続可能性](../../../docs/ja/06-life-access-sustainability.md) と [生活アクセスモデル](../../../assets/diagrams/07-life-access-model.md) に分けます。
 
 目的は、法定通貨を否定することではなく、人が生活のあらゆる場面で通貨不安に縛られ続ける状態を減らすことです。
 
@@ -31,9 +31,9 @@ Economy Moduleは、協力基盤における価値交換、ポイント、生活
 
 ## 他モジュールとの関係
 
-Economyは、[Identity](../identity/README.md) による利用者や組織の識別、[Welfare](../welfare/README.md) による生活支援、[Governance](../governance/README.md) によるルール変更、[Arbitration](../arbitration/README.md) による紛争解決と接続します。
+経済は、[アイデンティティ](../identity/README.md) による利用者や組織の識別、[福祉](../welfare/README.md) による生活支援、[ガバナンス](../governance/README.md) によるルール変更、[仲裁](../arbitration/README.md) による紛争解決と接続します。
 
-[Reputation](../reputation/README.md) に相当する信用設計とも関係しますが、信用評価が経済アクセスを過度に支配しないように注意します。この点は [Threat Model](../../../docs/ja/05-threat-model.md) でも扱います。
+[評判](../reputation/README.md) に相当する信用設計とも関係しますが、信用評価が経済アクセスを過度に支配しないように注意します。この点は [脅威モデル](../../../docs/ja/05-threat-model.md) でも扱います。
 
 ## 初期設計メモ
 
@@ -45,7 +45,7 @@ Economyは、[Identity](../identity/README.md) による利用者や組織の識
 
 ## 法定通貨と内部ポイントの関係
 
-Economy設計では、少なくとも次の4つを分けて扱います。
+経済設計では、少なくとも次の4つを分けて扱います。
 
 ### 1. 法定通貨
 
@@ -90,7 +90,7 @@ Economy設計では、少なくとも次の4つを分けて扱います。
 - 「通貨ではない」と書くだけでなく、実態として何に使えるかを確認する
 - 税務、会計、労務、資金決済、消費者保護、寄付、景品、会員権などの論点を早めに洗い出す
 - 生活アクセスを、離脱不能性や服従要求につなげない
-- 経済設計の変更はProposalで扱い、重要な判断はDecisionへ残す
+- 経済設計の変更は提案で扱い、重要な判断は意思決定へ残す
 - 小さく実験し、失敗や悪用ケースを記録する
 
 ## 法務・運用レビューが必要な例
@@ -115,7 +115,7 @@ Economy設計では、少なくとも次の4つを分けて扱います。
 - 寄付や経費の透明な記録
 - 生活支援ニーズの匿名集計
 - ポイントを発行しない相互扶助の運用実験
-- ポイント案を実装せず、Proposalとしてリスクレビューする
+- ポイント案を実装せず、提案としてリスクレビューする
 
 ## 未解決の問い
 

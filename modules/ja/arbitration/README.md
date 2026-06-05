@@ -1,8 +1,8 @@
-# Arbitration Module
+# 仲裁モジュール
 
 ## 目的
 
-Arbitration Moduleは、紛争や対立を暴力ではなく透明な手続きによって解決する仕組みを扱います。[Governance](../governance/README.md) の異議申し立て、[Audit](../audit/README.md) の証拠・判断理由、[Norms](../norms/README.md) のルール適用と接続します。
+仲裁モジュールは、紛争や対立を暴力ではなく透明な手続きによって解決する仕組みを扱います。[ガバナンス](../governance/README.md) の異議申し立て、[監査](../audit/README.md) の証拠・判断理由、[規範](../norms/README.md) のルール適用と接続します。
 
 目的は国家司法をただ置き換えることではなく、組織間・参加者間の対立をより低コストで、記録可能で、再検討可能な形にすることです。
 
@@ -31,7 +31,7 @@ Arbitration Moduleは、紛争や対立を暴力ではなく透明な手続き�
 
 ## 他モジュールとの関係
 
-Arbitrationは、[Governance](../governance/README.md) の異議申し立て、[Identity](../identity/README.md) の当事者確認、[Economy](../economy/README.md) や [Welfare](../welfare/README.md) の紛争、[Infrastructure](../infrastructure/README.md) のログや証拠保全と接続します。
+仲裁は、[ガバナンス](../governance/README.md) の異議申し立て、[アイデンティティ](../identity/README.md) の当事者確認、[経済](../economy/README.md) や [福祉](../welfare/README.md) の紛争、[基盤](../infrastructure/README.md) のログや証拠保全と接続します。
 
 仲裁は強い権限を持ちやすいため、透明性、再審可能性、利益相反の管理が重要です。
 

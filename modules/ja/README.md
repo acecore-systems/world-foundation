@@ -1,4 +1,4 @@
-# Modules
+# モジュール
 
 このディレクトリには、World Foundation Designを構成する機能モジュールの設計メモを置きます。
 
@@ -9,45 +9,45 @@
 ```mermaid
 flowchart TB
   Foundation["協力基盤<br/>自由参加・離脱可能・フォーク可能"]
-  Identity["Identity<br/>本人性・所属・権限"]
-  Reputation["Reputation<br/>信用・貢献"]
-  Economy["Economy<br/>価値交換・生活アクセス"]
-  Welfare["Welfare<br/>生活支援"]
-  Governance["Governance<br/>意思決定"]
-  Arbitration["Arbitration<br/>紛争解決"]
-  Infrastructure["Infrastructure<br/>通信・計算・データ"]
-  Audit["Audit<br/>検証・記録"]
-  Norms["Norms<br/>ルール・権利・義務"]
-  PublicSafety["Public Safety<br/>暴力予防・通報境界"]
-  Federation["Federation<br/>組織間プロトコル"]
+  アイデンティティ["アイデンティティ<br/>本人性・所属・権限"]
+  評判["評判<br/>信用・貢献"]
+  経済["経済<br/>価値交換・生活アクセス"]
+  福祉["福祉<br/>生活支援"]
+  ガバナンス["ガバナンス<br/>意思決定"]
+  仲裁["仲裁<br/>紛争解決"]
+  基盤["基盤<br/>通信・計算・データ"]
+  監査["監査<br/>検証・記録"]
+  規範["規範<br/>ルール・権利・義務"]
+  PublicSafety["公共安全<br/>暴力予防・通報境界"]
+  連合["連合<br/>組織間プロトコル"]
 
-  Foundation --> Identity
-  Foundation --> Infrastructure
-  Identity --> Reputation
-  Reputation -. "補助情報" .-> Economy
-  Economy --> Welfare
-  Norms --> Governance
-  Norms --> Arbitration
-  Governance --> Audit
-  Arbitration --> Audit
-  PublicSafety --> Arbitration
-  Federation --> Identity
-  Federation --> Reputation
-  Federation --> Audit
-  Infrastructure --> Federation
-  Infrastructure --> Audit
+  Foundation --> アイデンティティ
+  Foundation --> 基盤
+  アイデンティティ --> 評判
+  評判 -. "補助情報" .-> 経済
+  経済 --> 福祉
+  規範 --> ガバナンス
+  規範 --> 仲裁
+  ガバナンス --> 監査
+  仲裁 --> 監査
+  PublicSafety --> 仲裁
+  連合 --> アイデンティティ
+  連合 --> 評判
+  連合 --> 監査
+  基盤 --> 連合
+  基盤 --> 監査
 
-  click Identity "identity/README.md" "Identity"
-  click Reputation "reputation/README.md" "Reputation"
-  click Economy "economy/README.md" "Economy"
-  click Welfare "welfare/README.md" "Welfare"
-  click Governance "governance/README.md" "Governance"
-  click Arbitration "arbitration/README.md" "Arbitration"
-  click Infrastructure "infrastructure/README.md" "Infrastructure"
-  click Audit "audit/README.md" "Audit"
-  click Norms "norms/README.md" "Norms"
-  click PublicSafety "public-safety/README.md" "Public Safety"
-  click Federation "federation/README.md" "Federation"
+  click アイデンティティ "identity/README.md" "アイデンティティ"
+  click 評判 "reputation/README.md" "評判"
+  click 経済 "economy/README.md" "経済"
+  click 福祉 "welfare/README.md" "福祉"
+  click ガバナンス "governance/README.md" "ガバナンス"
+  click 仲裁 "arbitration/README.md" "仲裁"
+  click 基盤 "infrastructure/README.md" "基盤"
+  click 監査 "audit/README.md" "監査"
+  click 規範 "norms/README.md" "規範"
+  click PublicSafety "public-safety/README.md" "公共安全"
+  click 連合 "federation/README.md" "連合"
 ```
 
 ## モジュール一覧
@@ -68,4 +68,4 @@ flowchart TB
 
 ## 読み方
 
-全体構造は [Architecture](../../docs/ja/02-architecture.md)、モジュール間の接続は [02-module-relationships.md](../../assets/diagrams/02-module-relationships.md) と [09-expanded-module-map.md](../../assets/diagrams/09-expanded-module-map.md)、安全境界は [Non-goals](../../docs/ja/04-non-goals.md) と [Threat Model](../../docs/ja/05-threat-model.md) を見ながら読みます。
+全体構造は [アーキテクチャ](../../docs/ja/02-architecture.md)、モジュール間の接続は [02-module-relationships.md](../../assets/diagrams/02-module-relationships.md) と [09-expanded-module-map.md](../../assets/diagrams/09-expanded-module-map.md)、安全境界は [対象外](../../docs/ja/04-non-goals.md) と [脅威モデル](../../docs/ja/05-threat-model.md) を見ながら読みます。

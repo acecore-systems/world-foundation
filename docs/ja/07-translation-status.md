@@ -1,4 +1,4 @@
-# Translation Status
+# 翻訳ステータス
 
 この文書は、日本語正本と英語版の翻訳ステータスを管理するための初期方針です。日本語正本は [docs/ja](README.md)、英語版は [docs/en](../en/README.md)、日英共通用語は [glossary](../../glossary/README.md) で扱い、流れは [06-multilingual-document-flow.md](../../assets/diagrams/06-multilingual-document-flow.md) に示します。
 
@@ -6,7 +6,7 @@
 
 World Foundation Designは日本語ファーストで始めますが、将来的には世界中の参加者が理解できる必要があります。
 
-翻訳が遅れたり、意味がずれたりすると、Non-goals、Safety、Threat Model、Glossaryの安全境界が弱まる可能性があります。
+翻訳が遅れたり、意味がずれたりすると、対象外、安全方針、脅威モデル、用語集の安全境界が弱まる可能性があります。
 
 ## ステータス
 
@@ -20,28 +20,28 @@ World Foundation Designは日本語ファーストで始めますが、将来的
 
 - 日本語版を初期正本とする
 - 英語版は重要文書から順に翻訳・更新する
-- Non-goals、Safety、Threat Model、Code of Conduct、重要Decisionは優先的に英語レビューする
+- 対象外、安全方針、脅威モデル、行動規範、重要意思決定は優先的に英語レビューする
 - 用語は `glossary/terms.yml` を参照する
-- 翻訳差分や意味のずれはTranslation Issueで扱う
+- 翻訳差分や意味のずれは翻訳 Issueで扱う
 - 自動翻訳だけで安全境界を確定しない
 
 ## 初期ステータス表
 
 | 文書 | 日本語 | 英語 | 備考 |
 | --- | --- | --- | --- |
-| Vision | canonical | reviewed | 英語版は簡潔 |
-| Principles | canonical | reviewed | 自由と平和の両立を追加 |
-| Architecture | canonical | reviewed | モジュール追加に追従 |
-| Roadmap | canonical | reviewed | 完了条件あり |
-| Non-goals | canonical | reviewed | 安全境界のため優先 |
-| Threat Model | canonical | translated | 英語版は要継続レビュー |
-| Safety | canonical | not applicable | ルート文書 |
-| Code of Conduct | canonical | not applicable | ルート文書 |
-| Decisions | canonical | draft | 英語版Decisionは未整備 |
+| ビジョン | 正本 | レビュー済み | 英語版は簡潔 |
+| 設計原則 | 正本 | レビュー済み | 自由と平和の両立を追加 |
+| アーキテクチャ | 正本 | レビュー済み | モジュール追加に追従 |
+| ロードマップ | 正本 | レビュー済み | 完了条件あり |
+| 対象外 | 正本 | レビュー済み | 安全境界のため優先 |
+| 脅威モデル | 正本 | 翻訳済み | 英語版は要継続レビュー |
+| 安全方針 | 正本 | 対象外 | ルート文書 |
+| 行動規範 | canonical | not applicable | ルート文書 |
+| 意思決定 | 正本 | 下書き | 英語版意思決定は未整備 |
 
 ## 未解決の問い
 
 - 翻訳ステータスを各ファイルのfront matterで管理するか
-- Glossaryに `status` や `reviewed_by` を追加するか
-- 重要Decisionの英語要約をどこまで作るか
+- 用語集に `status` や `reviewed_by` を追加するか
+- 重要意思決定の英語要約をどこまで作るか
 - 翻訳レビュー権限をどう設計するか

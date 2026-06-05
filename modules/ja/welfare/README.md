@@ -1,8 +1,8 @@
-# Welfare Module
+# 福祉モジュール
 
 ## 目的
 
-Welfare Moduleは、生存不安を減らし、人が好きなことに集中できる状態を支えるための生活支援を扱います。生活アクセスの持続可能性は [Life Access Sustainability](../../../docs/ja/06-life-access-sustainability.md)、資源配分の図は [Life Access Model](../../../assets/diagrams/07-life-access-model.md) にあります。
+福祉モジュールは、生存不安を減らし、人が好きなことに集中できる状態を支えるための生活支援を扱います。生活アクセスの持続可能性は [生活アクセスの持続可能性](../../../docs/ja/06-life-access-sustainability.md)、資源配分の図は [生活アクセスモデル](../../../assets/diagrams/07-life-access-model.md) にあります。
 
 支援は参加者を縛るためではなく、自由な活動の土台を増やすために設計します。
 
@@ -32,7 +32,7 @@ Welfare Moduleは、生存不安を減らし、人が好きなことに集中で
 
 ## 他モジュールとの関係
 
-Welfareは、[Economy](../economy/README.md) の生活アクセス、[Identity](../identity/README.md) の対象確認、[Governance](../governance/README.md) の支援ルール、[Arbitration](../arbitration/README.md) の不服申し立てと接続します。
+福祉は、[経済](../economy/README.md) の生活アクセス、[アイデンティティ](../identity/README.md) の対象確認、[ガバナンス](../governance/README.md) の支援ルール、[仲裁](../arbitration/README.md) の不服申し立てと接続します。
 
 生活支援が権力化しないよう、支援条件、判断基準、変更履歴を透明にする必要があります。
 

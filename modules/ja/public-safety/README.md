@@ -1,8 +1,8 @@
-# Public Safety Module
+# 公共安全モジュール
 
 ## 目的
 
-Public Safety Moduleは、暴力予防、危険兆候の早期発見、通報、コミュニティ安全設計、国家警察・司法との接続方針を扱います。[Norms](../norms/README.md)、[Arbitration](../arbitration/README.md)、[Audit](../audit/README.md) と接続しますが、[Non-goals](../../../docs/ja/04-non-goals.md) が禁じる警察代替や自警団化には向かいません。
+公共安全モジュールは、暴力予防、危険兆候の早期発見、通報、コミュニティ安全設計、国家警察・司法との接続方針を扱います。[規範](../norms/README.md)、[仲裁](../arbitration/README.md)、[監査](../audit/README.md) と接続しますが、[対象外](../../../docs/ja/04-non-goals.md) が禁じる警察代替や自警団化には向かいません。
 
 このモジュールは警察代替、治安維持組織、武装組織、自警団を作るためのものではありません。公共安全を扱う場合でも、国家司法・警察と不要に敵対せず、合法性と安全境界を重視します。
 
@@ -36,11 +36,11 @@ Public Safety Moduleは、暴力予防、危険兆候の早期発見、通報、
 
 ## 他モジュールとの関係
 
-- [Arbitration](../arbitration/README.md): 紛争や被害申し立ての手続きを扱う
-- [Governance](../governance/README.md): 安全ルールや対応権限を管理する
-- [Audit](../audit/README.md): 対応履歴を必要な範囲で検証可能にする
-- [Infrastructure](../infrastructure/README.md): 通報窓口、ログ、アクセス制御を支える
-- [Norms](../norms/README.md): 安全に関するルールと禁止事項を定義する
+- [仲裁](../arbitration/README.md): 紛争や被害申し立ての手続きを扱う
+- [ガバナンス](../governance/README.md): 安全ルールや対応権限を管理する
+- [監査](../audit/README.md): 対応履歴を必要な範囲で検証可能にする
+- [基盤](../infrastructure/README.md): 通報窓口、ログ、アクセス制御を支える
+- [規範](../norms/README.md): 安全に関するルールと禁止事項を定義する
 
 ## 初期設計メモ
 

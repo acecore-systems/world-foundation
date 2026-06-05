@@ -1,32 +1,32 @@
-# World Design Overview
+# 世界設計の全体像
 
-この図は、World Foundation Designが何を中心に置くかを示します。目的は [Vision](../../docs/ja/00-vision.md)、設計原則は [Principles](../../docs/ja/01-principles.md)、構造は [Architecture](../../docs/ja/02-architecture.md) に分けます。クリック可能な全体索引は [visual-link-map.svg](visual-link-map.svg) です。
+この図は、World Foundation Designが何を中心に置くかを示します。目的は [ビジョン](../../docs/ja/00-vision.md)、設計原則は [設計原則](../../docs/ja/01-principles.md)、構造は [アーキテクチャ](../../docs/ja/02-architecture.md) に分けます。クリック可能な全体索引は [visual-link-map.svg](visual-link-map.svg) です。
 
 ```mermaid
 flowchart TB
-  Vision["全ての人が好きなことに集中できる世界"]
-  Principles["設計原則"]
-  Architecture["連盟型アーキテクチャ"]
-  Modules["機能モジュール"]
-  Governance["透明な意思決定"]
+  ビジョン["全ての人が好きなことに集中できる世界"]
+  設計原則["設計原則"]
+  アーキテクチャ["連盟型アーキテクチャ"]
+  モジュール["機能モジュール"]
+  ガバナンス["透明な意思決定"]
   Experiments["小さな実験"]
-  Records["Proposal / Decision / Glossary"]
+  Records["提案 / 意思決定 / 用語集"]
   Feedback["レビューと改善"]
 
-  Vision --> Principles
-  Principles --> Architecture
-  Architecture --> Modules
-  Modules --> Experiments
+  ビジョン --> 設計原則
+  設計原則 --> アーキテクチャ
+  アーキテクチャ --> モジュール
+  モジュール --> Experiments
   Experiments --> Records
   Records --> Feedback
-  Feedback --> Principles
-  Governance --> Records
-  Governance --> Feedback
+  Feedback --> 設計原則
+  ガバナンス --> Records
+  ガバナンス --> Feedback
 
-  click Vision "../../docs/ja/00-vision.md" "Vision"
-  click Principles "../../docs/ja/01-principles.md" "Principles"
-  click Architecture "../../docs/ja/02-architecture.md" "Architecture"
-  click Modules "../../modules/ja/README.md" "Modules"
-  click Governance "../../modules/ja/governance/README.md" "Governance"
-  click Records "../../proposals/ja/README.md" "Proposal / Decision / Glossary"
+  click ビジョン "../../docs/ja/00-vision.md" "ビジョン"
+  click 設計原則 "../../docs/ja/01-principles.md" "設計原則"
+  click アーキテクチャ "../../docs/ja/02-architecture.md" "アーキテクチャ"
+  click モジュール "../../modules/ja/README.md" "モジュール"
+  click ガバナンス "../../modules/ja/governance/README.md" "ガバナンス"
+  click Records "../../proposals/ja/README.md" "提案 / 意思決定 / 用語集"
 ```

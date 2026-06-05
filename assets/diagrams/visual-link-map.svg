@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1160" height="760" viewBox="0 0 1160 760" role="img" aria-labelledby="title desc">
-  <title id="title">World Foundation Visual Link Map</title>
+  <title id="title">World Foundation ビジュアルリンクマップ</title>
   <desc id="desc">World Foundation Designの主要文書、図表、モジュール、運用記録を相互にたどるためのクリック可能なリンクマップ。</desc>
   <defs>
     <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
@@ -24,7 +24,7 @@
   </defs>
 
   <rect class="canvas" x="0" y="0" width="1160" height="760" />
-  <text class="title" x="48" y="54">World Foundation Visual Link Map</text>
+  <text class="title" x="48" y="54">World Foundation ビジュアルリンクマップ</text>
   <text class="subtitle" x="48" y="82">各ノードは主要文書へリンクします。図表の詳細は下部の図表リンクから開けます。</text>
 
   <text class="section" x="72" y="126">目的と原則</text>
@@ -35,21 +35,21 @@
   <a href="../../docs/ja/00-vision.md">
     <g class="node">
       <rect x="48" y="150" width="210" height="78" fill="#e0f2fe" stroke="#0284c7" />
-      <text x="70" y="181">Vision</text>
+      <text x="70" y="181">ビジョン</text>
       <text class="small" x="70" y="207">目指す世界</text>
     </g>
   </a>
   <a href="../../docs/ja/01-principles.md">
     <g class="node">
       <rect x="48" y="274" width="210" height="84" fill="#dcfce7" stroke="#16a34a" />
-      <text x="70" y="306">Principles</text>
+      <text x="70" y="306">設計原則</text>
       <text class="small" x="70" y="332">自由参加 / 離脱 / フォーク</text>
     </g>
   </a>
   <a href="../../docs/ja/04-non-goals.md">
     <g class="node">
       <rect x="48" y="404" width="210" height="84" fill="#fee2e2" stroke="#dc2626" />
-      <text x="70" y="436">Non-goals</text>
+      <text x="70" y="436">対象外</text>
       <text class="small" x="70" y="462">目指さないもの</text>
     </g>
   </a>
@@ -57,21 +57,21 @@
   <a href="../../docs/ja/02-architecture.md">
     <g class="node">
       <rect x="336" y="150" width="220" height="84" fill="#ede9fe" stroke="#7c3aed" />
-      <text x="358" y="182">Architecture</text>
+      <text x="358" y="182">アーキテクチャ</text>
       <text class="small" x="358" y="208">連盟型アーキテクチャ</text>
     </g>
   </a>
   <a href="../../modules/ja/README.md">
     <g class="node">
       <rect x="336" y="280" width="220" height="94" fill="#fef3c7" stroke="#d97706" />
-      <text x="358" y="314">Modules</text>
-      <text class="small" x="358" y="340">Identity / Economy / Governance...</text>
+      <text x="358" y="314">モジュール</text>
+      <text class="small" x="358" y="340">アイデンティティ / 経済 / ガバナンス...</text>
     </g>
   </a>
   <a href="../../docs/ja/06-life-access-sustainability.md">
     <g class="node">
       <rect x="336" y="420" width="220" height="86" fill="#ccfbf1" stroke="#0f766e" />
-      <text x="358" y="453">Life Access</text>
+      <text x="358" y="453">生活アクセス</text>
       <text class="small" x="358" y="479">生活アクセスと資源配分</text>
     </g>
   </a>
@@ -79,21 +79,21 @@
   <a href="../../proposals/ja/README.md">
     <g class="node">
       <rect x="636" y="150" width="216" height="78" fill="#fce7f3" stroke="#db2777" />
-      <text x="658" y="181">Proposal</text>
+      <text x="658" y="181">提案</text>
       <text class="small" x="658" y="207">変更案とリスク確認</text>
     </g>
   </a>
   <a href="../../decisions/ja/README.md">
     <g class="node">
       <rect x="636" y="274" width="216" height="84" fill="#e0e7ff" stroke="#4f46e5" />
-      <text x="658" y="306">Decision</text>
+      <text x="658" y="306">意思決定</text>
       <text class="small" x="658" y="332">重要判断の記録</text>
     </g>
   </a>
   <a href="../../docs/ja/05-threat-model.md">
     <g class="node">
       <rect x="636" y="404" width="216" height="84" fill="#ffedd5" stroke="#ea580c" />
-      <text x="658" y="436">Threat Model</text>
+      <text x="658" y="436">脅威モデル</text>
       <text class="small" x="658" y="462">腐敗 / 支配 / 悪用リスク</text>
     </g>
   </a>
@@ -101,21 +101,21 @@
   <a href="../../docs/ja/03-roadmap.md">
     <g class="node">
       <rect x="908" y="150" width="204" height="78" fill="#dbeafe" stroke="#2563eb" />
-      <text x="930" y="181">Roadmap</text>
+      <text x="930" y="181">ロードマップ</text>
       <text class="small" x="930" y="207">段階的な移行</text>
     </g>
   </a>
   <a href="../../research/ja/index.md">
     <g class="node">
       <rect x="908" y="274" width="204" height="84" fill="#ecfccb" stroke="#65a30d" />
-      <text x="930" y="306">Research</text>
+      <text x="930" y="306">調査</text>
       <text class="small" x="930" y="332">前提の検証</text>
     </g>
   </a>
   <a href="../../docs/ja/07-translation-status.md">
     <g class="node">
       <rect x="908" y="404" width="204" height="84" fill="#f3e8ff" stroke="#9333ea" />
-      <text x="930" y="436">Translation</text>
+      <text x="930" y="436">翻訳</text>
       <text class="small" x="930" y="462">日本語正本と英語版</text>
     </g>
   </a>
@@ -123,14 +123,14 @@
   <a href="../../glossary/README.md">
     <g class="node">
       <rect x="636" y="546" width="216" height="70" fill="#f1f5f9" stroke="#475569" />
-      <text x="658" y="576">Glossary</text>
+      <text x="658" y="576">用語集</text>
       <text class="small" x="658" y="600">用語の一貫性</text>
     </g>
   </a>
   <a href="../../SAFETY.md">
     <g class="node">
       <rect x="48" y="546" width="210" height="70" fill="#fff1f2" stroke="#e11d48" />
-      <text x="70" y="576">Safety</text>
+      <text x="70" y="576">安全方針</text>
       <text class="small" x="70" y="600">悪用を避ける方針</text>
     </g>
   </a>

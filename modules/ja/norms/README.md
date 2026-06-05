@@ -1,8 +1,8 @@
-# Norms Module
+# 規範モジュール
 
 ## 目的
 
-Norms Moduleは、協力基盤におけるルール、規約、権利、義務、例外、改定手続きを扱います。[Governance](../governance/README.md) の変更手続き、[Arbitration](../arbitration/README.md) の適用手続き、[Federation](../federation/README.md) の組織間ルールと接続します。
+規範モジュールは、協力基盤におけるルール、規約、権利、義務、例外、改定手続きを扱います。[ガバナンス](../governance/README.md) の変更手続き、[仲裁](../arbitration/README.md) の適用手続き、[連合](../federation/README.md) の組織間ルールと接続します。
 
 このモジュールは国家法を違法に代替するためのものではありません。既存法制度を尊重しながら、組織や連盟が自発的に共有できるルール層を設計します。
 
@@ -10,7 +10,7 @@ Norms Moduleは、協力基盤におけるルール、規約、権利、義務�
 
 協力には、参加条件、禁止事項、権利、義務、例外、変更手続きが必要です。
 
-これらがGovernance、Arbitration、Safety、Non-goalsに分散したままだと、どのルールが誰に適用され、どの手続きで変わるのかが曖昧になります。
+これらがガバナンス、仲裁、安全方針、対象外に分散したままだと、どのルールが誰に適用され、どの手続きで変わるのかが曖昧になります。
 
 ## 責任範囲
 
@@ -21,8 +21,8 @@ Norms Moduleは、協力基盤におけるルール、規約、権利、義務�
 - 改定手続き
 - ルールの適用範囲
 - 国家法との接続方針
-- GovernanceとArbitrationへの接続
-- Non-goalsとSafetyとの整合性
+- ガバナンスと仲裁への接続
+- 対象外と安全方針との整合性
 
 ## 責任範囲外
 
@@ -36,21 +36,21 @@ Norms Moduleは、協力基盤におけるルール、規約、権利、義務�
 
 ## 他モジュールとの関係
 
-- [Governance](../governance/README.md): ルールの作成・変更手続きを扱う
-- [Arbitration](../arbitration/README.md): ルール違反や紛争の手続きを扱う
-- [Audit](../audit/README.md): ルール変更と適用履歴を検証可能にする
-- [Identity](../identity/README.md): どの参加者や組織にルールが適用されるかを扱う
-- [Federation](../federation/README.md): 組織間で共有するルールや互換性を扱う
+- [ガバナンス](../governance/README.md): ルールの作成・変更手続きを扱う
+- [仲裁](../arbitration/README.md): ルール違反や紛争の手続きを扱う
+- [監査](../audit/README.md): ルール変更と適用履歴を検証可能にする
+- [アイデンティティ](../identity/README.md): どの参加者や組織にルールが適用されるかを扱う
+- [連合](../federation/README.md): 組織間で共有するルールや互換性を扱う
 
 ## 初期設計メモ
 
 初期段階では、規約を増やすよりも、どのルールが安全境界として必須かを整理します。
 
-Non-goals、Safety、Code of Conduct、Threat Modelに関係するルールは、軽く変更できないようにします。
+対象外、安全方針、行動規範、脅威モデルに関係するルールは、軽く変更できないようにします。
 
 ## 未解決の問い
 
-- ルール、原則、規約、Decisionの境界をどう分けるか
+- ルール、原則、規約、意思決定の境界をどう分けるか
 - 国家法と衝突しないための確認手続き
 - 例外を誰が判断するか
 - 制裁ではなく是正を優先する条件

@@ -1,6 +1,6 @@
-# Principles
+# 設計原則
 
-この世界設計では、[Vision](00-vision.md) を実現するために以下の原則を重視します。原則を構造へ落とす文書は [Architecture](02-architecture.md)、強制ではなく利便性で広がる考え方は [Non-coercive Adoption](../../assets/diagrams/08-non-coercive-adoption.md) にあります。
+この世界設計では、[ビジョン](00-vision.md) を実現するために以下の原則を重視します。原則を構造へ落とす文書は [アーキテクチャ](02-architecture.md)、強制ではなく利便性で広がる考え方は [非強制的な導入](../../assets/diagrams/08-non-coercive-adoption.md) にあります。
 
 ## 1. 自由参加
 
