@@ -1,6 +1,6 @@
 # Architecture
 
-この世界設計は、単一の巨大組織ではなく、複数の自律組織が協力するための連盟型アーキテクチャを目指します。
+この世界設計は、単一の巨大組織ではなく、複数の自律組織が協力するための連盟型アーキテクチャを目指します。構造の全体像は [01-cooperation-foundation-layers.md](../../assets/diagrams/01-cooperation-foundation-layers.md)、モジュール間の接続は [02-module-relationships.md](../../assets/diagrams/02-module-relationships.md) と [09-expanded-module-map.md](../../assets/diagrams/09-expanded-module-map.md) で確認できます。
 
 ## 基本構造
 

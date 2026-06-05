@@ -10,7 +10,7 @@
 
 この文書は、理想的な世界の方向性を共有するためのVisionです。
 
-具体的な制度、運用、権限、技術実装は、この文書だけでは決めません。詳細は `01-principles.md`、`02-architecture.md`、各 `modules/`、Proposal、Decisionで分けて検討します。
+具体的な制度、運用、権限、技術実装は、この文書だけでは決めません。詳細は [01-principles.md](01-principles.md)、[02-architecture.md](02-architecture.md)、[modules/ja](../../modules/ja/README.md)、[proposals/ja](../../proposals/ja/README.md)、[decisions/ja](../../decisions/ja/README.md) で分けて検討します。全体の接続は [00-world-design-overview.md](../../assets/diagrams/00-world-design-overview.md) と [Visual Link Map](../../assets/diagrams/visual-link-map.svg) からも確認できます。
 
 Visionは方向を示すものですが、参加者を一つの思想へ閉じ込めるものではありません。複数の考え方、地域、組織、実装が共通プロトコルで協力できる状態を重視します。
 

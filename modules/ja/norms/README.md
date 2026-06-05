@@ -2,7 +2,7 @@
 
 ## 目的
 
-Norms Moduleは、協力基盤におけるルール、規約、権利、義務、例外、改定手続きを扱います。
+Norms Moduleは、協力基盤におけるルール、規約、権利、義務、例外、改定手続きを扱います。[Governance](../governance/README.md) の変更手続き、[Arbitration](../arbitration/README.md) の適用手続き、[Federation](../federation/README.md) の組織間ルールと接続します。
 
 このモジュールは国家法を違法に代替するためのものではありません。既存法制度を尊重しながら、組織や連盟が自発的に共有できるルール層を設計します。
 
@@ -36,11 +36,11 @@ Norms Moduleは、協力基盤におけるルール、規約、権利、義務�
 
 ## 他モジュールとの関係
 
-- Governance: ルールの作成・変更手続きを扱う
-- Arbitration: ルール違反や紛争の手続きを扱う
-- Audit: ルール変更と適用履歴を検証可能にする
-- Identity: どの参加者や組織にルールが適用されるかを扱う
-- Federation: 組織間で共有するルールや互換性を扱う
+- [Governance](../governance/README.md): ルールの作成・変更手続きを扱う
+- [Arbitration](../arbitration/README.md): ルール違反や紛争の手続きを扱う
+- [Audit](../audit/README.md): ルール変更と適用履歴を検証可能にする
+- [Identity](../identity/README.md): どの参加者や組織にルールが適用されるかを扱う
+- [Federation](../federation/README.md): 組織間で共有するルールや互換性を扱う
 
 ## 初期設計メモ
 

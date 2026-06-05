@@ -2,7 +2,7 @@
 
 ## 目的
 
-Welfare Moduleは、生存不安を減らし、人が好きなことに集中できる状態を支えるための生活支援を扱います。
+Welfare Moduleは、生存不安を減らし、人が好きなことに集中できる状態を支えるための生活支援を扱います。生活アクセスの持続可能性は [Life Access Sustainability](../../../docs/ja/06-life-access-sustainability.md)、資源配分の図は [Life Access Model](../../../assets/diagrams/07-life-access-model.md) にあります。
 
 支援は参加者を縛るためではなく、自由な活動の土台を増やすために設計します。
 
@@ -32,7 +32,7 @@ Welfare Moduleは、生存不安を減らし、人が好きなことに集中で
 
 ## 他モジュールとの関係
 
-Welfareは、Economyの生活アクセス、Identityの対象確認、Governanceの支援ルール、Arbitrationの不服申し立てと接続します。
+Welfareは、[Economy](../economy/README.md) の生活アクセス、[Identity](../identity/README.md) の対象確認、[Governance](../governance/README.md) の支援ルール、[Arbitration](../arbitration/README.md) の不服申し立てと接続します。
 
 生活支援が権力化しないよう、支援条件、判断基準、変更履歴を透明にする必要があります。
 

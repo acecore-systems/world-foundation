@@ -2,7 +2,7 @@
 
 ## 目的
 
-Federation Moduleは、複数の自律組織が共通プロトコルで協力するための連盟設計を扱います。
+Federation Moduleは、複数の自律組織が共通プロトコルで協力するための連盟設計を扱います。[Architecture](../../../docs/ja/02-architecture.md) と [Roadmap](../../../docs/ja/03-roadmap.md) では、単一支配ではなく相互接続のための層として扱います。
 
 連盟は中央政府や単一支配組織ではありません。各組織の自治、離脱可能性、フォーク可能性、多重所属を保ちながら相互接続するための仕組みです。
 
@@ -40,12 +40,12 @@ Federation Moduleは、複数の自律組織が共通プロトコルで協力す
 
 ## 他モジュールとの関係
 
-- Identity: 組織ID、所属、権限を扱う
-- Reputation: 組織間の信用を扱う
-- Audit: 組織間検証と透明性を扱う
-- Arbitration: 組織間紛争を扱う
-- Norms: 連盟参加ルールと共通規約を扱う
-- Infrastructure: 相互接続とデータポータビリティを支える
+- [Identity](../identity/README.md): 組織ID、所属、権限を扱う
+- [Reputation](../reputation/README.md): 組織間の信用を扱う
+- [Audit](../audit/README.md): 組織間検証と透明性を扱う
+- [Arbitration](../arbitration/README.md): 組織間紛争を扱う
+- [Norms](../norms/README.md): 連盟参加ルールと共通規約を扱う
+- [Infrastructure](../infrastructure/README.md): 相互接続とデータポータビリティを支える
 
 ## 初期設計メモ
 

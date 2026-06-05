@@ -2,7 +2,7 @@
 
 このディレクトリには、重要な意思決定の記録を置きます。
 
-Decisionは、何を決めたかだけでなく、なぜその判断をしたのかを残すために使います。
+Decisionは、何を決めたかだけでなく、なぜその判断をしたのかを残すために使います。通常は [Proposal](../../proposals/ja/README.md) やレビュー文脈から生まれ、採用後は [docs/ja](../../docs/ja/README.md)、[modules/ja](../../modules/ja/README.md)、[glossary](../../glossary/README.md) に反映します。
 
 ## 位置づけ
 

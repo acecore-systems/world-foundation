@@ -2,7 +2,7 @@
 
 ## 目的
 
-Reputation Moduleは、信用、貢献、行動履歴、信頼性を扱います。
+Reputation Moduleは、信用、貢献、行動履歴、信頼性を扱います。[Architecture](../../../docs/ja/02-architecture.md) 上では協力の補助情報であり、[Economy](../economy/README.md) や [Welfare](../welfare/README.md) を支配する仕組みではありません。
 
 信用は、人間の価値を固定するためのものではありません。協力しやすくするための補助情報であり、身分階級や排除の仕組みにしてはいけません。
 
@@ -10,7 +10,7 @@ Reputation Moduleは、信用、貢献、行動履歴、信頼性を扱います
 
 協力には、誰がどの文脈で信頼できるか、どのような貢献をしてきたか、どの組織がどの領域で実績を持つかという情報が必要です。
 
-一方で、信用評価は差別、階級化、過去の失敗の固定、密室評価につながりやすいリスクがあります。
+一方で、信用評価は差別、階級化、過去の失敗の固定、密室評価につながりやすいリスクがあります。この境界は [Non-goals](../../../docs/ja/04-non-goals.md) と [Threat Model](../../../docs/ja/05-threat-model.md) で確認します。
 
 このモジュールは、信用を透明で更新可能な補助情報として扱う方法を設計します。
 
@@ -38,12 +38,12 @@ Reputation Moduleは、信用、貢献、行動履歴、信頼性を扱います
 
 ## 他モジュールとの関係
 
-- Identity: 誰のどの文脈の信用かを扱う
-- Economy: 経済アクセスに過度に影響しないよう注意する
-- Welfare: 支援対象の判断に使う場合は慎重に扱う
-- Governance: 役割やレビュー権限の判断に使う場合がある
-- Arbitration: 評価への異議申し立てや紛争と接続する
-- Audit: 評価根拠と変更履歴を検証可能にする
+- [Identity](../identity/README.md): 誰のどの文脈の信用かを扱う
+- [Economy](../economy/README.md): 経済アクセスに過度に影響しないよう注意する
+- [Welfare](../welfare/README.md): 支援対象の判断に使う場合は慎重に扱う
+- [Governance](../governance/README.md): 役割やレビュー権限の判断に使う場合がある
+- [Arbitration](../arbitration/README.md): 評価への異議申し立てや紛争と接続する
+- [Audit](../audit/README.md): 評価根拠と変更履歴を検証可能にする
 
 ## 初期設計メモ
 

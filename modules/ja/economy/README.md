@@ -2,7 +2,7 @@
 
 ## 目的
 
-Economy Moduleは、協力基盤における価値交換、ポイント、生活アクセス、経済圏を扱います。
+Economy Moduleは、協力基盤における価値交換、ポイント、生活アクセス、経済圏を扱います。生活アクセス全体の論点は [Life Access Sustainability](../../../docs/ja/06-life-access-sustainability.md) と [Life Access Model](../../../assets/diagrams/07-life-access-model.md) に分けます。
 
 目的は、法定通貨を否定することではなく、人が生活のあらゆる場面で通貨不安に縛られ続ける状態を減らすことです。
 
@@ -31,9 +31,9 @@ Economy Moduleは、協力基盤における価値交換、ポイント、生活
 
 ## 他モジュールとの関係
 
-Economyは、Identityによる利用者や組織の識別、Welfareによる生活支援、Governanceによるルール変更、Arbitrationによる紛争解決と接続します。
+Economyは、[Identity](../identity/README.md) による利用者や組織の識別、[Welfare](../welfare/README.md) による生活支援、[Governance](../governance/README.md) によるルール変更、[Arbitration](../arbitration/README.md) による紛争解決と接続します。
 
-Reputationに相当する信用設計とも関係しますが、信用評価が経済アクセスを過度に支配しないように注意します。
+[Reputation](../reputation/README.md) に相当する信用設計とも関係しますが、信用評価が経済アクセスを過度に支配しないように注意します。この点は [Threat Model](../../../docs/ja/05-threat-model.md) でも扱います。
 
 ## 初期設計メモ
 

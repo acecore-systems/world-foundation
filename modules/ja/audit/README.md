@@ -2,7 +2,7 @@
 
 ## 目的
 
-Audit Moduleは、透明性、監査ログ、意思決定履歴、会計透明性、権限変更履歴、利益相反記録を扱います。
+Audit Moduleは、透明性、監査ログ、意思決定履歴、会計透明性、権限変更履歴、利益相反記録を扱います。[Threat Model](../../../docs/ja/05-threat-model.md) で扱う透明性低下や監視化を避けるため、公開情報と保護情報を分けます。
 
 Auditは監視社会を作るためのものではありません。透明性とプライバシーの境界を分けて設計します。
 
@@ -39,12 +39,12 @@ Auditは監視社会を作るためのものではありません。透明性と
 
 ## 他モジュールとの関係
 
-- Governance: 意思決定と権限変更を記録する
-- Economy: 会計、寄付、経費、ポイント案の検証と接続する
-- Welfare: 支援条件と判断過程の透明性を扱う
-- Arbitration: 証拠、判断理由、異議申し立てと接続する
-- Infrastructure: ログ、バックアップ、改ざん耐性と接続する
-- Reputation: 評価根拠と評価変更の検証に接続する
+- [Governance](../governance/README.md): 意思決定と権限変更を記録する
+- [Economy](../economy/README.md): 会計、寄付、経費、ポイント案の検証と接続する
+- [Welfare](../welfare/README.md): 支援条件と判断過程の透明性を扱う
+- [Arbitration](../arbitration/README.md): 証拠、判断理由、異議申し立てと接続する
+- [Infrastructure](../infrastructure/README.md): ログ、バックアップ、改ざん耐性と接続する
+- [Reputation](../reputation/README.md): 評価根拠と評価変更の検証に接続する
 
 ## 初期設計メモ
 

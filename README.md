@@ -34,7 +34,7 @@ flowchart TB
   Safety -. "逸脱を防ぐ" .-> Operation
 ```
 
-基本設計は [docs/ja/README.md](docs/ja/README.md) にまとめています。図表は [assets/diagrams/](assets/diagrams/) にあります。
+基本設計は [docs/ja/README.md](docs/ja/README.md) にまとめています。図表は [assets/diagrams/](assets/diagrams/) にあります。Mermaidが読みにくい場合は、[Visual Link Map](assets/diagrams/visual-link-map.svg) から主要文書へ直接移動できます。
 
 ## 名称について
 
@@ -86,7 +86,10 @@ flowchart TB
 
 ## 図表
 
-構造を把握しやすくするため、`assets/diagrams/` に図表を置いています。現時点ではレビューしやすいMermaidを中心にしていますが、主要な全体図はSVG、Excalidraw、draw.ioなどの併用も検討します。
+構造を把握しやすくするため、`assets/diagrams/` に図表を置いています。現時点ではレビューしやすいMermaidを中心にしていますが、主要な全体図やリンク索引にはSVG、議論用にはExcalidraw、複雑な清書にはdraw.ioなども使います。
+
+- [Visual Link Map](assets/diagrams/visual-link-map.svg): 主要文書、モジュール、Proposal、Decision、Glossaryへ移動できるクリック可能な索引
+- [Diagrams README](assets/diagrams/README.md): 図表一覧、表現形式、図と文書のリンク方針
 
 - [00-world-design-overview.md](assets/diagrams/00-world-design-overview.md): 世界設計の全体像
 - [01-cooperation-foundation-layers.md](assets/diagrams/01-cooperation-foundation-layers.md): 協力基盤の層構造

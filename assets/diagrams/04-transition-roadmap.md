@@ -1,6 +1,6 @@
 # Transition Roadmap
 
-この図は、既存制度から協力基盤へ段階的に移行するイメージです。
+この図は、[Roadmap](../../docs/ja/03-roadmap.md) のフェーズを、既存制度から協力基盤へ段階的に移行する流れとして示します。普及は [Principles](../../docs/ja/01-principles.md) の「強制ではなく利便性」に従い、前提検証は [research/ja](../../research/ja/README.md) に戻します。
 
 ```mermaid
 flowchart LR
@@ -20,4 +20,10 @@ flowchart LR
   P2 -. "相互運用性・信用・監査・ルール・安全境界" .-> P3
   P3 -. "国境を超えた協力" .-> P4
   P4 -. "便利さによる自然な採用" .-> P5
+
+  click P0 "../../docs/ja/03-roadmap.md" "Roadmap"
+  click P2 "../../modules/ja/README.md" "Modules"
+  click P3 "../../modules/ja/federation/README.md" "Federation"
+  click P5 "../../assets/diagrams/08-non-coercive-adoption.md" "Non-coercive adoption"
+  click Future "../../docs/ja/00-vision.md" "Vision"
 ```

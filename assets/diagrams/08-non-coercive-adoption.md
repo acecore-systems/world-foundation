@@ -1,6 +1,6 @@
 # Non-coercive Adoption
 
-この図は、強制ではなく利便性と信頼性によって協力基盤が広がるモデルです。
+この図は、[Principles](../../docs/ja/01-principles.md) の「強制ではなく利便性」を、[Roadmap](../../docs/ja/03-roadmap.md) 上の普及モデルとして表したものです。便利さが実質的強制へ変わるリスクは [Threat Model](../../docs/ja/05-threat-model.md) で確認します。
 
 ```mermaid
 flowchart LR
@@ -25,4 +25,9 @@ flowchart LR
   Improvement --> Useful
   Improvement --> Transparent
   Improvement --> Fair
+
+  click Voluntary "../../docs/ja/01-principles.md" "Principles"
+  click Exit "../../docs/ja/01-principles.md" "Exit capability"
+  click Adoption "../../docs/ja/03-roadmap.md" "Roadmap"
+  click Feedback "../../docs/ja/05-threat-model.md" "Threat Model"
 ```

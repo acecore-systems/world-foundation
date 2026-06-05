@@ -2,7 +2,7 @@
 
 ## 目的
 
-Governance Moduleは、協力基盤および組織連盟の意思決定、権限管理、変更手続きを扱います。
+Governance Moduleは、協力基盤および組織連盟の意思決定、権限管理、変更手続きを扱います。初期運用は [Proposal](../../../proposals/ja/README.md)、[Decision](../../../decisions/ja/README.md)、[Governance Process](../../../assets/diagrams/03-governance-process.md) に接続します。
 
 管理者や意思決定者は支配者ではなく、透明な手続きを維持するための責任を持つ参加者です。
 
@@ -32,9 +32,9 @@ Governance Moduleは、協力基盤および組織連盟の意思決定、権限
 
 ## 他モジュールとの関係
 
-Governanceは、すべてのモジュールの変更手続きと接続します。
+Governanceは、すべての [modules](../README.md) の変更手続きと接続します。
 
-Identityから参加資格や役割を参照し、Arbitrationと連携して異議申し立てや紛争を扱います。ただし、Governanceが生活支援や経済アクセスを恣意的に支配しないようにします。
+[Identity](../identity/README.md) から参加資格や役割を参照し、[Arbitration](../arbitration/README.md) と連携して異議申し立てや紛争を扱います。ただし、Governanceが生活支援や経済アクセスを恣意的に支配しないようにします。
 
 ## 初期設計メモ
 

@@ -2,7 +2,7 @@
 
 ## 目的
 
-この文書は、World Foundation Designが悪用、腐敗、支配、衝突、形骸化へ向かうリスクを整理し、緩和策を検討するための初期Threat Modelです。
+この文書は、World Foundation Designが悪用、腐敗、支配、衝突、形骸化へ向かうリスクを整理し、緩和策を検討するための初期Threat Modelです。目指さないものは [Non-goals](04-non-goals.md)、基本方針は [SAFETY.md](../../SAFETY.md)、モジュール責任は [modules/ja](../../modules/ja/README.md) へ分けます。
 
 Threat Modelは、設計を止めるためではなく、危険な方向へ進む前に発見し、修正し、必要ならロールバックするために使います。
 
@@ -509,4 +509,4 @@ ReputationがEconomyを支配する、Auditが監視化するなど、モジュ�
 
 ### 緩和策
 
-Founder Non-privilege Decision、利益相反開示、創設者発言のレビュー対象化、権限移譲手続き。
+Founder Non-privilege Decision、利益相反開示、創設者発言のレビュー対象化、権限移譲手続き。重要変更では [03-governance-process.md](../../assets/diagrams/03-governance-process.md) の流れに従い、リスク評価から異議申し立てまでを [05-risk-and-safety-loops.md](../../assets/diagrams/05-risk-and-safety-loops.md) で確認する。

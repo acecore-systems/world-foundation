@@ -1,8 +1,8 @@
 # Module Relationships
 
-この図は、初期モジュール同士の関係を示します。矢印は支配関係ではなく、参照・連携・検証の関係です。
+この図は、[modules/ja](../../modules/ja/README.md) の初期モジュール同士の関係を示します。矢印は支配関係ではなく、[Architecture](../../docs/ja/02-architecture.md) が前提にする参照・連携・検証の関係です。
 
-Reputationは全アクセスを支配するためのものではありません。Auditも全てを監視するためのものではなく、定義された範囲を検証可能にするための仕組みです。
+Reputationは全アクセスを支配するためのものではありません。Auditも全てを監視するためのものではなく、定義された範囲を検証可能にするための仕組みです。この境界が崩れるリスクは [Threat Model](../../docs/ja/05-threat-model.md) と [Non-goals](../../docs/ja/04-non-goals.md) で扱います。
 
 ```mermaid
 flowchart LR
@@ -55,4 +55,18 @@ flowchart LR
   Glossary --> Economy
   Glossary --> Governance
   Glossary --> Norms
+
+  click Identity "../../modules/ja/identity/README.md" "Identity"
+  click Reputation "../../modules/ja/reputation/README.md" "Reputation"
+  click Economy "../../modules/ja/economy/README.md" "Economy"
+  click Welfare "../../modules/ja/welfare/README.md" "Welfare"
+  click Governance "../../modules/ja/governance/README.md" "Governance"
+  click Arbitration "../../modules/ja/arbitration/README.md" "Arbitration"
+  click Infrastructure "../../modules/ja/infrastructure/README.md" "Infrastructure"
+  click Audit "../../modules/ja/audit/README.md" "Audit"
+  click Norms "../../modules/ja/norms/README.md" "Norms"
+  click PublicSafety "../../modules/ja/public-safety/README.md" "Public Safety"
+  click Federation "../../modules/ja/federation/README.md" "Federation"
+  click Glossary "../../glossary/README.md" "Glossary"
+  click Decisions "../../decisions/ja/README.md" "Decisions"
 ```

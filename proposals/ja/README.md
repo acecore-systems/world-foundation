@@ -2,7 +2,7 @@
 
 このディレクトリには、World Foundation Designの設計変更や新しい仕組みに関する提案を置きます。
 
-提案は、いきなり本体文書を変更するのではなく、まずProposalとして議論するために使います。
+提案は、いきなり本体文書を変更するのではなく、まずProposalとして議論するために使います。重要な提案では [Non-goals](../../docs/ja/04-non-goals.md)、[Threat Model](../../docs/ja/05-threat-model.md)、[Governance Process](../../assets/diagrams/03-governance-process.md) を確認し、採用された判断は [decisions/ja](../../decisions/ja/README.md) に残します。
 
 ## 位置づけ
 

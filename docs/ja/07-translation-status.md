@@ -1,6 +1,6 @@
 # Translation Status
 
-この文書は、日本語正本と英語版の翻訳ステータスを管理するための初期方針です。
+この文書は、日本語正本と英語版の翻訳ステータスを管理するための初期方針です。日本語正本は [docs/ja](README.md)、英語版は [docs/en](../en/README.md)、日英共通用語は [glossary](../../glossary/README.md) で扱い、流れは [06-multilingual-document-flow.md](../../assets/diagrams/06-multilingual-document-flow.md) に示します。
 
 ## 目的
 

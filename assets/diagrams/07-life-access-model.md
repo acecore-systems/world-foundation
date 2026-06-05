@@ -1,6 +1,6 @@
 # Life Access Model
 
-この図は、生活アクセスをポイント残高だけに閉じないための初期モデルです。
+この図は、[Life Access Sustainability](../../docs/ja/06-life-access-sustainability.md) の論点を、[Welfare](../../modules/ja/welfare/README.md)、[Economy](../../modules/ja/economy/README.md)、共有資源に分けて考える初期モデルです。支援が服従や囲い込みにならない境界は [Threat Model](../../docs/ja/05-threat-model.md) で扱います。
 
 ```mermaid
 flowchart TB
@@ -27,4 +27,9 @@ flowchart TB
   Review --> Welfare
   Review --> Economy
   Review --> Commons
+
+  click Welfare "../../modules/ja/welfare/README.md" "Welfare"
+  click Economy "../../modules/ja/economy/README.md" "Economy"
+  click Access "../../docs/ja/06-life-access-sustainability.md" "Life Access Sustainability"
+  click Safeguards "../../docs/ja/05-threat-model.md" "Threat Model"
 ```

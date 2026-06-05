@@ -1,8 +1,8 @@
 # Expanded Module Relationships
 
-この図は、Norms、Public Safety、Federationを含む拡張後のモジュール関係を示します。
+この図は、[Architecture](../../docs/ja/02-architecture.md) の拡張後モジュール、特に [Norms](../../modules/ja/norms/README.md)、[Public Safety](../../modules/ja/public-safety/README.md)、[Federation](../../modules/ja/federation/README.md) を含む関係を示します。
 
-矢印は支配関係ではなく、参照・連携・検証・相互接続を示します。
+矢印は支配関係ではなく、参照・連携・検証・相互接続を示します。中央支配化や自警団化などのリスクは [Threat Model](../../docs/ja/05-threat-model.md) へ戻して確認します。
 
 ```mermaid
 flowchart TB
@@ -38,4 +38,16 @@ flowchart TB
   Infrastructure --> Identity
   Infrastructure --> Audit
   Infrastructure --> Federation
+
+  click Federation "../../modules/ja/federation/README.md" "Federation"
+  click Identity "../../modules/ja/identity/README.md" "Identity"
+  click Reputation "../../modules/ja/reputation/README.md" "Reputation"
+  click Norms "../../modules/ja/norms/README.md" "Norms"
+  click Governance "../../modules/ja/governance/README.md" "Governance"
+  click Arbitration "../../modules/ja/arbitration/README.md" "Arbitration"
+  click PublicSafety "../../modules/ja/public-safety/README.md" "Public Safety"
+  click Economy "../../modules/ja/economy/README.md" "Economy"
+  click Welfare "../../modules/ja/welfare/README.md" "Welfare"
+  click Infrastructure "../../modules/ja/infrastructure/README.md" "Infrastructure"
+  click Audit "../../modules/ja/audit/README.md" "Audit"
 ```

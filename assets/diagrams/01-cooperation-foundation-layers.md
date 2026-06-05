@@ -1,6 +1,6 @@
 # Cooperation Foundation Layers
 
-この図は、協力基盤を層として分けて考えるための初期モデルです。
+この図は、[Architecture](../../docs/ja/02-architecture.md) で説明する協力基盤を層として分けるための初期モデルです。各層の詳細は [modules/ja](../../modules/ja/README.md) に置き、責任侵食のリスクは [Threat Model](../../docs/ja/05-threat-model.md) で扱います。
 
 ```mermaid
 flowchart TB
@@ -43,4 +43,16 @@ flowchart TB
   Audit --> Economy
   Audit --> Arbitration
   Audit --> Reputation
+
+  click Identity "../../modules/ja/identity/README.md" "Identity"
+  click Reputation "../../modules/ja/reputation/README.md" "Reputation"
+  click Economy "../../modules/ja/economy/README.md" "Economy"
+  click Welfare "../../modules/ja/welfare/README.md" "Welfare"
+  click Governance "../../modules/ja/governance/README.md" "Governance"
+  click Arbitration "../../modules/ja/arbitration/README.md" "Arbitration"
+  click Infrastructure "../../modules/ja/infrastructure/README.md" "Infrastructure"
+  click Audit "../../modules/ja/audit/README.md" "Audit"
+  click Norms "../../modules/ja/norms/README.md" "Norms"
+  click PublicSafety "../../modules/ja/public-safety/README.md" "Public Safety"
+  click Federation "../../modules/ja/federation/README.md" "Federation"
 ```

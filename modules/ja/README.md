@@ -36,6 +36,18 @@ flowchart TB
   Federation --> Audit
   Infrastructure --> Federation
   Infrastructure --> Audit
+
+  click Identity "identity/README.md" "Identity"
+  click Reputation "reputation/README.md" "Reputation"
+  click Economy "economy/README.md" "Economy"
+  click Welfare "welfare/README.md" "Welfare"
+  click Governance "governance/README.md" "Governance"
+  click Arbitration "arbitration/README.md" "Arbitration"
+  click Infrastructure "infrastructure/README.md" "Infrastructure"
+  click Audit "audit/README.md" "Audit"
+  click Norms "norms/README.md" "Norms"
+  click PublicSafety "public-safety/README.md" "Public Safety"
+  click Federation "federation/README.md" "Federation"
 ```
 
 ## モジュール一覧
@@ -54,8 +66,6 @@ flowchart TB
 | [public-safety/README.md](public-safety/README.md) | 暴力予防、通報、公共安全境界 |
 | [federation/README.md](federation/README.md) | 組織間プロトコル、自治、相互運用性 |
 
-## 関連図表
+## 読み方
 
-- [02-module-relationships.md](../../assets/diagrams/02-module-relationships.md): モジュール関係図
-- [09-expanded-module-map.md](../../assets/diagrams/09-expanded-module-map.md): 拡張モジュール関係図
-- [01-cooperation-foundation-layers.md](../../assets/diagrams/01-cooperation-foundation-layers.md): 協力基盤の層構造
+全体構造は [Architecture](../../docs/ja/02-architecture.md)、モジュール間の接続は [02-module-relationships.md](../../assets/diagrams/02-module-relationships.md) と [09-expanded-module-map.md](../../assets/diagrams/09-expanded-module-map.md)、安全境界は [Non-goals](../../docs/ja/04-non-goals.md) と [Threat Model](../../docs/ja/05-threat-model.md) を見ながら読みます。

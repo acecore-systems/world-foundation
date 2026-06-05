@@ -1,6 +1,6 @@
 # Governance Process
 
-この図は、IssueからProposal、Pull Request、Decisionまでの初期運用フローです。
+この図は、Issueから [Proposal](../../proposals/ja/README.md)、Pull Request、[Decision](../../decisions/ja/README.md) までの初期運用フローです。変更前に [Non-goals](../../docs/ja/04-non-goals.md)、[SAFETY](../../SAFETY.md)、[Threat Model](../../docs/ja/05-threat-model.md) を通す流れを含めます。
 
 ```mermaid
 flowchart TD
@@ -34,4 +34,11 @@ flowchart TD
   Reopen --> Proposal
   Reopen --> Rollback
   Rollback --> Review
+
+  click NonGoals "../../docs/ja/04-non-goals.md" "Non-goals"
+  click Safety "../../SAFETY.md" "Safety"
+  click Threat "../../docs/ja/05-threat-model.md" "Threat Model"
+  click Proposal "../../proposals/ja/README.md" "Proposals"
+  click Decision "../../decisions/ja/README.md" "Decisions"
+  click Docs "../../docs/ja/README.md" "docs / modules / glossary"
 ```

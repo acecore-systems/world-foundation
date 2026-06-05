@@ -2,7 +2,7 @@
 
 ## 目的
 
-Identity Moduleは、個人や組織のアイデンティティ、本人性、所属、権限を扱います。
+Identity Moduleは、個人や組織のアイデンティティ、本人性、所属、権限を扱います。[Architecture](../../../docs/ja/02-architecture.md) 上では、[Reputation](../reputation/README.md)、[Governance](../governance/README.md)、[Federation](../federation/README.md) と接続します。
 
 ここでいうアイデンティティは、階層的な身分制度ではありません。誰が、どの組織に、どの権限で参加しているかを、透明かつ離脱可能な形で扱うための基盤です。
 
@@ -31,7 +31,7 @@ Identity Moduleは、個人や組織のアイデンティティ、本人性、�
 
 ## 他モジュールとの関係
 
-Identityは、Governanceの投票権や役割、Economyの利用権、Welfareの支援対象、Arbitrationの当事者確認と接続します。
+Identityは、[Governance](../governance/README.md) の投票権や役割、[Economy](../economy/README.md) の利用権、[Welfare](../welfare/README.md) の支援対象、[Arbitration](../arbitration/README.md) の当事者確認と接続します。
 
 ただし、Identityが信用、経済、仲裁の判断を直接支配しないように分離します。
 

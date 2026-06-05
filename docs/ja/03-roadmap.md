@@ -1,6 +1,6 @@
 # Roadmap
 
-この世界設計は段階的に設計・実装します。
+この世界設計は段階的に設計・実装します。フェーズの流れは [04-transition-roadmap.md](../../assets/diagrams/04-transition-roadmap.md)、普及時に強制へ寄らないための考え方は [08-non-coercive-adoption.md](../../assets/diagrams/08-non-coercive-adoption.md) にあります。
 
 ## Phase 0: 設計基盤
 
