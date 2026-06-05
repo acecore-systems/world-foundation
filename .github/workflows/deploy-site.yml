@@ -1,0 +1,42 @@
+name: Deploy site
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - CONTRIBUTING.md
+      - GOVERNANCE.md
+      - SAFETY.md
+      - CODE_OF_CONDUCT.md
+      - docs/**
+      - modules/**
+      - proposals/**
+      - decisions/**
+      - research/**
+      - glossary/**
+      - assets/**
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: world-foundation-site-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy-site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Pages deploy hook
+        env:
+          DEPLOY_HOOK_URL: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$DEPLOY_HOOK_URL" ]; then
+            echo "CLOUDFLARE_PAGES_DEPLOY_HOOK is not configured." >&2
+            exit 1
+          fi
+
+          curl --fail --silent --show-error --request POST "$DEPLOY_HOOK_URL"

@@ -61,6 +61,12 @@ flowchart TB
 3. Pull Requestで変更をレビューする
 4. 重要な判断は `decisions/` に記録する
 
+## 公開サイト
+
+公開サイトは [`acecore-systems/world-foundation-site`](https://github.com/acecore-systems/world-foundation-site) からCloudflare Pagesへデプロイします。このリポジトリの `main` に文書、モジュール、図表、用語集をpushすると、GitHub Actionsが `CLOUDFLARE_PAGES_DEPLOY_HOOK` を使ってPagesの再ビルドを起動します。
+
+Deploy Hook URLはCloudflare Pages側で作成し、このリポジトリのGitHub Secretsに `CLOUDFLARE_PAGES_DEPLOY_HOOK` として登録します。
+
 ## ディレクトリ
 
 - `CODE_OF_CONDUCT.md`: 参加者の行動規範
