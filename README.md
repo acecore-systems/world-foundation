@@ -44,7 +44,7 @@ flowchart TB
   click 調査 "research/ja/index.md" "調査索引"
 ```
 
-基本設計は [docs/ja/README.md](docs/ja/README.md) にまとめています。図表は [assets/diagrams/](assets/diagrams/) にあります。Mermaidが読みにくい場合は、[ビジュアルリンクマップ](assets/diagrams/visual-link-map.svg) から主要文書へ直接移動できます。
+基本設計は [基本設計文書](docs/ja/README.md) にまとめています。図表は [図表ページ](assets/diagrams/) にあります。Mermaidが読みにくい場合は、[ビジュアルリンクマップ](assets/diagrams/visual-link-map.svg) から主要文書へ直接移動できます。
 
 ## 名称について
 
@@ -67,9 +67,9 @@ flowchart TB
 問題提起、アイデア、提案、翻訳、調査、文章改善はすべて歓迎します。
 
 1. [Issue](https://github.com/acecore-systems/world-foundation/issues) で問題やアイデアを共有する
-2. 必要に応じて [proposals/](proposals/ja/README.md) に提案を書く
+2. 必要に応じて [提案](proposals/ja/README.md)を書く
 3. [Pull Request](https://github.com/acecore-systems/world-foundation/pulls) で変更をレビューする
-4. 重要な判断は [decisions/](decisions/ja/README.md) に記録する
+4. 重要な判断は [意思決定](decisions/ja/README.md) に記録する
 
 ## 公開サイト
 
@@ -79,16 +79,16 @@ Deploy Hook URLはCloudflare Pages側で作成し、このリポジトリのGitH
 
 ## ディレクトリ
 
-- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md): 参加者の行動規範
-- [SAFETY.md](SAFETY.md): 誤用・悪用を避けるための安全方針
-- [docs/](docs/ja/README.md): 基本設計文書
-- [modules/](modules/ja/README.md): 機能ごとの設計メモ
-- [glossary/](glossary/README.md): 用語集
-- [proposals/](proposals/ja/README.md): 設計変更や新しい仕組みの提案
-- [decisions/](decisions/ja/README.md): 重要な意思決定の記録
-- [research/](research/ja/README.md): 関連する調査資料
-- [assets/](assets/diagrams/README.md): 図表や説明用素材
-- [meta/issue-drafts/](meta/issue-drafts/README.md) / [meta/handoffs/](meta/handoffs/README.md): 初期生成プロンプトなど、設計本文ではない運用記録
+- [行動規範](CODE_OF_CONDUCT.md): 参加者の行動規範
+- [安全方針](SAFETY.md): 誤用・悪用を避けるための安全方針
+- [基本設計文書](docs/ja/README.md): 基本設計文書
+- [モジュール](modules/ja/README.md): 機能ごとの設計メモ
+- [用語集](glossary/README.md): 用語集
+- [提案](proposals/ja/README.md): 設計変更や新しい仕組みの提案
+- [意思決定](decisions/ja/README.md): 重要な意思決定の記録
+- [調査](research/ja/README.md): 関連する調査資料
+- [図表](assets/diagrams/README.md): 図表や説明用素材
+- [Issue下書き](meta/issue-drafts/README.md) / [引継ぎ記録](meta/handoffs/README.md): 初期生成プロンプトなど、設計本文ではない運用記録
 
 `docs/` にはビジョン、設計原則、アーキテクチャ、ロードマップ、対象外、脅威モデル、生活アクセスの持続可能性、翻訳ステータスを置きます。
 
@@ -107,16 +107,16 @@ Deploy Hook URLはCloudflare Pages側で作成し、このリポジトリのGitH
 - [ビジュアルリンクマップ](assets/diagrams/visual-link-map.svg): 主要文書、モジュール、提案、意思決定、用語集へ移動できるクリック可能な索引
 - [図表README](assets/diagrams/README.md): 図表一覧、表現形式、図と文書のリンク方針
 
-- [00-world-design-overview.md](assets/diagrams/00-world-design-overview.md): 世界設計の全体像
-- [01-cooperation-foundation-layers.md](assets/diagrams/01-cooperation-foundation-layers.md): 協力基盤の層構造
-- [02-module-relationships.md](assets/diagrams/02-module-relationships.md): モジュール関係図
-- [03-governance-process.md](assets/diagrams/03-governance-process.md): ガバナンスフロー
-- [04-transition-roadmap.md](assets/diagrams/04-transition-roadmap.md): 段階的移行ロードマップ
-- [05-risk-and-safety-loops.md](assets/diagrams/05-risk-and-safety-loops.md): 腐敗耐性と安全装置
-- [06-multilingual-document-flow.md](assets/diagrams/06-multilingual-document-flow.md): 日本語正本と翻訳の管理フロー
-- [07-life-access-model.md](assets/diagrams/07-life-access-model.md): 生活アクセスの設計モデル
-- [08-non-coercive-adoption.md](assets/diagrams/08-non-coercive-adoption.md): 非強制の普及モデル
-- [09-expanded-module-map.md](assets/diagrams/09-expanded-module-map.md): 拡張モジュール関係図
+- [世界設計の全体像](assets/diagrams/00-world-design-overview.md)
+- [協力基盤の層構造](assets/diagrams/01-cooperation-foundation-layers.md)
+- [モジュール関係図](assets/diagrams/02-module-relationships.md)
+- [ガバナンスフロー](assets/diagrams/03-governance-process.md)
+- [段階的移行ロードマップ](assets/diagrams/04-transition-roadmap.md)
+- [腐敗耐性と安全装置](assets/diagrams/05-risk-and-safety-loops.md)
+- [日本語正本と翻訳の管理フロー](assets/diagrams/06-multilingual-document-flow.md)
+- [生活アクセスの設計モデル](assets/diagrams/07-life-access-model.md)
+- [非強制の普及モデル](assets/diagrams/08-non-coercive-adoption.md)
+- [拡張モジュール関係図](assets/diagrams/09-expanded-module-map.md)
 
 ## 注意
 

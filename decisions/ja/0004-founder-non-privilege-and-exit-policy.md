@@ -54,7 +54,7 @@ World Foundation Designは、特定の創設者、管理者、組織名、ブラ
 
 ## 関連文書
 
-- [docs/ja/04-non-goals.md](../../docs/ja/04-non-goals.md)
-- [docs/ja/05-threat-model.md](../../docs/ja/05-threat-model.md)
-- [GOVERNANCE.md](../../GOVERNANCE.md)
-- [CODE_OF_CONDUCT.md](../../CODE_OF_CONDUCT.md)
+- [対象外](../../docs/ja/04-non-goals.md)
+- [脅威モデル](../../docs/ja/05-threat-model.md)
+- [運営方針](../../GOVERNANCE.md)
+- [行動規範](../../CODE_OF_CONDUCT.md)

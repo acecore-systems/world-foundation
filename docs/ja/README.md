@@ -55,16 +55,16 @@ flowchart TB
 
 | 項目 | まず読む | さらに見る |
 | --- | --- | --- |
-| 目的 | [00-vision.md](00-vision.md) | [00-world-design-overview.md](../../assets/diagrams/00-world-design-overview.md), [ビジュアルリンクマップ](../../assets/diagrams/visual-link-map.svg) |
-| 原則 | [01-principles.md](01-principles.md) | [08-non-coercive-adoption.md](../../assets/diagrams/08-non-coercive-adoption.md), [04-non-goals.md](04-non-goals.md) |
-| 構造 | [02-architecture.md](02-architecture.md) | [01-cooperation-foundation-layers.md](../../assets/diagrams/01-cooperation-foundation-layers.md), [modules/ja](../../modules/ja/README.md) |
-| モジュール | [modules/ja](../../modules/ja/README.md) | [02-module-relationships.md](../../assets/diagrams/02-module-relationships.md), [09-expanded-module-map.md](../../assets/diagrams/09-expanded-module-map.md), [05-threat-model.md](05-threat-model.md) |
-| 安全境界 | [04-non-goals.md](04-non-goals.md), [05-threat-model.md](05-threat-model.md) | [安全方針](../../SAFETY.md), [05-risk-and-safety-loops.md](../../assets/diagrams/05-risk-and-safety-loops.md) |
-| 運用 | [proposals/ja](../../proposals/ja/README.md), [decisions/ja](../../decisions/ja/README.md) | [03-governance-process.md](../../assets/diagrams/03-governance-process.md), [ガバナンスモジュール](../../modules/ja/governance/README.md) |
-| 移行 | [03-roadmap.md](03-roadmap.md) | [04-transition-roadmap.md](../../assets/diagrams/04-transition-roadmap.md), [08-non-coercive-adoption.md](../../assets/diagrams/08-non-coercive-adoption.md) |
-| 生活アクセス | [06-life-access-sustainability.md](06-life-access-sustainability.md) | [07-life-access-model.md](../../assets/diagrams/07-life-access-model.md), [福祉モジュール](../../modules/ja/welfare/README.md), [経済モジュール](../../modules/ja/economy/README.md), [05-threat-model.md](05-threat-model.md) |
-| 翻訳 | [07-translation-status.md](07-translation-status.md) | [06-multilingual-document-flow.md](../../assets/diagrams/06-multilingual-document-flow.md), [用語集](../../glossary/README.md), [英語版文書](../en/README.md) |
-| 調査 | [research/ja/index.md](../../research/ja/index.md) | [research/ja](../../research/ja/README.md) |
+| 目的 | [ビジョン](00-vision.md) | [世界設計の全体像](../../assets/diagrams/00-world-design-overview.md), [ビジュアルリンクマップ](../../assets/diagrams/visual-link-map.svg) |
+| 原則 | [設計原則](01-principles.md) | [非強制の普及モデル](../../assets/diagrams/08-non-coercive-adoption.md), [対象外](04-non-goals.md) |
+| 構造 | [アーキテクチャ](02-architecture.md) | [協力基盤の階層](../../assets/diagrams/01-cooperation-foundation-layers.md), [モジュール](../../modules/ja/README.md) |
+| モジュール | [モジュール](../../modules/ja/README.md) | [モジュール関係図](../../assets/diagrams/02-module-relationships.md), [拡張モジュール関係図](../../assets/diagrams/09-expanded-module-map.md), [脅威モデル](05-threat-model.md) |
+| 安全境界 | [対象外](04-non-goals.md), [脅威モデル](05-threat-model.md) | [安全方針](../../SAFETY.md), [リスクと安全性のループ](../../assets/diagrams/05-risk-and-safety-loops.md) |
+| 運用 | [提案](../../proposals/ja/README.md), [意思決定](../../decisions/ja/README.md) | [ガバナンスプロセス](../../assets/diagrams/03-governance-process.md), [ガバナンスモジュール](../../modules/ja/governance/README.md) |
+| 移行 | [ロードマップ](03-roadmap.md) | [移行ロードマップ](../../assets/diagrams/04-transition-roadmap.md), [非強制の普及モデル](../../assets/diagrams/08-non-coercive-adoption.md) |
+| 生活アクセス | [生活アクセスの持続可能性](06-life-access-sustainability.md) | [生活アクセスモデル](../../assets/diagrams/07-life-access-model.md), [福祉モジュール](../../modules/ja/welfare/README.md), [経済モジュール](../../modules/ja/economy/README.md), [脅威モデル](05-threat-model.md) |
+| 翻訳 | [翻訳ステータス](07-translation-status.md) | [多言語ドキュメント運用](../../assets/diagrams/06-multilingual-document-flow.md), [用語集](../../glossary/README.md), [英語版文書](../en/README.md) |
+| 調査 | [調査索引](../../research/ja/index.md) | [調査](../../research/ja/README.md) |
 
 ## 文書一覧
 

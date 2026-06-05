@@ -8,7 +8,7 @@ World Foundation Designへの貢献を歓迎します。
 
 1. [Issue](https://github.com/acecore-systems/world-foundation/issues) を作成する
 2. 議論する
-3. 必要に応じて [proposals/](proposals/ja/README.md) に提案を書く
+3. 必要に応じて [提案](proposals/ja/README.md)を書く
 4. [Pull Request](https://github.com/acecore-systems/world-foundation/pulls) を作成する
 5. レビュー後にマージする
 
@@ -24,7 +24,7 @@ World Foundation Designへの貢献を歓迎します。
 - 透明性を重視する
 - 離脱可能性とフォーク可能性を尊重する
 - 用語の一貫性を保つ
-- 重要な設計判断は [decisions/](decisions/ja/README.md) に記録する
+- 重要な設計判断は [意思決定](decisions/ja/README.md) に記録する
 - 悪用可能性、腐敗リスク、権限集中リスクを検討する
 
 ## Pull Requestの考え方

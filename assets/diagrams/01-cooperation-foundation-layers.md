@@ -1,6 +1,6 @@
 # 協力基盤の階層
 
-この図は、[アーキテクチャ](../../docs/ja/02-architecture.md) で説明する協力基盤を層として分けるための初期モデルです。各層の詳細は [modules/ja](../../modules/ja/README.md) に置き、責任侵食のリスクは [脅威モデル](../../docs/ja/05-threat-model.md) で扱います。
+この図は、[アーキテクチャ](../../docs/ja/02-architecture.md) で説明する協力基盤を層として分けるための初期モデルです。各層の詳細は [モジュール](../../modules/ja/README.md) に置き、責任侵食のリスクは [脅威モデル](../../docs/ja/05-threat-model.md) で扱います。
 
 ```mermaid
 flowchart TB

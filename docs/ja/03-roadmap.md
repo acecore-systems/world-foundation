@@ -1,6 +1,6 @@
 # ロードマップ
 
-この世界設計は段階的に設計・実装します。フェーズの流れは [04-transition-roadmap.md](../../assets/diagrams/04-transition-roadmap.md)、普及時に強制へ寄らないための考え方は [08-non-coercive-adoption.md](../../assets/diagrams/08-non-coercive-adoption.md) にあります。
+この世界設計は段階的に設計・実装します。フェーズの流れは [移行ロードマップ](../../assets/diagrams/04-transition-roadmap.md)、普及時に強制へ寄らないための考え方は [非強制の普及モデル](../../assets/diagrams/08-non-coercive-adoption.md) にあります。
 
 ## フェーズ 0: 設計基盤
 

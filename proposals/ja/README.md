@@ -2,7 +2,7 @@
 
 このディレクトリには、World Foundation Designの設計変更や新しい仕組みに関する提案を置きます。
 
-提案は、いきなり本体文書を変更するのではなく、まず提案として議論するために使います。重要な提案では [対象外](../../docs/ja/04-non-goals.md)、[脅威モデル](../../docs/ja/05-threat-model.md)、[ガバナンスプロセス](../../assets/diagrams/03-governance-process.md) を確認し、採用された判断は [decisions/ja](../../decisions/ja/README.md) に残します。
+提案は、いきなり本体文書を変更するのではなく、まず提案として議論するために使います。重要な提案では [対象外](../../docs/ja/04-non-goals.md)、[脅威モデル](../../docs/ja/05-threat-model.md)、[ガバナンスプロセス](../../assets/diagrams/03-governance-process.md) を確認し、採用された判断は [意思決定](../../decisions/ja/README.md) に残します。
 
 ## 位置づけ
 
@@ -46,4 +46,4 @@ flowchart LR
 
 ## 提案一覧
 
-- [0001-initial-governance-process.md](0001-initial-governance-process.md): 初期ガバナンスプロセス
+- [初期ガバナンスプロセス](0001-initial-governance-process.md)

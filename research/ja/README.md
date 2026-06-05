@@ -67,4 +67,4 @@ flowchart TB
 
 ## 索引
 
-調査テーマの一覧は [index.md](index.md) に整理します。
+調査テーマの一覧は [調査索引](index.md) に整理します。

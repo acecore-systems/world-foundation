@@ -1,6 +1,6 @@
 # 対象外
 
-この文書は、World Foundation Designが何を目指さないかを明確にするための文書です。具体的な悪用・腐敗リスクは [脅威モデル](05-threat-model.md)、基本的な安全方針は [SAFETY.md](../../SAFETY.md) に分けます。
+この文書は、World Foundation Designが何を目指さないかを明確にするための文書です。具体的な悪用・腐敗リスクは [脅威モデル](05-threat-model.md)、基本的な安全方針は [安全方針](../../SAFETY.md) に分けます。
 
 ## 目指さないもの
 
@@ -38,4 +38,4 @@ World Foundation Designは扱う範囲が広いため、誤解される危険が
 
 対象外の変更は軽く扱わないでください。
 
-対象外を削除・弱体化する変更は、必ず [提案](../../proposals/ja/README.md) を作成し、[意思決定](../../decisions/ja/README.md) へ理由を記録してください。安全装置の流れは [05-risk-and-safety-loops.md](../../assets/diagrams/05-risk-and-safety-loops.md) にあります。
+対象外を削除・弱体化する変更は、必ず [提案](../../proposals/ja/README.md) を作成し、[意思決定](../../decisions/ja/README.md) へ理由を記録してください。安全装置の流れは [リスクと安全性のループ](../../assets/diagrams/05-risk-and-safety-loops.md) にあります。

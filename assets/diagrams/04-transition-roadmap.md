@@ -1,6 +1,6 @@
 # 移行ロードマップ
 
-この図は、[ロードマップ](../../docs/ja/03-roadmap.md) のフェーズを、既存制度から協力基盤へ段階的に移行する流れとして示します。普及は [設計原則](../../docs/ja/01-principles.md) の「強制ではなく利便性」に従い、前提検証は [research/ja](../../research/ja/README.md) に戻します。
+この図は、[ロードマップ](../../docs/ja/03-roadmap.md) のフェーズを、既存制度から協力基盤へ段階的に移行する流れとして示します。普及は [設計原則](../../docs/ja/01-principles.md) の「強制ではなく利便性」に従い、前提検証は [調査](../../research/ja/README.md) に戻します。
 
 ```mermaid
 flowchart LR

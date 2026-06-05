@@ -10,7 +10,7 @@
 
 この文書は、理想的な世界の方向性を共有するためのビジョンです。
 
-具体的な制度、運用、権限、技術実装は、この文書だけでは決めません。詳細は [01-principles.md](01-principles.md)、[02-architecture.md](02-architecture.md)、[modules/ja](../../modules/ja/README.md)、[proposals/ja](../../proposals/ja/README.md)、[decisions/ja](../../decisions/ja/README.md) で分けて検討します。全体の接続は [00-world-design-overview.md](../../assets/diagrams/00-world-design-overview.md) と [ビジュアルリンクマップ](../../assets/diagrams/visual-link-map.svg) からも確認できます。
+具体的な制度、運用、権限、技術実装は、この文書だけでは決めません。詳細は [設計原則](01-principles.md)、[アーキテクチャ](02-architecture.md)、[モジュール](../../modules/ja/README.md)、[提案](../../proposals/ja/README.md)、[意思決定](../../decisions/ja/README.md) で分けて検討します。全体の接続は [世界設計の全体像](../../assets/diagrams/00-world-design-overview.md) と [ビジュアルリンクマップ](../../assets/diagrams/visual-link-map.svg) からも確認できます。
 
 ビジョンは方向を示すものですが、参加者を一つの思想へ閉じ込めるものではありません。複数の考え方、地域、組織、実装が共通プロトコルで協力できる状態を重視します。
 

@@ -63,7 +63,7 @@ flowchart TB
 
 ### 2. 通常の設計変更
 
-[docs](../../docs/ja/README.md)、[modules](../../modules/ja/README.md)、[glossary](../../glossary/README.md)、[research](../../research/ja/README.md) の内容を変更する場合は、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls) で提案し、レビューで理由と影響を確認する。
+[設計文書](../../docs/ja/README.md)、[モジュール](../../modules/ja/README.md)、[用語集](../../glossary/README.md)、[調査](../../research/ja/README.md) の内容を変更する場合は、[Pull Request](https://github.com/acecore-systems/world-foundation/pulls) で提案し、レビューで理由と影響を確認する。
 
 ### 3. 重要な設計変更
 
@@ -127,13 +127,13 @@ flowchart TB
 
 ## 影響する文書・モジュール
 
-- [GOVERNANCE.md](../../GOVERNANCE.md)
-- [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- [.github/ISSUE_TEMPLATE/](https://github.com/acecore-systems/world-foundation/tree/main/.github/ISSUE_TEMPLATE)
-- [.github/PULL_REQUEST_TEMPLATE.md](https://github.com/acecore-systems/world-foundation/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
-- [proposals/](README.md)
-- [decisions/](../../decisions/ja/README.md)
-- [modules/ja/governance/README.md](../../modules/ja/governance/README.md)
+- [運営方針](../../GOVERNANCE.md)
+- [貢献ガイド](../../CONTRIBUTING.md)
+- [Issueテンプレート](https://github.com/acecore-systems/world-foundation/tree/main/.github/ISSUE_TEMPLATE)
+- [Pull Requestテンプレート](https://github.com/acecore-systems/world-foundation/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
+- [提案](README.md)
+- [意思決定](../../decisions/ja/README.md)
+- [ガバナンスモジュール](../../modules/ja/governance/README.md)
 
 ## 利点
 

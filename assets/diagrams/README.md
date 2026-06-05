@@ -10,7 +10,7 @@ Mermaidが見づらい場合の入口として、クリック可能なSVG索引�
 
 [![World Foundation ビジュアルリンクマップ](visual-link-map.svg)](visual-link-map.svg)
 
-SVG内の各ノードは、主要な設計文書、モジュール索引、提案、意思決定、用語集へリンクします。GitHub上で画像としてだけ見える場合は、[visual-link-map.svg](visual-link-map.svg) を直接開いて使います。
+SVG内の各ノードは、主要な設計文書、モジュール索引、提案、意思決定、用語集へリンクします。GitHub上で画像としてだけ見える場合は、[SVGファイル](visual-link-map.svg) を直接開いて使います。
 
 ## 索引構成
 
@@ -51,16 +51,16 @@ flowchart TB
 
 | 図 | 役割 | 主な詳細文書 |
 | --- | --- | --- |
-| [00-world-design-overview.md](00-world-design-overview.md) | 世界設計の全体像 | [00-vision.md](../../docs/ja/00-vision.md), [01-principles.md](../../docs/ja/01-principles.md), [visual-link-map.svg](visual-link-map.svg) |
-| [01-cooperation-foundation-layers.md](01-cooperation-foundation-layers.md) | 協力基盤の層構造 | [02-architecture.md](../../docs/ja/02-architecture.md), [modules/ja](../../modules/ja/README.md), [09-expanded-module-map.md](09-expanded-module-map.md) |
-| [02-module-relationships.md](02-module-relationships.md) | モジュール関係図 | [modules/ja](../../modules/ja/README.md), [02-architecture.md](../../docs/ja/02-architecture.md), [05-threat-model.md](../../docs/ja/05-threat-model.md) |
-| [03-governance-process.md](03-governance-process.md) | Issueから意思決定までの流れ | [proposals/ja](../../proposals/ja/README.md), [decisions/ja](../../decisions/ja/README.md), [modules/ja/governance](../../modules/ja/governance/README.md) |
-| [04-transition-roadmap.md](04-transition-roadmap.md) | 既存制度から協力基盤への段階的移行 | [03-roadmap.md](../../docs/ja/03-roadmap.md), [08-non-coercive-adoption.md](08-non-coercive-adoption.md), [research/ja](../../research/ja/README.md) |
-| [05-risk-and-safety-loops.md](05-risk-and-safety-loops.md) | 腐敗耐性と安全装置 | [05-threat-model.md](../../docs/ja/05-threat-model.md), [04-non-goals.md](../../docs/ja/04-non-goals.md), [SAFETY.md](../../SAFETY.md) |
-| [06-multilingual-document-flow.md](06-multilingual-document-flow.md) | 日本語正本と翻訳の管理フロー | [07-translation-status.md](../../docs/ja/07-translation-status.md), [英語版文書](../../docs/en/README.md), [用語集](../../glossary/README.md) |
-| [07-life-access-model.md](07-life-access-model.md) | 生活アクセスの設計モデル | [06-life-access-sustainability.md](../../docs/ja/06-life-access-sustainability.md), [modules/ja/welfare](../../modules/ja/welfare/README.md), [modules/ja/economy](../../modules/ja/economy/README.md) |
-| [08-non-coercive-adoption.md](08-non-coercive-adoption.md) | 非強制の普及モデル | [01-principles.md](../../docs/ja/01-principles.md), [00-vision.md](../../docs/ja/00-vision.md), [04-transition-roadmap.md](04-transition-roadmap.md) |
-| [09-expanded-module-map.md](09-expanded-module-map.md) | 規範 / 公共安全 / 連合を含む拡張モジュール関係図 | [02-architecture.md](../../docs/ja/02-architecture.md), [modules/ja](../../modules/ja/README.md), [02-module-relationships.md](02-module-relationships.md) |
+| [世界設計の全体像](00-world-design-overview.md) | 世界設計の全体像 | [ビジョン](../../docs/ja/00-vision.md), [設計原則](../../docs/ja/01-principles.md), [ビジュアルリンクマップ](visual-link-map.svg) |
+| [協力基盤の層構造](01-cooperation-foundation-layers.md) | 協力基盤の層構造 | [アーキテクチャ](../../docs/ja/02-architecture.md), [モジュール](../../modules/ja/README.md), [拡張モジュール関係図](09-expanded-module-map.md) |
+| [モジュール関係図](02-module-relationships.md) | モジュール関係図 | [モジュール](../../modules/ja/README.md), [アーキテクチャ](../../docs/ja/02-architecture.md), [脅威モデル](../../docs/ja/05-threat-model.md) |
+| [ガバナンスプロセス](03-governance-process.md) | Issueから意思決定までの流れ | [提案](../../proposals/ja/README.md), [意思決定](../../decisions/ja/README.md), [ガバナンスモジュール](../../modules/ja/governance/README.md) |
+| [移行ロードマップ](04-transition-roadmap.md) | 既存制度から協力基盤への段階的移行 | [ロードマップ](../../docs/ja/03-roadmap.md), [非強制の普及モデル](08-non-coercive-adoption.md), [調査](../../research/ja/README.md) |
+| [リスクと安全性のループ](05-risk-and-safety-loops.md) | 腐敗耐性と安全装置 | [脅威モデル](../../docs/ja/05-threat-model.md), [対象外](../../docs/ja/04-non-goals.md), [安全方針](../../SAFETY.md) |
+| [多言語ドキュメント運用](06-multilingual-document-flow.md) | 日本語正本と翻訳の管理フロー | [翻訳ステータス](../../docs/ja/07-translation-status.md), [英語版文書](../../docs/en/README.md), [用語集](../../glossary/README.md) |
+| [生活アクセスモデル](07-life-access-model.md) | 生活アクセスの設計モデル | [生活アクセスの持続可能性](../../docs/ja/06-life-access-sustainability.md), [福祉モジュール](../../modules/ja/welfare/README.md), [経済モジュール](../../modules/ja/economy/README.md) |
+| [非強制の普及モデル](08-non-coercive-adoption.md) | 非強制の普及モデル | [設計原則](../../docs/ja/01-principles.md), [ビジョン](../../docs/ja/00-vision.md), [移行ロードマップ](04-transition-roadmap.md) |
+| [拡張モジュール関係図](09-expanded-module-map.md) | 規範 / 公共安全 / 連合を含む拡張モジュール関係図 | [アーキテクチャ](../../docs/ja/02-architecture.md), [モジュール](../../modules/ja/README.md), [モジュール関係図](02-module-relationships.md) |
 
 ## 表現形式の検討
 

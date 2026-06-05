@@ -55,18 +55,18 @@ flowchart TB
 
 | モジュール | 役割 |
 | --- | --- |
-| [identity/README.md](identity/README.md) | 本人性、所属、権限 |
-| [reputation/README.md](reputation/README.md) | 信用、貢献、文脈別評価 |
-| [economy/README.md](economy/README.md) | 価値交換、内部記録、生活アクセス |
-| [welfare/README.md](welfare/README.md) | 生存不安を減らす生活支援 |
-| [governance/README.md](governance/README.md) | 意思決定、変更手続き、権限管理 |
-| [arbitration/README.md](arbitration/README.md) | 紛争解決、異議申し立て |
-| [infrastructure/README.md](infrastructure/README.md) | 通信、計算、データ、生活基盤 |
-| [audit/README.md](audit/README.md) | 検証、記録、公開情報と保護情報の境界 |
-| [norms/README.md](norms/README.md) | ルール、規約、権利、義務 |
-| [public-safety/README.md](public-safety/README.md) | 暴力予防、通報、公共安全境界 |
-| [federation/README.md](federation/README.md) | 組織間プロトコル、自治、相互運用性 |
+| [アイデンティティ](identity/README.md) | 本人性、所属、権限 |
+| [評判](reputation/README.md) | 信用、貢献、文脈別評価 |
+| [経済](economy/README.md) | 価値交換、内部記録、生活アクセス |
+| [福祉](welfare/README.md) | 生存不安を減らす生活支援 |
+| [ガバナンス](governance/README.md) | 意思決定、変更手続き、権限管理 |
+| [仲裁](arbitration/README.md) | 紛争解決、異議申し立て |
+| [基盤](infrastructure/README.md) | 通信、計算、データ、生活基盤 |
+| [監査](audit/README.md) | 検証、記録、公開情報と保護情報の境界 |
+| [規範](norms/README.md) | ルール、規約、権利、義務 |
+| [公共安全](public-safety/README.md) | 暴力予防、通報、公共安全境界 |
+| [連合](federation/README.md) | 組織間プロトコル、自治、相互運用性 |
 
 ## 読み方
 
-全体構造は [アーキテクチャ](../../docs/ja/02-architecture.md)、モジュール間の接続は [02-module-relationships.md](../../assets/diagrams/02-module-relationships.md) と [09-expanded-module-map.md](../../assets/diagrams/09-expanded-module-map.md)、安全境界は [対象外](../../docs/ja/04-non-goals.md) と [脅威モデル](../../docs/ja/05-threat-model.md) を見ながら読みます。
+全体構造は [アーキテクチャ](../../docs/ja/02-architecture.md)、モジュール間の接続は [モジュール関係図](../../assets/diagrams/02-module-relationships.md) と [拡張モジュール関係図](../../assets/diagrams/09-expanded-module-map.md)、安全境界は [対象外](../../docs/ja/04-non-goals.md) と [脅威モデル](../../docs/ja/05-threat-model.md) を見ながら読みます。

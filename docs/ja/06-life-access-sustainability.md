@@ -1,6 +1,6 @@
 # 生活アクセスの持続可能性
 
-この文書は、生活アクセスと資源配分の持続可能性を検討するための初期文書です。生活支援は [福祉モジュール](../../modules/ja/welfare/README.md)、価値交換や内部記録は [経済モジュール](../../modules/ja/economy/README.md) に分け、全体像は [07-life-access-model.md](../../assets/diagrams/07-life-access-model.md) に置きます。
+この文書は、生活アクセスと資源配分の持続可能性を検討するための初期文書です。生活支援は [福祉モジュール](../../modules/ja/welfare/README.md)、価値交換や内部記録は [経済モジュール](../../modules/ja/economy/README.md) に分け、全体像は [生活アクセスモデル](../../assets/diagrams/07-life-access-model.md) に置きます。
 
 ## 目的
 

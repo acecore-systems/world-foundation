@@ -2,7 +2,7 @@
 
 ## 目的
 
-この文書は、World Foundation Designが悪用、腐敗、支配、衝突、形骸化へ向かうリスクを整理し、緩和策を検討するための初期脅威モデルです。目指さないものは [対象外](04-non-goals.md)、基本方針は [SAFETY.md](../../SAFETY.md)、モジュール責任は [modules/ja](../../modules/ja/README.md) へ分けます。
+この文書は、World Foundation Designが悪用、腐敗、支配、衝突、形骸化へ向かうリスクを整理し、緩和策を検討するための初期脅威モデルです。目指さないものは [対象外](04-non-goals.md)、基本方針は [安全方針](../../SAFETY.md)、モジュール責任は [モジュール](../../modules/ja/README.md) へ分けます。
 
 脅威モデルは、設計を止めるためではなく、危険な方向へ進む前に発見し、修正し、必要ならロールバックするために使います。
 
@@ -509,4 +509,4 @@
 
 ### 緩和策
 
-Founder Non-privilege 意思決定、利益相反開示、創設者発言のレビュー対象化、権限移譲手続き。重要変更では [03-governance-process.md](../../assets/diagrams/03-governance-process.md) の流れに従い、リスク評価から異議申し立てまでを [05-risk-and-safety-loops.md](../../assets/diagrams/05-risk-and-safety-loops.md) で確認する。
+Founder Non-privilege 意思決定、利益相反開示、創設者発言のレビュー対象化、権限移譲手続き。重要変更では [ガバナンスプロセス](../../assets/diagrams/03-governance-process.md) の流れに従い、リスク評価から異議申し立てまでを [リスクと安全性のループ](../../assets/diagrams/05-risk-and-safety-loops.md) で確認する。

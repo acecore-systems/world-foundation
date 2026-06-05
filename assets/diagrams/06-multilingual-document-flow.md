@@ -1,6 +1,6 @@
 # 多言語ドキュメント運用
 
-この図は、[docs/ja](../../docs/ja/README.md) を初期正本とし、[glossary/terms.yml](../../glossary/terms.yml) を通して [docs/en](../../docs/en/README.md) へ反映する流れです。翻訳状態の管理は [翻訳ステータス](../../docs/ja/07-translation-status.md) に置きます。
+この図は、[日本語の設計文書](../../docs/ja/README.md) を初期正本とし、[日英共通用語](../../glossary/terms.yml) を通して [英語版文書](../../docs/en/README.md) へ反映する流れです。翻訳状態の管理は [翻訳ステータス](../../docs/ja/07-translation-status.md) に置きます。
 
 ```mermaid
 flowchart TD
