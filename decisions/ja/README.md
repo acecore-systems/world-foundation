@@ -4,6 +4,21 @@
 
 Decisionは、何を決めたかだけでなく、なぜその判断をしたのかを残すために使います。
 
+## 位置づけ
+
+```mermaid
+flowchart LR
+  Context["文脈<br/>Issue / Proposal / Review"]
+  Decision["Decision<br/>決定・理由・影響"]
+  Docs["docs / modules<br/>反映先"]
+  Future["将来の変更<br/>再検討・更新・撤回"]
+
+  Context --> Decision
+  Decision --> Docs
+  Decision --> Future
+  Future --> Context
+```
+
 ## 書くべきもの
 
 - 重要な設計方針
@@ -17,3 +32,10 @@ Decisionは、何を決めたかだけでなく、なぜその判断をしたの
 初期は `0001-short-title.md` のような連番形式を推奨します。
 
 Decisionは将来の参加者が背景を追えるよう、結論だけでなく文脈、理由、影響も書きます。
+
+## Decision一覧
+
+- [0001-japanese-first-policy.md](0001-japanese-first-policy.md): 日本語ファースト方針
+- [0002-single-glossary-yaml.md](0002-single-glossary-yaml.md): 用語集を単一YAMLで管理する
+- [0003-lightweight-governance-process.md](0003-lightweight-governance-process.md): 初期は軽量ガバナンスで運用する
+- [0004-founder-non-privilege-and-exit-policy.md](0004-founder-non-privilege-and-exit-policy.md): Founder Non-privilege and Exit Policy

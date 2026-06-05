@@ -1,4 +1,4 @@
-# Expanded Module Map
+# Expanded Module Relationships
 
 この図は、Norms、Public Safety、Federationを含む拡張後のモジュール関係を示します。
 

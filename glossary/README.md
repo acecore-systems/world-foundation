@@ -4,6 +4,26 @@
 
 用語集は、思想や設計の一貫性を保つための共通辞書です。日本語と英語を同じYAMLファイルで管理し、翻訳や議論のずれを減らします。
 
+## 用語の位置づけ
+
+```mermaid
+flowchart LR
+  JA["日本語正本"]
+  Terms["terms.yml<br/>日英共通用語"]
+  EN["英語版文書"]
+  Docs["docs / modules / proposals / decisions"]
+  Review["レビュー<br/>意味のずれ・安全境界"]
+  Decision["Decision<br/>重要用語の変更"]
+
+  JA --> Terms
+  Terms --> EN
+  Terms --> Docs
+  Docs --> Review
+  Review --> Terms
+  Review --> Decision
+  Decision --> Terms
+```
+
 ## 方針
 
 - `terms.yml` に全言語の用語をまとめる

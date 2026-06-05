@@ -6,6 +6,36 @@ World Foundation Designは、全ての人が好きなことに集中できる世
 
 この設計は、特定の組織名やブランドを広めるためのものではありません。目的は、個人や組織が自由に参加し、協力し、離脱し、必要であればフォークできる協力基盤を設計することです。
 
+## 全体像
+
+World Foundation Designは、目的、原則、構造、モジュール、運用、安全境界、移行計画を分けて扱います。
+
+```mermaid
+flowchart TB
+  Index["World Foundation Design"]
+  Goal["目的<br/>好きなことに集中できる世界"]
+  Principles["原則<br/>自由参加・離脱可能性・フォーク可能性"]
+  Architecture["構造<br/>連盟型アーキテクチャ"]
+  Modules["モジュール<br/>機能ごとの責任分離"]
+  Operation["運用<br/>Issue / Proposal / Decision"]
+  Safety["安全境界<br/>Non-goals / Safety / Threat Model"]
+  Roadmap["移行<br/>段階的な実験と普及"]
+  Research["検証<br/>Research Index"]
+
+  Index --> Goal
+  Goal --> Principles
+  Principles --> Architecture
+  Architecture --> Modules
+  Modules --> Operation
+  Modules --> Safety
+  Architecture --> Roadmap
+  Roadmap --> Research
+  Research -. "前提を検証" .-> Principles
+  Safety -. "逸脱を防ぐ" .-> Operation
+```
+
+基本設計は [docs/ja/README.md](docs/ja/README.md) にまとめています。図表は [assets/diagrams/](assets/diagrams/) にあります。
+
 ## 名称について
 
 `Acecore` はこの構想の初期コードネームとして扱います。
@@ -56,12 +86,18 @@ World Foundation Designは、全ての人が好きなことに集中できる世
 
 ## 図表
 
-構造を把握しやすくするため、`assets/diagrams/` にMermaid形式の図表を置いています。
+構造を把握しやすくするため、`assets/diagrams/` に図表を置いています。現時点ではレビューしやすいMermaidを中心にしていますが、主要な全体図はSVG、Excalidraw、draw.ioなどの併用も検討します。
 
-- `00-world-design-overview.md`: 世界設計の全体像
-- `02-module-relationships.md`: モジュール関係図
-- `03-governance-process.md`: ガバナンスフロー
-- `04-transition-roadmap.md`: 段階的移行ロードマップ
+- [00-world-design-overview.md](assets/diagrams/00-world-design-overview.md): 世界設計の全体像
+- [01-cooperation-foundation-layers.md](assets/diagrams/01-cooperation-foundation-layers.md): 協力基盤の層構造
+- [02-module-relationships.md](assets/diagrams/02-module-relationships.md): モジュール関係図
+- [03-governance-process.md](assets/diagrams/03-governance-process.md): ガバナンスフロー
+- [04-transition-roadmap.md](assets/diagrams/04-transition-roadmap.md): 段階的移行ロードマップ
+- [05-risk-and-safety-loops.md](assets/diagrams/05-risk-and-safety-loops.md): 腐敗耐性と安全装置
+- [06-multilingual-document-flow.md](assets/diagrams/06-multilingual-document-flow.md): 日本語正本と翻訳の管理フロー
+- [07-life-access-model.md](assets/diagrams/07-life-access-model.md): 生活アクセスの設計モデル
+- [08-non-coercive-adoption.md](assets/diagrams/08-non-coercive-adoption.md): 非強制の普及モデル
+- [09-expanded-module-map.md](assets/diagrams/09-expanded-module-map.md): 拡張モジュール関係図
 
 ## 注意
 
