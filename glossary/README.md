@@ -23,12 +23,12 @@ flowchart LR
   Review --> 意思決定
   意思決定 --> Terms
 
-  click JA "../docs/ja/README.md" "日本語文書"
-  click Terms "terms.yml" "共通用語"
-  click EN "../docs/en/README.md" "英語文書"
-  click Docs "../docs/ja/README.md" "docs / modules / proposals / decisions"
-  click Review "../docs/ja/07-translation-status.md" "レビュー"
-  click 意思決定 "../decisions/ja/README.md" "意思決定"
+  click JA "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/README.md" "日本語文書"
+  click Terms "https://github.com/acecore-systems/world-foundation/blob/main/glossary/terms.yml" "共通用語"
+  click EN "https://github.com/acecore-systems/world-foundation/blob/main/docs/en/README.md" "英語文書"
+  click Docs "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/README.md" "docs / modules / proposals / decisions"
+  click Review "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/07-translation-status.md" "レビュー"
+  click 意思決定 "https://github.com/acecore-systems/world-foundation/blob/main/decisions/ja/README.md" "意思決定"
 ```
 
 ## 方針

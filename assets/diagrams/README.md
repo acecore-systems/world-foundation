@@ -36,15 +36,15 @@ flowchart TB
   ロードマップ --> Adoption
   翻訳 --> ガバナンス
 
-  click Overview "00-world-design-overview.md" "全体像"
-  click Layers "01-cooperation-foundation-layers.md" "層構造"
-  click モジュール "02-module-relationships.md" "モジュール関係"
-  click ガバナンス "03-governance-process.md" "運用フロー"
-  click ロードマップ "04-transition-roadmap.md" "移行ロードマップ"
-  click 安全方針 "05-risk-and-safety-loops.md" "安全装置"
-  click 翻訳 "06-multilingual-document-flow.md" "翻訳フロー"
-  click LifeAccess "07-life-access-model.md" "生活アクセス"
-  click Adoption "08-non-coercive-adoption.md" "非強制の普及"
+  click Overview "https://github.com/acecore-systems/world-foundation/blob/main/assets/diagrams/00-world-design-overview.md" "全体像"
+  click Layers "https://github.com/acecore-systems/world-foundation/blob/main/assets/diagrams/01-cooperation-foundation-layers.md" "層構造"
+  click モジュール "https://github.com/acecore-systems/world-foundation/blob/main/assets/diagrams/02-module-relationships.md" "モジュール関係"
+  click ガバナンス "https://github.com/acecore-systems/world-foundation/blob/main/assets/diagrams/03-governance-process.md" "運用フロー"
+  click ロードマップ "https://github.com/acecore-systems/world-foundation/blob/main/assets/diagrams/04-transition-roadmap.md" "移行ロードマップ"
+  click 安全方針 "https://github.com/acecore-systems/world-foundation/blob/main/assets/diagrams/05-risk-and-safety-loops.md" "安全装置"
+  click 翻訳 "https://github.com/acecore-systems/world-foundation/blob/main/assets/diagrams/06-multilingual-document-flow.md" "翻訳フロー"
+  click LifeAccess "https://github.com/acecore-systems/world-foundation/blob/main/assets/diagrams/07-life-access-model.md" "生活アクセス"
+  click Adoption "https://github.com/acecore-systems/world-foundation/blob/main/assets/diagrams/08-non-coercive-adoption.md" "非強制の普及"
 ```
 
 ## 図表一覧

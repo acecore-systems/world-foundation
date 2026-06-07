@@ -47,12 +47,12 @@ flowchart TB
   Revisit -. "再検討" .-> Issue
 
   click Issue "https://github.com/acecore-systems/world-foundation/issues" "GitHub Issues"
-  click Proposal "README.md" "提案"
+  click Proposal "https://github.com/acecore-systems/world-foundation/blob/main/proposals/ja/README.md" "提案"
   click PullRequest "https://github.com/acecore-systems/world-foundation/pulls" "GitHub Pull Requests"
-  click Review "../../assets/diagrams/03-governance-process.md" "ガバナンスプロセス"
+  click Review "https://github.com/acecore-systems/world-foundation/blob/main/assets/diagrams/03-governance-process.md" "ガバナンスプロセス"
   click Merge "https://github.com/acecore-systems/world-foundation/pulls" "Merge"
-  click Decision "../../decisions/ja/README.md" "意思決定"
-  click Revisit "../../assets/diagrams/05-risk-and-safety-loops.md" "安全性のループ"
+  click Decision "https://github.com/acecore-systems/world-foundation/blob/main/decisions/ja/README.md" "意思決定"
+  click Revisit "https://github.com/acecore-systems/world-foundation/blob/main/assets/diagrams/05-risk-and-safety-loops.md" "安全性のループ"
 ```
 
 ## 変更の種類

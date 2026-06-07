@@ -37,18 +37,18 @@ flowchart TB
   基盤 --> 連合
   基盤 --> 監査
 
-  click Foundation "../../docs/ja/00-vision.md" "協力基盤"
-  click アイデンティティ "identity/README.md" "アイデンティティ"
-  click 評判 "reputation/README.md" "評判"
-  click 経済 "economy/README.md" "経済"
-  click 福祉 "welfare/README.md" "福祉"
-  click ガバナンス "governance/README.md" "ガバナンス"
-  click 仲裁 "arbitration/README.md" "仲裁"
-  click 基盤 "infrastructure/README.md" "基盤"
-  click 監査 "audit/README.md" "監査"
-  click 規範 "norms/README.md" "規範"
-  click PublicSafety "public-safety/README.md" "公共安全"
-  click 連合 "federation/README.md" "連合"
+  click Foundation "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/00-vision.md" "協力基盤"
+  click アイデンティティ "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/identity/README.md" "アイデンティティ"
+  click 評判 "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/reputation/README.md" "評判"
+  click 経済 "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/economy/README.md" "経済"
+  click 福祉 "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/welfare/README.md" "福祉"
+  click ガバナンス "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/governance/README.md" "ガバナンス"
+  click 仲裁 "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/arbitration/README.md" "仲裁"
+  click 基盤 "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/infrastructure/README.md" "基盤"
+  click 監査 "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/audit/README.md" "監査"
+  click 規範 "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/norms/README.md" "規範"
+  click PublicSafety "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/public-safety/README.md" "公共安全"
+  click 連合 "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/federation/README.md" "連合"
 ```
 
 ## モジュール一覧

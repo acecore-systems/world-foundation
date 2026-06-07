@@ -36,17 +36,17 @@ flowchart TB
   Research -. "checks assumptions" .-> Principles
   Safety -. "prevents drift" .-> Operation
 
-  click Index "README.md" "Design documents"
-  click Vision "00-vision.md" "Vision"
-  click Principles "01-principles.md" "Principles"
-  click Architecture "02-architecture.md" "Architecture"
-  click Modules "../../modules/en/README.md" "Modules"
-  click Safety "05-threat-model.md" "Threat model"
-  click Operation "../../proposals/en/README.md" "Operation"
-  click Roadmap "03-roadmap.md" "Roadmap"
-  click LifeAccess "06-life-access-sustainability.md" "Life access"
-  click Translation "07-translation-status.md" "Translation"
-  click Research "../../research/en/index.md" "Research"
+  click Index "https://github.com/acecore-systems/world-foundation/blob/main/docs/en/README.md" "Design documents"
+  click Vision "https://github.com/acecore-systems/world-foundation/blob/main/docs/en/00-vision.md" "Vision"
+  click Principles "https://github.com/acecore-systems/world-foundation/blob/main/docs/en/01-principles.md" "Principles"
+  click Architecture "https://github.com/acecore-systems/world-foundation/blob/main/docs/en/02-architecture.md" "Architecture"
+  click Modules "https://github.com/acecore-systems/world-foundation/blob/main/modules/en/README.md" "Modules"
+  click Safety "https://github.com/acecore-systems/world-foundation/blob/main/docs/en/05-threat-model.md" "Threat model"
+  click Operation "https://github.com/acecore-systems/world-foundation/blob/main/proposals/en/README.md" "Operation"
+  click Roadmap "https://github.com/acecore-systems/world-foundation/blob/main/docs/en/03-roadmap.md" "Roadmap"
+  click LifeAccess "https://github.com/acecore-systems/world-foundation/blob/main/docs/en/06-life-access-sustainability.md" "Life access"
+  click Translation "https://github.com/acecore-systems/world-foundation/blob/main/docs/en/07-translation-status.md" "Translation"
+  click Research "https://github.com/acecore-systems/world-foundation/blob/main/research/en/index.md" "Research"
 ```
 
 ## Detail Paths

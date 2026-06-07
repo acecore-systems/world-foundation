@@ -21,12 +21,12 @@ flowchart LR
   P3 -. "国境を超えた協力" .-> P4
   P4 -. "便利さによる自然な採用" .-> P5
 
-  click Current "../../research/ja/index.md" "前提調査"
-  click P0 "../../docs/ja/03-roadmap.md" "ロードマップ"
-  click P1 "../../modules/ja/governance/README.md" "初期組織と運用実験"
-  click P2 "../../modules/ja/README.md" "モジュール"
-  click P3 "../../modules/ja/federation/README.md" "連合"
-  click P4 "../../docs/ja/03-roadmap.md" "世界共通協力基盤"
-  click P5 "../../assets/diagrams/08-non-coercive-adoption.md" "非強制の普及"
-  click Future "../../docs/ja/00-vision.md" "ビジョン"
+  click Current "https://github.com/acecore-systems/world-foundation/blob/main/research/ja/index.md" "前提調査"
+  click P0 "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/03-roadmap.md" "ロードマップ"
+  click P1 "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/governance/README.md" "初期組織と運用実験"
+  click P2 "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/README.md" "モジュール"
+  click P3 "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/federation/README.md" "連合"
+  click P4 "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/03-roadmap.md" "世界共通協力基盤"
+  click P5 "https://github.com/acecore-systems/world-foundation/blob/main/assets/diagrams/08-non-coercive-adoption.md" "非強制の普及"
+  click Future "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/00-vision.md" "ビジョン"
 ```

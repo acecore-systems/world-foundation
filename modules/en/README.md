@@ -37,18 +37,18 @@ flowchart TB
   Infrastructure --> Federation
   Infrastructure --> Audit
 
-  click Foundation "../../docs/en/00-vision.md" "Cooperation infrastructure"
-  click Identity "identity/README.md" "Identity"
-  click Reputation "reputation/README.md" "Reputation"
-  click Economy "economy/README.md" "Economy"
-  click Welfare "welfare/README.md" "Welfare"
-  click Governance "governance/README.md" "Governance"
-  click Arbitration "arbitration/README.md" "Arbitration"
-  click Infrastructure "infrastructure/README.md" "Infrastructure"
-  click Audit "audit/README.md" "Audit"
-  click Norms "norms/README.md" "Norms"
-  click PublicSafety "public-safety/README.md" "Public Safety"
-  click Federation "federation/README.md" "Federation"
+  click Foundation "https://github.com/acecore-systems/world-foundation/blob/main/docs/en/00-vision.md" "Cooperation infrastructure"
+  click Identity "https://github.com/acecore-systems/world-foundation/blob/main/modules/en/identity/README.md" "Identity"
+  click Reputation "https://github.com/acecore-systems/world-foundation/blob/main/modules/en/reputation/README.md" "Reputation"
+  click Economy "https://github.com/acecore-systems/world-foundation/blob/main/modules/en/economy/README.md" "Economy"
+  click Welfare "https://github.com/acecore-systems/world-foundation/blob/main/modules/en/welfare/README.md" "Welfare"
+  click Governance "https://github.com/acecore-systems/world-foundation/blob/main/modules/en/governance/README.md" "Governance"
+  click Arbitration "https://github.com/acecore-systems/world-foundation/blob/main/modules/en/arbitration/README.md" "Arbitration"
+  click Infrastructure "https://github.com/acecore-systems/world-foundation/blob/main/modules/en/infrastructure/README.md" "Infrastructure"
+  click Audit "https://github.com/acecore-systems/world-foundation/blob/main/modules/en/audit/README.md" "Audit"
+  click Norms "https://github.com/acecore-systems/world-foundation/blob/main/modules/en/norms/README.md" "Norms"
+  click PublicSafety "https://github.com/acecore-systems/world-foundation/blob/main/modules/en/public-safety/README.md" "Public Safety"
+  click Federation "https://github.com/acecore-systems/world-foundation/blob/main/modules/en/federation/README.md" "Federation"
 ```
 
 ## Module List

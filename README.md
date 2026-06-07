@@ -33,15 +33,15 @@ flowchart TB
   調査 -. "前提を検証" .-> 設計原則
   安全方針 -. "逸脱を防ぐ" .-> Operation
 
-  click Index "docs/ja/README.md" "基本設計"
-  click Goal "docs/ja/00-vision.md" "ビジョン"
-  click 設計原則 "docs/ja/01-principles.md" "設計原則"
-  click アーキテクチャ "docs/ja/02-architecture.md" "アーキテクチャ"
-  click モジュール "modules/ja/README.md" "モジュール"
-  click Operation "proposals/ja/README.md" "提案と運用"
-  click 安全方針 "docs/ja/05-threat-model.md" "脅威モデル"
-  click ロードマップ "docs/ja/03-roadmap.md" "ロードマップ"
-  click 調査 "research/ja/index.md" "調査索引"
+  click Index "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/README.md" "基本設計"
+  click Goal "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/00-vision.md" "ビジョン"
+  click 設計原則 "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/01-principles.md" "設計原則"
+  click アーキテクチャ "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/02-architecture.md" "アーキテクチャ"
+  click モジュール "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/README.md" "モジュール"
+  click Operation "https://github.com/acecore-systems/world-foundation/blob/main/proposals/ja/README.md" "提案と運用"
+  click 安全方針 "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/05-threat-model.md" "脅威モデル"
+  click ロードマップ "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/03-roadmap.md" "ロードマップ"
+  click 調査 "https://github.com/acecore-systems/world-foundation/blob/main/research/ja/index.md" "調査索引"
 ```
 
 基本設計は [基本設計文書](docs/ja/README.md) にまとめています。図表は [図表ページ](assets/diagrams/) にあります。Mermaidが読みにくい場合は、[ビジュアルリンクマップ](assets/diagrams/visual-link-map.svg) から主要文書へ直接移動できます。
