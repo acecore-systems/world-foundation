@@ -22,10 +22,10 @@ flowchart LR
   Proposal --> Decision
   Decision --> Docs
 
-  click Draft "README.md" "Issue下書き"
+  click Draft "https://github.com/acecore-systems/world-foundation/blob/main/meta/issue-drafts/README.md" "Issue下書き"
   click Issue "https://github.com/acecore-systems/world-foundation/issues" "GitHub Issues"
-  click Proposal "../../proposals/ja/README.md" "Proposal"
+  click Proposal "https://github.com/acecore-systems/world-foundation/blob/main/proposals/ja/README.md" "Proposal"
   click PullRequest "https://github.com/acecore-systems/world-foundation/pulls" "Pull Request"
-  click Decision "../../decisions/ja/README.md" "Decision"
-  click Docs "../../docs/ja/README.md" "docs / modules"
+  click Decision "https://github.com/acecore-systems/world-foundation/blob/main/decisions/ja/README.md" "Decision"
+  click Docs "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/README.md" "docs / modules"
 ```

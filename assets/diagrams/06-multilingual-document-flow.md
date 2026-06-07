@@ -22,11 +22,11 @@ flowchart TD
   Review --> EN
   Review --> 用語集
 
-  click JA "../../docs/ja/README.md" "日本語文書"
-  click 用語集 "../../glossary/README.md" "用語集"
-  click 提案 "../../proposals/ja/README.md" "提案"
-  click 意思決定 "../../decisions/ja/README.md" "意思決定"
-  click EN "../../docs/en/README.md" "英語文書"
+  click JA "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/README.md" "日本語文書"
+  click 用語集 "https://github.com/acecore-systems/world-foundation/blob/main/glossary/README.md" "用語集"
+  click 提案 "https://github.com/acecore-systems/world-foundation/blob/main/proposals/ja/README.md" "提案"
+  click 意思決定 "https://github.com/acecore-systems/world-foundation/blob/main/decisions/ja/README.md" "意思決定"
+  click EN "https://github.com/acecore-systems/world-foundation/blob/main/docs/en/README.md" "英語文書"
   click 翻訳Issue "https://github.com/acecore-systems/world-foundation/issues" "翻訳 Issue"
-  click Review "../../docs/ja/07-translation-status.md" "翻訳ステータス"
+  click Review "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/07-translation-status.md" "翻訳ステータス"
 ```

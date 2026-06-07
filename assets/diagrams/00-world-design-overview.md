@@ -23,12 +23,12 @@ flowchart TB
   ガバナンス --> Records
   ガバナンス --> Feedback
 
-  click ビジョン "../../docs/ja/00-vision.md" "ビジョン"
-  click 設計原則 "../../docs/ja/01-principles.md" "設計原則"
-  click アーキテクチャ "../../docs/ja/02-architecture.md" "アーキテクチャ"
-  click モジュール "../../modules/ja/README.md" "モジュール"
-  click ガバナンス "../../modules/ja/governance/README.md" "ガバナンス"
-  click Experiments "../../docs/ja/03-roadmap.md" "小さな実験"
-  click Records "../../proposals/ja/README.md" "提案 / 意思決定 / 用語集"
-  click Feedback "../../assets/diagrams/05-risk-and-safety-loops.md" "レビューと改善"
+  click ビジョン "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/00-vision.md" "ビジョン"
+  click 設計原則 "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/01-principles.md" "設計原則"
+  click アーキテクチャ "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/02-architecture.md" "アーキテクチャ"
+  click モジュール "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/README.md" "モジュール"
+  click ガバナンス "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/governance/README.md" "ガバナンス"
+  click Experiments "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/03-roadmap.md" "小さな実験"
+  click Records "https://github.com/acecore-systems/world-foundation/blob/main/proposals/ja/README.md" "提案 / 意思決定 / 用語集"
+  click Feedback "https://github.com/acecore-systems/world-foundation/blob/main/assets/diagrams/05-risk-and-safety-loops.md" "レビューと改善"
 ```

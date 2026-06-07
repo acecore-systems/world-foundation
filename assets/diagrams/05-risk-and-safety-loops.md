@@ -27,14 +27,14 @@ flowchart TD
   Appeal --> Fork
   Fork -. "最後の安全装置" .-> Change
 
-  click Change "../../proposals/ja/README.md" "変更案"
-  click Risk "../../docs/ja/05-threat-model.md" "脅威モデル"
-  click Abuse "../../docs/ja/04-non-goals.md" "対象外"
-  click Review "../../docs/ja/01-principles.md" "レビュー"
-  click 意思決定 "../../decisions/ja/README.md" "意思決定"
-  click Operation "../../modules/ja/governance/README.md" "運用"
-  click 監査 "../../modules/ja/audit/README.md" "監査"
-  click Appeal "../../modules/ja/arbitration/README.md" "仲裁"
-  click Fix "../../proposals/ja/README.md" "提案"
-  click Fork "../../docs/ja/01-principles.md" "フォーク可能性"
+  click Change "https://github.com/acecore-systems/world-foundation/blob/main/proposals/ja/README.md" "変更案"
+  click Risk "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/05-threat-model.md" "脅威モデル"
+  click Abuse "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/04-non-goals.md" "対象外"
+  click Review "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/01-principles.md" "レビュー"
+  click 意思決定 "https://github.com/acecore-systems/world-foundation/blob/main/decisions/ja/README.md" "意思決定"
+  click Operation "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/governance/README.md" "運用"
+  click 監査 "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/audit/README.md" "監査"
+  click Appeal "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/arbitration/README.md" "仲裁"
+  click Fix "https://github.com/acecore-systems/world-foundation/blob/main/proposals/ja/README.md" "提案"
+  click Fork "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/01-principles.md" "フォーク可能性"
 ```

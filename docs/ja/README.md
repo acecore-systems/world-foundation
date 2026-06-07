@@ -38,17 +38,17 @@ flowchart TB
   調査 -. "前提を検証" .-> 設計原則
   安全方針 -. "逸脱を防ぐ" .-> Operation
 
-  click Index "README.md" "設計文書"
-  click ビジョン "00-vision.md" "ビジョン"
-  click 設計原則 "01-principles.md" "設計原則"
-  click アーキテクチャ "02-architecture.md" "アーキテクチャ"
-  click モジュール "../../modules/ja/README.md" "モジュール"
-  click 安全方針 "05-threat-model.md" "安全境界"
-  click Operation "../../proposals/ja/README.md" "運用"
-  click ロードマップ "03-roadmap.md" "ロードマップ"
-  click LifeAccess "06-life-access-sustainability.md" "生活アクセス"
-  click 翻訳 "07-translation-status.md" "翻訳"
-  click 調査 "../../research/ja/index.md" "調査"
+  click Index "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/README.md" "設計文書"
+  click ビジョン "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/00-vision.md" "ビジョン"
+  click 設計原則 "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/01-principles.md" "設計原則"
+  click アーキテクチャ "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/02-architecture.md" "アーキテクチャ"
+  click モジュール "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/README.md" "モジュール"
+  click 安全方針 "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/05-threat-model.md" "安全境界"
+  click Operation "https://github.com/acecore-systems/world-foundation/blob/main/proposals/ja/README.md" "運用"
+  click ロードマップ "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/03-roadmap.md" "ロードマップ"
+  click LifeAccess "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/06-life-access-sustainability.md" "生活アクセス"
+  click 翻訳 "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/07-translation-status.md" "翻訳"
+  click 調査 "https://github.com/acecore-systems/world-foundation/blob/main/research/ja/index.md" "調査"
 ```
 
 ## 詳細への導線

@@ -16,9 +16,9 @@ flowchart LR
   Decision --> Future
   Future --> Context
 
-  click Context "../../proposals/en/README.md" "Issue / Proposal / Review"
-  click Decision "README.md" "Decisions"
-  click Docs "../../docs/en/README.md" "docs / modules"
+  click Context "https://github.com/acecore-systems/world-foundation/blob/main/proposals/en/README.md" "Issue / Proposal / Review"
+  click Decision "https://github.com/acecore-systems/world-foundation/blob/main/decisions/en/README.md" "Decisions"
+  click Docs "https://github.com/acecore-systems/world-foundation/blob/main/docs/en/README.md" "docs / modules"
   click Future "https://github.com/acecore-systems/world-foundation/issues" "revisit / update / retire"
 ```
 

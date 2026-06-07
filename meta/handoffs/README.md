@@ -21,10 +21,10 @@ flowchart LR
   Proposal --> PullRequest
   Proposal --> Decision
 
-  click Work "../../README.md" "作業中の文脈"
-  click Handoff "README.md" "Handoff"
+  click Work "https://github.com/acecore-systems/world-foundation/blob/main/README.md" "作業中の文脈"
+  click Handoff "https://github.com/acecore-systems/world-foundation/blob/main/meta/handoffs/README.md" "Handoff"
   click Issue "https://github.com/acecore-systems/world-foundation/issues" "Issue"
-  click Proposal "../../proposals/ja/README.md" "Proposal"
+  click Proposal "https://github.com/acecore-systems/world-foundation/blob/main/proposals/ja/README.md" "Proposal"
   click PullRequest "https://github.com/acecore-systems/world-foundation/pulls" "Pull Request"
-  click Decision "../../decisions/ja/README.md" "Decision"
+  click Decision "https://github.com/acecore-systems/world-foundation/blob/main/decisions/ja/README.md" "Decision"
 ```

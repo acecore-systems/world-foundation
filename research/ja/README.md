@@ -36,16 +36,16 @@ flowchart TB
   ガバナンス --> Docs
   安全方針 --> Docs
 
-  click 調査 "index.md" "調査索引"
-  click History "index.md" "歴史・制度変化"
-  click War "index.md" "戦争・国際関係"
-  click OSS "index.md" "OSS・標準化"
-  click Coop "index.md" "協同組合・相互扶助"
-  click アイデンティティ "../../modules/ja/identity/README.md" "アイデンティティ / 評判"
-  click 経済 "../../modules/ja/economy/README.md" "経済 / 福祉"
-  click ガバナンス "../../modules/ja/governance/README.md" "ガバナンス / 仲裁 / 規範"
-  click 安全方針 "../../docs/ja/05-threat-model.md" "基盤 / 監査 / 安全方針"
-  click Docs "../../docs/ja/README.md" "設計文書"
+  click 調査 "https://github.com/acecore-systems/world-foundation/blob/main/research/ja/index.md" "調査索引"
+  click History "https://github.com/acecore-systems/world-foundation/blob/main/research/ja/index.md" "歴史・制度変化"
+  click War "https://github.com/acecore-systems/world-foundation/blob/main/research/ja/index.md" "戦争・国際関係"
+  click OSS "https://github.com/acecore-systems/world-foundation/blob/main/research/ja/index.md" "OSS・標準化"
+  click Coop "https://github.com/acecore-systems/world-foundation/blob/main/research/ja/index.md" "協同組合・相互扶助"
+  click アイデンティティ "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/identity/README.md" "アイデンティティ / 評判"
+  click 経済 "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/economy/README.md" "経済 / 福祉"
+  click ガバナンス "https://github.com/acecore-systems/world-foundation/blob/main/modules/ja/governance/README.md" "ガバナンス / 仲裁 / 規範"
+  click 安全方針 "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/05-threat-model.md" "基盤 / 監査 / 安全方針"
+  click Docs "https://github.com/acecore-systems/world-foundation/blob/main/docs/ja/README.md" "設計文書"
 ```
 
 ## 対象例
