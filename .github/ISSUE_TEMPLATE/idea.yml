@@ -1,7 +1,7 @@
 name: Idea
 description: 新しいアイデアを提案する
 title: '[Idea]: '
-labels: ['type:idea']
+labels: ['enhancement']
 body:
   - type: textarea
     id: summary
