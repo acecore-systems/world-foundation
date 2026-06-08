@@ -1,15 +1,69 @@
 name: Proposal
 description: 設計変更の提案を作成する
-title: "[Proposal]: "
-labels: ["type:proposal"]
+title: '[Proposal]: '
+labels: ['type:proposal']
 body:
   - type: textarea
     id: summary
     attributes:
-      label: 提案概要
-      description: 提案内容を簡潔に書いてください。
+      label: 概要
+      description: 提案内容を 1-3 行で書いてください。
     validations:
       required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景・目的
+      description: なぜ必要か、どの原則・文書・モジュールに影響するかを書いてください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 完了条件
+      description: レビュー時に完了判断できるチェックリストを書いてください。
+      placeholder: |
+        - [ ] 提案対象の文書またはモジュールが明確になっている
+        - [ ] Non-goals / Safety / Threat Model への影響を確認している
+        - [ ] 必要に応じて Proposal または Decision へ記録している
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: 対象範囲・除外範囲
+      description: 今回扱う文書・モジュールと、扱わない範囲を書いてください。
+      placeholder: |
+        対象:
+        - docs/
+        - modules/
+
+        除外:
+        - 今回は判断しない制度設計
+    validations:
+      required: true
+
+  - type: textarea
+    id: related
+    attributes:
+      label: 関連パス・URL
+      description: 関連する docs、modules、glossary、issue、PR を書いてください。
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: 確認方法
+      description: 完了後にどの文書・原則・差分を確認するかを書いてください。
+      placeholder: |
+        - 関連文書との矛盾確認
+        - 日英の意味差分確認
+        - PR checklist の安全性項目確認
+    validations:
+      required: true
+
   - type: textarea
     id: target
     attributes:
@@ -17,63 +71,81 @@ body:
       description: 影響を受ける文書やモジュールを書いてください。
     validations:
       required: true
+
   - type: textarea
     id: principles
     attributes:
       label: 関連する原則
       description: この提案が関係する設計原則を書いてください。
+
   - type: textarea
-    id: non_goals
+    id: non-goals
     attributes:
-      label: Non-goalsチェック
-      description: docs/ja/04-non-goals.mdに反しないか確認してください。
+      label: Non-goals チェック
+      description: docs/ja/04-non-goals.md に反しないか確認してください。
+
   - type: textarea
     id: safety
     attributes:
-      label: Safety上の懸念
-      description: SAFETY.mdとの関係や懸念を書いてください。
+      label: Safety 上の懸念
+      description: Safety、Threat Model、悪用リスクとの関係や懸念を書いてください。
+
   - type: textarea
     id: risks
     attributes:
       label: リスク
       description: この提案のリスクや悪用可能性を書いてください。
+
   - type: textarea
     id: corruption
     attributes:
       label: 腐敗リスク
       description: 権限集中、不透明性、利益相反、形骸化の懸念を書いてください。
+
   - type: textarea
     id: exit
     attributes:
       label: 離脱可能性への影響
       description: 参加者や組織が離脱しにくくならないか確認してください。
+
   - type: textarea
     id: forkability
     attributes:
       label: フォーク可能性への影響
       description: フォークや代替実装の余地に与える影響を書いてください。
+
   - type: textarea
     id: legal
     attributes:
       label: 法務・税務・労務・金融規制上の懸念
       description: 専門家レビューが必要な可能性を書いてください。
+
   - type: textarea
     id: privacy
     attributes:
       label: プライバシーへの影響
       description: 収集、公開、保存、削除、匿名化が必要な情報を書いてください。
+
   - type: textarea
     id: rollback
     attributes:
       label: ロールバック方法
       description: 問題が起きた場合の戻し方を書いてください。
+
   - type: textarea
     id: translation
     attributes:
       label: 翻訳への影響
-      description: 英語版やGlossaryへの影響を書いてください。
+      description: 英語版や Glossary への影響を書いてください。
+
   - type: textarea
     id: alternatives
     attributes:
       label: 代替案
       description: 検討した代替案があれば書いてください。
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 補足
+      description: 制約、依存関係、追加で確認すべき文書などがあれば書いてください。
