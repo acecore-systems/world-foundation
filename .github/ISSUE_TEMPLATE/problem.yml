@@ -1,7 +1,7 @@
 name: Problem
 description: 問題・矛盾・リスクを報告する
 title: '[Problem]: '
-labels: ['type:problem']
+labels: ['safety']
 body:
   - type: textarea
     id: summary
