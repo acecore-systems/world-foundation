@@ -1,7 +1,7 @@
 name: Translation
 description: 翻訳・用語・多言語対応に関する Issue
 title: '[Translation]: '
-labels: ['type:translation']
+labels: ['translation']
 body:
   - type: textarea
     id: summary
