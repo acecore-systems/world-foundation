@@ -1,49 +1,101 @@
 name: Idea
 description: 新しいアイデアを提案する
-title: "[Idea]: "
-labels: ["type:idea"]
+title: '[Idea]: '
+labels: ['enhancement']
 body:
   - type: textarea
     id: summary
     attributes:
       label: 概要
-      description: アイデアの概要を書いてください。
+      description: アイデアの概要を 1-3 行で書いてください。
     validations:
       required: true
+
   - type: textarea
-    id: motivation
+    id: background
     attributes:
-      label: なぜ必要か
-      description: このアイデアが必要な理由を書いてください。
+      label: 背景・目的
+      description: なぜ必要か、どの原則・文書・モジュールに関係するかを書いてください。
     validations:
       required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 完了条件
+      description: レビュー時に完了判断できるチェックリストを書いてください。
+      placeholder: |
+        - [ ] アイデアの目的と対象範囲が明確になっている
+        - [ ] 想定リスクと Non-goals との関係を確認している
+        - [ ] 次に Proposal 化するかどうかを判断できる
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: 対象範囲・除外範囲
+      description: 今回扱う文書・モジュールと、扱わない範囲を書いてください。
+      placeholder: |
+        対象:
+        - docs/
+        - modules/
+
+        除外:
+        - 今回は実装しない制度や仕様
+    validations:
+      required: true
+
+  - type: textarea
+    id: related
+    attributes:
+      label: 関連パス・URL
+      description: 関連する docs、modules、glossary、issue、PR を書いてください。
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: 確認方法
+      description: 完了後にどの文書・原則・差分を確認するかを書いてください。
+      placeholder: |
+        - 関連文書との矛盾確認
+        - Non-goals との関係確認
+        - Proposal 化の要否確認
+    validations:
+      required: true
+
   - type: textarea
     id: principles
     attributes:
       label: 関連する原則
       description: 自由参加、離脱可能性、透明性、フォーク可能性など、関係する原則を書いてください。
+
   - type: textarea
     id: risks
     attributes:
       label: 想定されるリスク
       description: このアイデアによって生じる可能性のあるリスクを書いてください。
+
   - type: textarea
     id: abuse
     attributes:
       label: 悪用された場合の懸念
       description: 悪用された場合に起き得る問題を書いてください。
+
   - type: textarea
-    id: non_goals
+    id: non-goals
     attributes:
-      label: Non-goalsとの関係
-      description: docs/ja/04-non-goals.mdに反しないか確認してください。
+      label: Non-goals との関係
+      description: docs/ja/04-non-goals.md に反しないか確認してください。
+
   - type: textarea
     id: modules
     attributes:
       label: 影響を受けるモジュール
-      description: Identity、Reputation、Economy、Welfare、Governance、Arbitration、Infrastructure、Auditなど。
+      description: Identity、Reputation、Economy、Welfare、Governance、Arbitration、Infrastructure、Audit など。
+
   - type: textarea
-    id: related
+    id: notes
     attributes:
-      label: 関連する文書・モジュール
-      description: 関連するdocs、modules、glossaryがあれば書いてください。
+      label: 補足
+      description: 制約、依存関係、追加で確認すべき文書などがあれば書いてください。
