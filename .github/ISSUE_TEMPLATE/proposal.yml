@@ -1,7 +1,7 @@
 name: Proposal
 description: 設計変更の提案を作成する
 title: '[Proposal]: '
-labels: ['type:proposal']
+labels: ['proposal']
 body:
   - type: textarea
     id: summary
