@@ -1,15 +1,73 @@
 name: Problem
 description: 問題・矛盾・リスクを報告する
-title: "[Problem]: "
-labels: ["type:problem"]
+title: '[Problem]: '
+labels: ['type:problem']
 body:
   - type: textarea
-    id: problem
+    id: summary
     attributes:
-      label: 問題
-      description: 何が問題なのかを書いてください。
+      label: 概要
+      description: 問題の概要を 1-3 行で書いてください。
     validations:
       required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景・目的
+      description: なぜ問題なのか、どの文書・モジュール・利用者に影響するかを書いてください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 完了条件
+      description: レビュー時に完了判断できるチェックリストを書いてください。
+      placeholder: |
+        - [ ] 問題の影響範囲が明確になっている
+        - [ ] 必要な文書またはモジュールが修正されている
+        - [ ] Non-goals / Threat Model への影響を確認している
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: 対象範囲・除外範囲
+      description: 今回扱う文書・モジュールと、扱わない範囲を書いてください。
+      placeholder: |
+        対象:
+        - docs/
+        - modules/
+
+        除外:
+        - 今回は判断しない将来提案
+    validations:
+      required: true
+
+  - type: textarea
+    id: related
+    attributes:
+      label: 関連パス・URL
+      description: 関連する docs、modules、glossary、issue、PR を書いてください。
+      placeholder: |
+        - docs/ja/04-non-goals.md
+        - docs/ja/05-threat-model.md
+        - modules/
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: 確認方法
+      description: 完了後にどの文書・原則・差分を確認するかを書いてください。
+      placeholder: |
+        - 関連文書との矛盾確認
+        - 日英の意味差分確認
+        - PR checklist の安全性項目確認
+    validations:
+      required: true
+
   - type: textarea
     id: impact
     attributes:
@@ -17,6 +75,7 @@ body:
       description: この問題が放置された場合の影響を書いてください。
     validations:
       required: true
+
   - type: dropdown
     id: severity
     attributes:
@@ -26,33 +85,29 @@ body:
         - medium
         - high
         - critical
+    validations:
+      required: true
+
   - type: textarea
     id: principles
     attributes:
       label: 関連する原則
       description: 自由参加、離脱可能性、透明性、フォーク可能性など。
+
   - type: textarea
-    id: modules
-    attributes:
-      label: 影響を受けるモジュール
-      description: 影響を受けるdocs、modules、glossaryを書いてください。
-  - type: textarea
-    id: unattended_risk
+    id: unattended-risk
     attributes:
       label: 放置した場合のリスク
       description: 腐敗、支配、違法回避、監視化、離脱不能性などの観点で書いてください。
+
   - type: textarea
-    id: possible_solution
+    id: possible-solution
     attributes:
       label: 解決案
       description: 解決案があれば書いてください。
+
   - type: textarea
-    id: desired_direction
+    id: notes
     attributes:
-      label: 望ましい解決方向
-      description: どのような方向で解決すべきかを書いてください。
-  - type: textarea
-    id: safety_links
-    attributes:
-      label: 関連するNon-goalsまたはThreat Model
-      description: docs/ja/04-non-goals.md または docs/ja/05-threat-model.md との関係を書いてください。
+      label: 補足
+      description: 制約、依存関係、追加で確認すべき文書などがあれば書いてください。
