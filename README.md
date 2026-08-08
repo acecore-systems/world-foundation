@@ -44,7 +44,7 @@ flowchart TB
   click 調査 "https://github.com/acecore-systems/world-foundation/blob/main/research/ja/index.md" "調査索引"
 ```
 
-基本設計は [基本設計文書](docs/ja/README.md) にまとめています。図表は [図表ページ](assets/diagrams/) にあります。Mermaidが読みにくい場合は、[ビジュアルリンクマップ](assets/diagrams/visual-link-map.svg) から主要文書へ直接移動できます。
+基本設計は [基本設計文書](docs/ja/README.md) にまとめています。リポジトリ内の日本語文書分類は [docs/README.md](docs/README.md) を入口にします。図表は [図表ページ](assets/diagrams/) にあります。Mermaidが読みにくい場合は、[ビジュアルリンクマップ](assets/diagrams/visual-link-map.svg) から主要文書へ直接移動できます。
 
 ## 名称について
 
